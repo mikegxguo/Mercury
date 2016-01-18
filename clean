@@ -1,0 +1,7 @@
+rm ../Debug/mercury
+rm mercury
+rm string_src*
+rm *.data*
+rm *.length
+rm DIN*
+rm Myriad*

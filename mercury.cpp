@@ -182,15 +182,22 @@ void addIcon2DataFile(const char* pFileName, const GUI_BITMAP GUI_UNI_PTR * pBit
 		}
 }
 
+void WriteData2File(const char* pFileName,  unsigned char* pStr, int len)
+{
+		FILE *stream;
+		stream = fopen(pFileName, "a+" );
+		fwrite(pStr, len, 1, stream);
+		fclose( stream );
+}
 
 #define DATA_INTEGRATED       "integrated.data"
 void IntegrateData2File(const char * pFileName,  int sectors)
 {
 	unsigned char TempBuf[4096];
-    FILE    * pFile, *pData;
+    FILE    * pFile;
     pFile = fopen(pFileName, "r");
-    pData = fopen(DATA_INTEGRATED, "a+");
-    if(pFile && pData)
+    int counter = 0;
+    if(pFile)
     {
 			fseek(pFile, 0L, SEEK_END);
 			int dwLen = ftell(pFile);
@@ -198,27 +205,23 @@ void IntegrateData2File(const char * pFileName,  int sectors)
 			//fseek (pFile ,0, SEEK_SET);
 			for(int num=0; num<sectors;num++)
 			{
+					fseek(pFile, 4096*counter, SEEK_SET);
 					if(dwLen>=4096)
 					{
 							fread(TempBuf, 1, 4096, pFile);
 							dwLen -= 4096;
-							fwrite(TempBuf, 4096, 1, pData);
 					}
-					else if(dwLen>0 && dwLen<4096)
+					else // length <4096
 					{
 							fread(TempBuf, 1, dwLen, pFile);
 							for(int i=dwLen; i<4096; i++) TempBuf[i] = 0x0;
-							fwrite(TempBuf, 4096, 1, pData);
 							dwLen = 0;
 					}
-					else
-					{
-							for(int i=0; i<4096; i++) TempBuf[i] = 0x0;
-							fwrite(TempBuf, 4096, 1, pData);
-					}
+					WriteData2File(DATA_INTEGRATED, TempBuf, 4096);
+					counter++;
 			}
 			fclose(pFile);
-			fclose(pData);
+			cout << "TempBuf: "<<counter << endl;
 			//remove(pFileName);
     }
 }
@@ -235,12 +238,12 @@ const DataDef FontDef[FontNum]={
 		{3419, "xbf/DIN19.xbf"}, //1
 		{5024, "xbf/DIN24.xbf"}, //2
 		{7144, "xbf/DIN32.xbf"}, //2
-		{2816, "MyriadPro64.xbf"}, //1
+		{2816, "xbf/MyriadPro64.xbf"}, //1
 };
 
-#define StrNum			1//6
+#define StrNum			1//1
 const DataDef StringDef[StrNum]={
-		{479,    "string_src_en.str"}, //1
+		{959,    "string_src_en.str"}, //1
 		//{8561,    "string_src_de.str"}, //3
 		//{9179,    "string_src_es.str"}, //3
 		//{11078,   "string_src_fr.str"}, //3
@@ -250,7 +253,7 @@ const DataDef StringDef[StrNum]={
 };
 
 const DataDef IconDef[]={
-		{42162,    "icon.data"}, //11
+		{12082,    "icon.data"}, //3
 };
 
 
@@ -305,7 +308,7 @@ int main() {
 */
 	}
 
-	if(1){
+	if(0){
 			cout << "Transfer from the file to array ......" << endl;
 			//should change the file encoding to UTF8 format
 			char tempbuf[MAX_FILE_LEN] = {0};
@@ -354,12 +357,13 @@ int main() {
 		}
 
 		IntegrateData2File(IconDef[0].filename, (IconDef[0].size)/4096+1);
+
 	}
 
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			unsigned long SecNum = 34;//4087-4033;
+			unsigned long SecNum = 11; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );
@@ -373,6 +377,7 @@ int main() {
 					}
 			}
 
+			fseek(stream, 0, SEEK_END);
 	        memset(buffer,0x0,1024);
 	        sprintf(buffer, "MITACV1-0x%08X", ImageChecksum);
 			cout << buffer<< endl;

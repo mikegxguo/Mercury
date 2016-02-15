@@ -243,7 +243,7 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			1//1
 const DataDef StringDef[StrNum]={
-		{3848,    "string_src_en.str"}, //1
+		{3890,    "string_src_en.str"}, //1
 		//{8561,    "string_src_de.str"}, //3
 		//{9179,    "string_src_es.str"}, //3
 		//{11078,   "string_src_fr.str"}, //3
@@ -253,7 +253,7 @@ const DataDef StringDef[StrNum]={
 };
 
 const DataDef IconDef[]={
-		{12082,    "icon.data"}, //3
+		{15298,    "icon.data"}, //need 4 sectors
 };
 
 
@@ -286,7 +286,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<51; i++) { //total 51 icons
+			for (unsigned int i=0; i<57; i++) {//total icon numbers: 57
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}

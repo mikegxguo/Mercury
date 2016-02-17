@@ -243,7 +243,7 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			1//1
 const DataDef StringDef[StrNum]={
-		{3890,    "string_src_en.str"}, //1
+		{3904,    "string_src_en.str"}, //1
 		//{8561,    "string_src_de.str"}, //3
 		//{9179,    "string_src_es.str"}, //3
 		//{11078,   "string_src_fr.str"}, //3

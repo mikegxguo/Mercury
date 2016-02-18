@@ -26,6 +26,7 @@ JA    Japanese    日本語
 CN    Simplified Chinese     中文简体
 TW    Traditional Chinese     中文繁体
 KO    Korean    한국어
+RO    Romania    Romania
 */
 #define LID_EN    0
 #define LID_CS    1
@@ -51,6 +52,7 @@ KO    Korean    한국어
 #define LID_CN    21
 #define LID_TW    22
 #define LID_KO    23
+#define LID_RO    24
 #define LID_00    99
 
 /*string IDs*/
@@ -670,4 +672,16 @@ KO    Korean    한국어
 #define IDS_WEEK_SATURDAY   306
 /*Sunday*/
 #define IDS_WEEK_SUNDAY   307
+/*5km*/
+#define IDS_RUN_5KM   308
+/*10km*/
+#define IDS_RUN_10KM   309
+/*Best 5km*/
+#define IDS_BEST_5KM   310
+/*Best 10km*/
+#define IDS_BEST_10KM   311
+/*Best Half marathon*/
+#define IDS_BEST_HALF_MARATHON   312
+/*Best Marathon*/
+#define IDS_BEST_MARATHON   313
 #endif/*_STRINGID_H_*/

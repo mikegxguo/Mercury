@@ -207,119 +207,121 @@ const STRINGSDEF string_table_EN[] = {
     {    202, "c"},
     {    203, "Status"},
     {    204, "Type"},
-    {    205, "m"},
-    {    206, "s"},
-    {    207, "Moderate"},
-    {    208, "Fat burning"},
-    {    209, "Anaerobic"},
-    {    210, "Max effort"},
-    {    211, "Set by"},
-    {    212, "Auto"},
-    {    213, "Manual"},
-    {    214, "Last night sleep"},
-    {    215, "Lap"},
-    {    216, "Split time"},
-    {    217, "Fitness level\n up!"},
-    {    218, "Fitness level\n increased"},
-    {    219, "Marathon\n level"},
-    {    220, "1/2 marathon\n level"},
-    {    221, "10km race\n level"},
-    {    222, "5km race\n level"},
-    {    223, "1km race\n level"},
-    {    224, "0.62mile\n race level"},
-    {    225, "3.11mile\n race level"},
-    {    226, "6.21mile\n race level"},
-    {    227, "Good\n progress!"},
-    {    228, "Training level\n decreased"},
-    {    229, "Run 7 days\n to get\n feedback"},
-    {    230, "Too much\n workout"},
-    {    231, "Take more\n workout"},
-    {    232, "Well done!"},
-    {    233, "Very poor"},
-    {    234, "Poor"},
-    {    235, "Fair"},
-    {    236, "Average"},
-    {    237, "Good"},
-    {    238, "Very good"},
-    {    239, "Excellent"},
-    {    240, "Today"},
-    {    241, "Avg HR"},
-    {    242, "Max HR"},
-    {    243, "Finish"},
-    {    244, "By distance"},
-    {    245, "By time"},
-    {    246, "By distance & time"},
-    {    247, "By distance & pace"},
-    {    248, "Half marathon"},
-    {    249, "Marathon"},
-    {    250, "Edit distance"},
-    {    251, "Edit time"},
-    {    252, "Edit pace"},
-    {    253, "Details"},
-    {    254, "Set program"},
-    {    255, "Maintain"},
-    {    256, "Improve"},
-    {    257, "Rest"},
-    {    258, "Training 1"},
-    {    259, "Training 2"},
-    {    260, "Warm up"},
-    {    261, "Warm up?"},
-    {    262, "Cool down"},
-    {    263, "Cool down?"},
-    {    264, "Set"},
-    {    265, "Work"},
-    {    266, "Target"},
-    {    267, "Repeat"},
-    {    268, "Edit intervals"},
-    {    269, "Edit"},
-    {    270, "Change type"},
-    {    271, "Pace Zone"},
-    {    272, "Min"},
-    {    273, "Min HR"},
-    {    274, "Max"},
-    {    275, "Min Pace"},
-    {    276, "Max Pace"},
-    {    277, "Metronome"},
-    {    278, "Fitness level"},
-    {    279, "Fitness"},
-    {    280, "Best"},
-    {    281, "Delete"},
-    {    282, "Delete?"},
-    {    283, "Notification"},
-    {    284, "Sleep info"},
-    {    285, "Pair"},
-    {    286, "Searching"},
-    {    287, "Pairing…"},
-    {    288, "Paired"},
-    {    289, "Passcode"},
-    {    290, "Forget"},
-    {    291, "Forget?"},
-    {    292, "Please follow\n the app’s\n instruction\n for pairing"},
-    {    293, "Add"},
-    {    294, "Activate"},
-    {    295, "Deactivate"},
-    {    296, "Can't find"},
-    {    297, "Updating…"},
-    {    298, "MON"},
-    {    299, "TUE"},
-    {    300, "WED"},
-    {    301, "THU"},
-    {    302, "FRI"},
-    {    303, "SAT"},
-    {    304, "SUN"},
-    {    305, "Monday"},
-    {    306, "Tuesday"},
-    {    307, "Wednesday"},
-    {    308, "Thursday"},
-    {    309, "Friday"},
-    {    310, "Saturday"},
-    {    311, "Sunday"},
-    {    312, "5km"},
-    {    313, "10km"},
-    {    314, "Best 5km"},
-    {    315, "Best 10km"},
-    {    316, "Best Half marathon"},
-    {    317, "Best Marathon"},
+    {    205, "h"},
+    {    206, "m"},
+    {    207, "s"},
+    {    208, "Moderate"},
+    {    209, "Fat burning"},
+    {    210, "Anaerobic"},
+    {    211, "Max effort"},
+    {    212, "Set by"},
+    {    213, "Auto"},
+    {    214, "Manual"},
+    {    215, "Last night sleep"},
+    {    216, "Lap"},
+    {    217, "Split time"},
+    {    218, "Fitness level\n up!"},
+    {    219, "Fitness level\n increased"},
+    {    220, "Marathon\n level"},
+    {    221, "1/2 marathon\n level"},
+    {    222, "10km race\n level"},
+    {    223, "5km race\n level"},
+    {    224, "1km race\n level"},
+    {    225, "0.62mile\n race level"},
+    {    226, "3.11mile\n race level"},
+    {    227, "6.21mile\n race level"},
+    {    228, "Good\n progress!"},
+    {    229, "Training level\n decreased"},
+    {    230, "Run 7 days\n to get\n feedback"},
+    {    231, "Too much\n workout"},
+    {    232, "Take more\n workout"},
+    {    233, "Well done!"},
+    {    234, "Very poor"},
+    {    235, "Poor"},
+    {    236, "Fair"},
+    {    237, "Average"},
+    {    238, "Good"},
+    {    239, "Very good"},
+    {    240, "Excellent"},
+    {    241, "Today"},
+    {    242, "Avg HR"},
+    {    243, "Max HR"},
+    {    244, "Finish"},
+    {    245, "By distance"},
+    {    246, "By time"},
+    {    247, "By distance & time"},
+    {    248, "By distance & pace"},
+    {    249, "Half marathon"},
+    {    250, "Marathon"},
+    {    251, "Edit distance"},
+    {    252, "Edit time"},
+    {    253, "Edit pace"},
+    {    254, "Details"},
+    {    255, "Set program"},
+    {    256, "Maintain"},
+    {    257, "Improve"},
+    {    258, "Rest"},
+    {    259, "Training 1"},
+    {    260, "Training 2"},
+    {    261, "Warm up"},
+    {    262, "Warm up?"},
+    {    263, "Cool down"},
+    {    264, "Cool down?"},
+    {    265, "Set"},
+    {    266, "Work"},
+    {    267, "Target"},
+    {    268, "Repeat"},
+    {    269, "Edit intervals"},
+    {    270, "Edit"},
+    {    271, "Change type"},
+    {    272, "Pace Zone"},
+    {    273, "Min"},
+    {    274, "Min HR"},
+    {    275, "Max"},
+    {    276, "Min Pace"},
+    {    277, "Max Pace"},
+    {    278, "Metronome"},
+    {    279, "Fitness level"},
+    {    280, "Fitness"},
+    {    281, "Best"},
+    {    282, "Delete"},
+    {    283, "Delete?"},
+    {    284, "Notification"},
+    {    285, "Sleep info"},
+    {    286, "Pair"},
+    {    287, "Searching"},
+    {    288, "Pairing…"},
+    {    289, "Paired"},
+    {    290, "Passcode"},
+    {    291, "Forget"},
+    {    292, "Forget?"},
+    {    293, "Please follow\n the app’s\n instruction\n for pairing"},
+    {    294, "Add"},
+    {    295, "Activate"},
+    {    296, "Deactivate"},
+    {    297, "Can't find"},
+    {    298, "Updating…"},
+    {    299, "MON"},
+    {    300, "TUE"},
+    {    301, "WED"},
+    {    302, "THU"},
+    {    303, "FRI"},
+    {    304, "SAT"},
+    {    305, "SUN"},
+    {    306, "Monday"},
+    {    307, "Tuesday"},
+    {    308, "Wednesday"},
+    {    309, "Thursday"},
+    {    310, "Friday"},
+    {    311, "Saturday"},
+    {    312, "Sunday"},
+    {    313, "1km"},
+    {    314, "5km"},
+    {    315, "10km"},
+    {    316, "Best 5km"},
+    {    317, "Best 10km"},
+    {    318, "Best Half marathon"},
+    {    319, "Best Marathon"},
 };
 
 /*Czech*/
@@ -642,6 +644,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Danish*/
@@ -964,6 +968,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*German*/
@@ -1286,6 +1292,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Greek*/
@@ -1608,6 +1616,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Spanish*/
@@ -1930,6 +1940,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*French*/
@@ -2252,6 +2264,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Croatian*/
@@ -2574,6 +2588,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Italian*/
@@ -2896,6 +2912,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Latvian*/
@@ -3218,6 +3236,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Hungarian*/
@@ -3540,6 +3560,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Dutch*/
@@ -3862,6 +3884,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Norwegian*/
@@ -4184,6 +4208,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Polish*/
@@ -4506,6 +4532,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Portuguese*/
@@ -4828,6 +4856,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Russian*/
@@ -5150,6 +5180,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Slovenian*/
@@ -5472,6 +5504,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Finnish*/
@@ -5794,6 +5828,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Swedish*/
@@ -6116,6 +6152,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Turkish*/
@@ -6438,6 +6476,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Japanese*/
@@ -6760,6 +6800,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Simplified Chinese */
@@ -7082,6 +7124,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Traditional Chinese */
@@ -7404,6 +7448,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Korean*/
@@ -7726,6 +7772,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 /*Romania*/
@@ -8048,6 +8096,8 @@ const STRINGSDEF string_table_EN[] = {
     {    315, 0},
     {    316, 0},
     {    317, 0},
+    {    318, 0},
+    {    319, 0},
 };*/
 
 const LANGUAGELIST   language_list[] = {

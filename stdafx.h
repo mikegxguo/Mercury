@@ -325,6 +325,13 @@ extern GUI_BITMAP bmico_lvup;
 extern GUI_BITMAP bmico_marathon;
 extern GUI_BITMAP bmico_red;
 extern GUI_BITMAP bmico_yellow;
+extern GUI_BITMAP bmico_headerbar_gps00;
+extern GUI_BITMAP bmico_headerbar_gps01;
+extern GUI_BITMAP bmico_headerbar_gps02;
+extern GUI_BITMAP bmico_headerbar_gps03;
+extern GUI_BITMAP bmico_pairing01;
+extern GUI_BITMAP bmico_pairing02;
+extern GUI_BITMAP bmico_pairing03;
 
 /*
 extern GUI_BITMAP bmwhole_image_01;
@@ -401,6 +408,13 @@ GUI_BITMAP* icon_set[] = {
         &bmico_marathon,
         &bmico_red,
         &bmico_yellow,
+        &bmico_headerbar_gps00,
+        &bmico_headerbar_gps01,
+        &bmico_headerbar_gps02,//59
+        &bmico_headerbar_gps03,
+        &bmico_pairing01,
+        &bmico_pairing02,
+        &bmico_pairing03,
 /*
         &bmwhole_image_01,
         &bmwhole_image_02,

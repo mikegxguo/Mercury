@@ -98,7 +98,7 @@ RO    Romania    Romania
 #define IDS_WEIGHT   19
 /*LTHR*/
 #define IDS_LTHR   20
-/*Vo2 Max*/
+/*VO2 Max*/
 #define IDS_VO2_MAX   21
 /*Profile*/
 #define IDS_PROFILE   22
@@ -298,7 +298,7 @@ RO    Romania    Romania
 #define IDS_COLOR_BLACK   119
 /*SW version:*/
 #define IDS_SW_VERSION   120
-/*UUID:*/
+/*SN:*/
 #define IDS_ABOUT_UUID   121
 /*Model:*/
 #define IDS_ABOUT_MODEL   122

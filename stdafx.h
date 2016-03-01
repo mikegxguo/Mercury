@@ -332,6 +332,12 @@ extern GUI_BITMAP bmico_headerbar_gps03;
 extern GUI_BITMAP bmico_pairing01;
 extern GUI_BITMAP bmico_pairing02;
 extern GUI_BITMAP bmico_pairing03;
+extern GUI_BITMAP bmbtn_edit;
+extern GUI_BITMAP bmbtn_play;
+extern GUI_BITMAP bmico_battery01;
+extern GUI_BITMAP bmico_battery02;
+extern GUI_BITMAP bmico_battery03;
+extern GUI_BITMAP bmico_battery04;
 
 /*
 extern GUI_BITMAP bmwhole_image_01;
@@ -415,6 +421,13 @@ GUI_BITMAP* icon_set[] = {
         &bmico_pairing01,
         &bmico_pairing02,
         &bmico_pairing03,
+        &bmbtn_edit,
+        &bmbtn_play,
+        &bmico_battery01,
+        &bmico_battery02,
+        &bmico_battery03,
+        &bmico_battery04, //69
+
 /*
         &bmwhole_image_01,
         &bmwhole_image_02,

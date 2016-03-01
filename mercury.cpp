@@ -253,7 +253,7 @@ const DataDef StringDef[StrNum]={
 };
 
 const DataDef IconDef[]={
-		{17130,    "icon.data"}, //need 5 sectors
+		{19466,    "icon.data"}, //need 5 sectors
 };
 
 
@@ -286,7 +286,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<64; i++) {//total icon numbers: 64
+			for (unsigned int i=0; i<70; i++) {//total icon numbers: 70
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}

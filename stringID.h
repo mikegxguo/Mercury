@@ -168,7 +168,7 @@ RO    Romania    Romania
 #define IDS_UNIT_KM   54
 /*/km*/
 #define IDS_UNIT_PACE   55
-/*miles*/
+/*mi*/
 #define IDS_UNIT_MILES   56
 /*lb*/
 #define IDS_UNIT_POUND   57
@@ -250,11 +250,11 @@ RO    Romania    Romania
 #define IDS_UNIT_SETTING   95
 /*Background\n color*/
 #define IDS_BG_COLOR   96
-/*Vibration alert*/
+/*Vibration\n alert*/
 #define IDS_VIBRATION_ALERT   97
 /*Buzzer*/
 #define IDS_BUZZER   98
-/*Auto sport mode*/
+/*Auto\n sport mode*/
 #define IDS_AUTO_SPORT_MODE   99
 /*GPS*/
 #define IDS_GPS   100
@@ -552,9 +552,9 @@ RO    Romania    Romania
 #define IDS_BY_DISTANCE   246
 /*By time*/
 #define IDS_BY_TIME   247
-/*By distance & time*/
+/*By distance\n & time*/
 #define IDS_BY_DISTANCE_TIME   248
-/*By distance & pace*/
+/*By distance\n & pace*/
 #define IDS_BY_DISTANCE_PACE   249
 /*Half marathon*/
 #define IDS_HALF_MARATHON   250

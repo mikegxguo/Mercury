@@ -698,4 +698,6 @@ RO    Romania    Romania
 #define IDS_BEST_HALF_MARATHON   319
 /*Best Marathon*/
 #define IDS_BEST_MARATHON   320
+/*Custom*/
+#define IDS_CUSTOM   321
 #endif/*_STRINGID_H_*/

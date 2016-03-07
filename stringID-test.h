@@ -323,6 +323,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, "Best 10km"},
     {    319, "Best Half marathon"},
     {    320, "Best Marathon"},
+    {    321, "Custom"},
 };
 
 /*Czech*/
@@ -648,6 +649,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Danish*/
@@ -973,6 +975,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*German*/
@@ -1298,6 +1301,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Greek*/
@@ -1623,6 +1627,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Spanish*/
@@ -1948,6 +1953,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*French*/
@@ -2273,6 +2279,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Croatian*/
@@ -2598,6 +2605,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Italian*/
@@ -2923,6 +2931,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Latvian*/
@@ -3248,6 +3257,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Hungarian*/
@@ -3573,6 +3583,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Dutch*/
@@ -3898,6 +3909,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Norwegian*/
@@ -4223,6 +4235,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Polish*/
@@ -4548,6 +4561,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Portuguese*/
@@ -4873,6 +4887,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Russian*/
@@ -5198,6 +5213,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Slovenian*/
@@ -5523,6 +5539,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Finnish*/
@@ -5848,6 +5865,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Swedish*/
@@ -6173,6 +6191,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Turkish*/
@@ -6498,6 +6517,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Japanese*/
@@ -6823,6 +6843,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Simplified Chinese */
@@ -7148,6 +7169,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Traditional Chinese */
@@ -7473,6 +7495,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Korean*/
@@ -7798,6 +7821,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 /*Romania*/
@@ -8123,6 +8147,7 @@ const STRINGSDEF string_table_EN[] = {
     {    318, 0},
     {    319, 0},
     {    320, 0},
+    {    321, 0},
 };*/
 
 const LANGUAGELIST   language_list[] = {

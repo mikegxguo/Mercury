@@ -700,4 +700,10 @@ RO    Romania    Romania
 #define IDS_BEST_MARATHON   320
 /*Custom*/
 #define IDS_CUSTOM   321
+/*Date format*/
+#define IDS_DATE_FORMAT   322
+/*DD/MM*/
+#define IDS_DATE_FORMAT_DM   323
+/*MM/DD*/
+#define IDS_DATE_FORMAT_MD   324
 #endif/*_STRINGID_H_*/

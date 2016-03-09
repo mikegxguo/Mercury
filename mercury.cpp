@@ -107,7 +107,7 @@ void ProduceStrFile(int langID, const char* pFileName)
 		char* ptemp = NULL;
 		unsigned short lenStr = 0;
 		unsigned short lenTotal = 0;
-		for(int stringID=0; stringID<IDS_DATE_FORMAT_MD+1; stringID++)
+		for(int stringID=0; stringID<IDS_SOUND+1; stringID++)
 		{
 				ptemp = (char*)((STRINGSDEF*)(language_list[langID].xStringTable)+stringID)->sStringdef;
 				if(ptemp)
@@ -243,7 +243,7 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			1//1
 const DataDef StringDef[StrNum]={
-		{4135,    "string_src_en.str"}, //2
+		{4144,    "string_src_en.str"}, //2
 		//{8561,    "string_src_de.str"}, //3
 		//{9179,    "string_src_es.str"}, //3
 		//{11078,   "string_src_fr.str"}, //3
@@ -253,7 +253,7 @@ const DataDef StringDef[StrNum]={
 };
 
 const DataDef IconDef[]={
-		{19466,    "icon.data"}, //need 5 sectors
+		{19962,    "icon.data"}, //need 5 sectors
 };
 
 
@@ -286,7 +286,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<70; i++) {//total icon numbers: 70
+			for (unsigned int i=0; i<72; i++) {//total icon numbers: 72
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}

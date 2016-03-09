@@ -338,6 +338,8 @@ extern GUI_BITMAP bmico_battery01;
 extern GUI_BITMAP bmico_battery02;
 extern GUI_BITMAP bmico_battery03;
 extern GUI_BITMAP bmico_battery04;
+extern GUI_BITMAP bmico_whatsapp;
+extern GUI_BITMAP bmMiVia_bootup;
 
 /*
 extern GUI_BITMAP bmwhole_image_01;
@@ -427,6 +429,8 @@ GUI_BITMAP* icon_set[] = {
         &bmico_battery02,
         &bmico_battery03,
         &bmico_battery04, //69
+        &bmico_whatsapp,
+        &bmMiVia_bootup,
 
 /*
         &bmwhole_image_01,

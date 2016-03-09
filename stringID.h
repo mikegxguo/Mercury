@@ -706,4 +706,6 @@ RO    Romania    Romania
 #define IDS_DATE_FORMAT_DM   323
 /*MM/DD*/
 #define IDS_DATE_FORMAT_MD   324
+/*Sound*/
+#define IDS_SOUND   325
 #endif/*_STRINGID_H_*/

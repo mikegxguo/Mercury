@@ -327,6 +327,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, "Date format"},
     {    323, "DD/MM"},
     {    324, "MM/DD"},
+    {    325, "Sound"},
 };
 
 /*Czech*/
@@ -656,6 +657,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Danish*/
@@ -985,6 +987,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*German*/
@@ -1314,6 +1317,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Greek*/
@@ -1643,6 +1647,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Spanish*/
@@ -1972,6 +1977,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*French*/
@@ -2301,6 +2307,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Croatian*/
@@ -2630,6 +2637,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Italian*/
@@ -2959,6 +2967,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Latvian*/
@@ -3288,6 +3297,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Hungarian*/
@@ -3617,6 +3627,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Dutch*/
@@ -3946,6 +3957,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Norwegian*/
@@ -4275,6 +4287,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Polish*/
@@ -4604,6 +4617,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Portuguese*/
@@ -4933,6 +4947,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Russian*/
@@ -5262,6 +5277,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Slovenian*/
@@ -5591,6 +5607,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Finnish*/
@@ -5920,6 +5937,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Swedish*/
@@ -6249,6 +6267,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Turkish*/
@@ -6578,6 +6597,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Japanese*/
@@ -6907,6 +6927,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Simplified Chinese */
@@ -7236,6 +7257,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Traditional Chinese */
@@ -7565,6 +7587,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Korean*/
@@ -7894,6 +7917,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 /*Romania*/
@@ -8223,6 +8247,7 @@ const STRINGSDEF string_table_EN[] = {
     {    322, 0},
     {    323, 0},
     {    324, 0},
+    {    325, 0},
 };*/
 
 const LANGUAGELIST   language_list[] = {

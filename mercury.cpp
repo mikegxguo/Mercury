@@ -34,11 +34,16 @@ int ReadFile2Str(const char* pFileName, char* pStr)
 		fseek(stream, 0L, SEEK_END);
 		int len = ftell(stream);
 		rewind(stream);
+		if(strcmp(pFileName, "icon.data") == 0) {//icon.data
+				fseek(stream, MAX_FILE_LEN, SEEK_SET);
+				len -= MAX_FILE_LEN;
+				cout << "icon.data total length: "<<len<< endl;
+		}
 		if(len < MAX_FILE_LEN)
 		{
 				fread(pStr, 1, len, stream);
 		} else {
-				//ASSERT(0);
+				fread(pStr, 1, MAX_FILE_LEN, stream);
 		}
 		fclose( stream );
 		return len;
@@ -308,23 +313,25 @@ int main() {
 */
 	}
 
-	if(0){
+	if(1){
 			cout << "Transfer from the file to array ......" << endl;
 			//should change the file encoding to UTF8 format
 			char tempbuf[MAX_FILE_LEN] = {0};
 			char* ptemp = tempbuf;
 			int len = 0;
-			len = ReadFile2Str("icon.data", ptemp);
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str(ICON_DATA_FILE, ptemp);
 			//should escape the UTF-8 header: EF BB BF
 			for(int i=0; i<len; i++)
 			{
 					WriteAscIICode2File("icon.data.array.h", ptemp[i]);
-/*
-					if((i+1)%16 == 0) {
-						//cout << "i = "<<i << endl;
-						WriteLine2File("DIN32.xbf.array.h");
-					}
-*/
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("string_src_en.str", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("string_src_en.str.array.h", ptemp[i]);
 			}
 	}
 

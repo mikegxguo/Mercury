@@ -26,7 +26,7 @@ void WriteStr2File(const char* pFileName,  char* pStr)
 }
 
 //if the data file is too long, should adjust this value.
-#define MAX_FILE_LEN		1024*12
+#define MAX_FILE_LEN		1024*45//12
 int ReadFile2Str(const char* pFileName, char* pStr)
 {
 		FILE *stream;
@@ -34,16 +34,13 @@ int ReadFile2Str(const char* pFileName, char* pStr)
 		fseek(stream, 0L, SEEK_END);
 		int len = ftell(stream);
 		rewind(stream);
-		if(strcmp(pFileName, "icon.data") == 0) {//icon.data
-				fseek(stream, MAX_FILE_LEN, SEEK_SET);
-				len -= MAX_FILE_LEN;
-				cout << "icon.data total length: "<<len<< endl;
-		}
+		cout <<"File name: " << pFileName<<" current length: "<<len<< endl;
 		if(len < MAX_FILE_LEN)
 		{
 				fread(pStr, 1, len, stream);
 		} else {
 				fread(pStr, 1, MAX_FILE_LEN, stream);
+				len = MAX_FILE_LEN;
 		}
 		fclose( stream );
 		return len;
@@ -333,6 +330,70 @@ int main() {
 			{
 					WriteAscIICode2File("string_src_en.str.array.h", ptemp[i]);
 			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("BLEConnectivity.dat", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("BLEConnectivity.dat.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("manifest.json", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("manifest.json.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("BLEConnectivity.bin", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  BLEConnectivity.bin" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("BLEConnectivity.bin.array.h", ptemp[i]);
+			}
+
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("DIN16.xbf", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  DIN16.xbf" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("DIN16.xbf.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("DIN19.xbf", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  DIN19.xbf" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("DIN19.xbf.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("DIN24.xbf", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  DIN24.xbf" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("DIN24.xbf.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("DIN32.xbf", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  DIN32.xbf" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("DIN32.xbf.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("MyriadPro64.xbf", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  MyriadPro64.xbf" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("MyriadPro64.xbf.array.h", ptemp[i]);
+			}
+			cout << "Transfer from the file to array,  END" << endl;
 	}
 
 	if(0){

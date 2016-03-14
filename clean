@@ -1,3 +1,5 @@
+rm BLEConnectivity.*
+rm manifest.json*
 rm ../Debug/mercury
 rm mercury
 rm string_src*

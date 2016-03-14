@@ -1,2 +1,4 @@
- cp ../Debug/mercury .
+cp xbf/* .
+cp BLETotal/* . 
+cp ../Debug/mercury .
 ./mercury

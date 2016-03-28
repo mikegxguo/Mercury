@@ -109,7 +109,7 @@ void ProduceStrFile(int langID, const char* pFileName)
 		char* ptemp = NULL;
 		unsigned short lenStr = 0;
 		unsigned short lenTotal = 0;
-		for(int stringID=0; stringID<IDS_PROFILE_ACTIVITY_LEVEL+1; stringID++)
+		for(int stringID=0; stringID<IDS_LEVEL_HARD_TRAINING+1; stringID++)
 		{
 				ptemp = (char*)((STRINGSDEF*)(language_list[langID].xStringTable)+stringID)->sStringdef;
 				if(ptemp)
@@ -213,6 +213,11 @@ void IntegrateData2File(const char * pFileName,  int sectors)
 							fread(TempBuf, 1, 4096, pFile);
 							dwLen -= 4096;
 					}
+					else if(dwLen == 0) {
+							for(int i=0; i<4096; i++) {
+									TempBuf[i] = 0x0;
+							}
+					}
 					else // length <4096
 					{
 							fread(TempBuf, 1, dwLen, pFile);
@@ -245,7 +250,7 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			1//1
 const DataDef StringDef[StrNum]={
-		{3948,    "string_src_en.str"}, //2
+		{4097,    "string_src_en.str"}, //2, 4022, real length
 		//{8561,    "string_src_de.str"}, //3
 		//{9179,    "string_src_es.str"}, //3
 		//{11078,   "string_src_fr.str"}, //3

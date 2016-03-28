@@ -713,5 +713,15 @@ RO    Romania    Romania
 /*Sound*/
 #define IDS_SOUND   327
 /*Activity Level*/
-#define IDS_PROFILE_ACTIVITY_LEVEL   328
+#define IDS_ACTIVITY_LEVEL   328
+/*L1 Little*/
+#define IDS_LEVEL_LITTLE   329
+/*L2 Light*/
+#define IDS_LEVEL_LIGHT   330
+/*L3 Frequent*/
+#define IDS_LEVEL_FREQUENT   331
+/*L4 Intense*/
+#define IDS_LEVEL_INTENSE   332
+/*L5 Hard training*/
+#define IDS_LEVEL_HARD_TRAINING   333
 #endif/*_STRINGID_H_*/

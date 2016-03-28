@@ -86,7 +86,7 @@ RO    Romania    Romania
 #define IDS_LIFE   13
 /*Best records*/
 #define IDS_BEST_RECORDS   14
-/*Clear all records*/
+/*Clear all*/
 #define IDS_CLEAR_ALL_RECORDS   15
 /*Gender*/
 #define IDS_GENDER   16
@@ -122,9 +122,9 @@ RO    Romania    Romania
 #define IDS_TIME_SETTING   31
 /*Date setting*/
 #define IDS_DATE_SETTING   32
-/*Simple*/
+/*Easy*/
 #define IDS_SIMPLE   33
-/*Program*/
+/*Coaching*/
 #define IDS_PROGRAM   34
 /*Intervals*/
 #define IDS_INTERVALS   35
@@ -162,7 +162,7 @@ RO    Romania    Romania
 #define IDS_UNIT_CM   51
 /*bpm*/
 #define IDS_UNIT_BPM   52
-/*Kg*/
+/*kg*/
 #define IDS_UNIT_KG   53
 /*km*/
 #define IDS_UNIT_KM   54
@@ -202,7 +202,7 @@ RO    Romania    Romania
 #define IDS_GPS_WAIT   71
 /*Indoor?*/
 #define IDS_INDOOR   72
-/*Change location\n to get GPS fix*/
+/*Move to\n get GPS fix*/
 #define IDS_GPS_CHANGE_POS   73
 /*Try again*/
 #define IDS_TRY_AGAIN   74
@@ -210,15 +210,15 @@ RO    Romania    Romania
 #define IDS_TRY_AGAIN_Q   75
 /*No GPS signal*/
 #define IDS_GPS_NO_SIGNAL   76
-/*GPS is found*/
+/*GPS fix is found*/
 #define IDS_GPS_FOUND   77
 /*BT is connected*/
 #define IDS_BT_CONNECTED   78
-/*Adjust wristband\n to get HR*/
+/*Adjust band to get HR*/
 #define IDS_HR_ADJUST_WRIST   79
 /*Not enough\n memory space*/
 #define IDS_MEM_NOT_ENOUGH   80
-/*Would you like?*/
+/*You want to:*/
 #define IDS_ASK   81
 /*Overwrite*/
 #define IDS_OVERWRITE   82
@@ -248,13 +248,13 @@ RO    Romania    Romania
 #define IDS_UNIT   94
 /*Unit Setting*/
 #define IDS_UNIT_SETTING   95
-/*Background\n color*/
+/*Background*/
 #define IDS_BG_COLOR   96
-/*Vibration\n alert*/
+/*Vibration*/
 #define IDS_VIBRATION_ALERT   97
 /*Buzzer*/
 #define IDS_BUZZER   98
-/*Auto\n sport mode*/
+/*AutoSport Log*/
 #define IDS_AUTO_SPORT_MODE   99
 /*GPS*/
 #define IDS_GPS   100
@@ -286,11 +286,11 @@ RO    Romania    Romania
 #define IDS_LANG_CZECH   113
 /*Romania*/
 #define IDS_LANG_ROMANIA   114
-/*Slovensky*/
+/*Slovak*/
 #define IDS_LANG_SLOVENSKY   115
 /*Japanese*/
 #define IDS_LANG_JAPANESE   116
-/*Traditional Chinese*/
+/*T. Chinese*/
 #define IDS_LANG_TRADITIONAL_CHINESE   117
 /*White*/
 #define IDS_COLOR_WHITE   118
@@ -302,7 +302,7 @@ RO    Romania    Romania
 #define IDS_ABOUT_UUID   121
 /*Model:*/
 #define IDS_ABOUT_MODEL   122
-/*2016 MITAC rights\n reserved*/
+/*2016 MiTAC rights\n reserved*/
 #define IDS_ABOUT_MITAC_RIGHTS   123
 /*FIT*/
 #define IDS_FIT_SCORE   124
@@ -318,9 +318,9 @@ RO    Romania    Romania
 #define IDS_SPORT_HARD_RUN   129
 /*Rest\n countdown*/
 #define IDS_REST_COUNTDOWN   130
-/*Run for 20 min\n to get workout\n advice*/
+/*Coaching\nRun for 20 min*/
 #define IDS_RUN_WITHOUT_DATA   131
-/*mins*/
+/*min*/
 #define IDS_MINUTES   132
 /*TE*/
 #define IDS_TRAINING_EFFECT_ABBR   133
@@ -346,7 +346,7 @@ RO    Romania    Romania
 #define IDS_LAYOUT   143
 /*Auto lap*/
 #define IDS_AUTO_LAP   144
-/*Data overwrite*/
+/*Overwrite*/
 #define IDS_DATA_OVERWRITE   145
 /*Page 1*/
 #define IDS_PAGE_1   146
@@ -400,11 +400,11 @@ RO    Romania    Romania
 #define IDS_LAP_SPEED   170
 /*LapSPD*/
 #define IDS_LAP_SPEED_ABBR   171
-/*Last lap speed*/
+/*Last Lap SPD*/
 #define IDS_LAST_LAP_SPEED   172
 /*LLapSPD*/
 #define IDS_LAST_LAP_SPEED_ABBR   173
-/*Current pace*/
+/*Pace*/
 #define IDS_CURRENT_PACE   174
 /*Average pace*/
 #define IDS_AVERAGE_PACE   175
@@ -418,33 +418,33 @@ RO    Romania    Romania
 #define IDS_LAST_LAP_PACE   179
 /*LLapPace*/
 #define IDS_LAST_LAP_PACE_ABBR   180
-/*Current distance*/
+/*Distance*/
 #define IDS_CURRENT_DISTANCE   181
 /*Lap distance*/
 #define IDS_LAP_DISTANCE   182
 /*LapDist*/
 #define IDS_LAP_DISTANCE_ABBR   183
-/*Current cadence*/
+/*Stride rate*/
 #define IDS_CURRENT_CADENCE   184
-/*Average cadence*/
+/*AVG stride*/
 #define IDS_AVERAGE_CADENCE   185
-/*AvgCAD*/
+/*AvgStride*/
 #define IDS_AVERAGE_CADENCE_ABBR   186
-/*Lap cadence*/
+/*Lap stride*/
 #define IDS_LAP_CADENCE   187
-/*LapCAD*/
+/*LapStride*/
 #define IDS_LAP_CADENCE_ABBR   188
-/*Current HR*/
+/*HR*/
 #define IDS_CURRENT_HR   189
 /*Average HR*/
 #define IDS_AVERAGE_HR   190
 /*AvgHR*/
 #define IDS_AVERAGE_HR_ABBR   191
-/*HR% Max HR*/
+/*HR% Max*/
 #define IDS_PERCENT_MAX_HR   192
 /*MHR%*/
 #define IDS_PERCENT_MAX_HR_ABBR   193
-/*AVG HR% Max*/
+/*AVG HR/MHR(%)*/
 #define IDS_AVG_PERCENT_MAX_HR   194
 /*AvgMHR%*/
 #define IDS_AVG_PERCENT_MAX_HR_ABBR   195
@@ -456,7 +456,7 @@ RO    Romania    Romania
 #define IDS_LAP_PERCENT_MAX_HR   198
 /*LapMHR%*/
 #define IDS_LAP_PERCENT_MAX_HR_ABBR   199
-/*Training Effect*/
+/*TE*/
 #define IDS_TRAINING_EFFECT   200
 /*Cal*/
 #define IDS_CALORIES_ABBR   201
@@ -488,13 +488,13 @@ RO    Romania    Romania
 #define IDS_AUTO   214
 /*Manual*/
 #define IDS_MANUAL   215
-/*Last night sleep*/
+/*Sleep*/
 #define IDS_LAST_NIGHT_SLEEP   216
 /*Lap*/
 #define IDS_LAP   217
 /*Split time*/
 #define IDS_SPLIT_TIME   218
-/*Fitness level\n up!*/
+/*Fitness level\n up*/
 #define IDS_ADVICE_FIT_UP   219
 /*Fitness level\n increased*/
 #define IDS_ADVICE_FIT_INCREASE   220
@@ -502,23 +502,23 @@ RO    Romania    Romania
 #define IDS_ADVICE_MARATHON   221
 /*1/2 marathon\n level*/
 #define IDS_ADVICE_MARATHON_HALF   222
-/*10km race\n level*/
+/*10 km race\n level*/
 #define IDS_ADVICE_RACE_10KM   223
-/*5km race\n level*/
+/*5 km race\n level*/
 #define IDS_ADVICE_RACE_5KM   224
-/*1km race\n level*/
+/*1 km race\n level*/
 #define IDS_ADVICE_RACE_1KM   225
-/*0.62mile\n race level*/
+/*0.62 mile\n race level*/
 #define IDS_ADVICE_RACE_062MILE   226
-/*3.11mile\n race level*/
+/*3.11 mile\n race level*/
 #define IDS_ADVICE_RACE_311MILE   227
-/*6.21mile\n race level*/
+/*6.21 mile\n race level*/
 #define IDS_ADVICE_RACE_621MILE   228
 /*Good\n progress!*/
 #define IDS_ADVICE_GOOD_PROGRESS   229
 /*Training level\n decreased*/
 #define IDS_ADVICE_TRAINING   230
-/*Run 7 days\n to get\n feedback*/
+/*7-day data required*/
 #define IDS_ADVICE_RUN_7DAYS   231
 /*Too much\n workout*/
 #define IDS_ADVICE_TOO_MUCH   232
@@ -546,29 +546,29 @@ RO    Romania    Romania
 #define IDS_AVG_HR   243
 /*Max HR*/
 #define IDS_MAX_HR   244
-/*Finish*/
+/*Back*/
 #define IDS_FINISH   245
-/*By distance*/
+/*Distance*/
 #define IDS_BY_DISTANCE   246
-/*By time*/
+/*Time*/
 #define IDS_BY_TIME   247
-/*By distance\n & time*/
+/*DIST & time*/
 #define IDS_BY_DISTANCE_TIME   248
-/*By distance\n & pace*/
+/*DIST & pace*/
 #define IDS_BY_DISTANCE_PACE   249
 /*Half marathon*/
 #define IDS_HALF_MARATHON   250
 /*Marathon*/
 #define IDS_MARATHON   251
-/*Edit distance*/
+/*Edit */
 #define IDS_EDIT_DISTANCE   252
-/*Edit time*/
+/*Edit */
 #define IDS_EDIT_TIME   253
-/*Edit pace*/
+/*Edit */
 #define IDS_EDIT_PACE   254
 /*Details*/
 #define IDS_DETAILS   255
-/*Set program*/
+/*Status*/
 #define IDS_SET_PROGRAM   256
 /*Maintain*/
 #define IDS_MAINTAIN   257
@@ -596,7 +596,7 @@ RO    Romania    Romania
 #define IDS_TARGET   268
 /*Repeat*/
 #define IDS_REPEAT   269
-/*Edit intervals*/
+/*Edit */
 #define IDS_EDIT_INTERVALS   270
 /*Edit*/
 #define IDS_EDIT   271
@@ -644,7 +644,7 @@ RO    Romania    Romania
 #define IDS_FORGET   292
 /*Forget?*/
 #define IDS_FORGET_Q   293
-/*Please follow\n the app’s\n instruction\n for pairing*/
+/*Follow the APP for pairing*/
 #define IDS_PAIR_TIPS   294
 /*Add*/
 #define IDS_ADD   295
@@ -670,42 +670,48 @@ RO    Romania    Romania
 #define IDS_WEEK_SATURDAY_ABBR   305
 /*SUN*/
 #define IDS_WEEK_SUNDAY_ABBR   306
-/*Monday*/
+/*MON*/
 #define IDS_WEEK_MONDAY   307
-/*Tuesday*/
+/*TUE*/
 #define IDS_WEEK_TUESDAY   308
-/*Wednesday*/
+/*WED*/
 #define IDS_WEEK_WEDNESDAY   309
-/*Thursday*/
+/*THU*/
 #define IDS_WEEK_THURSDAY   310
-/*Friday*/
+/*FRI*/
 #define IDS_WEEK_FRIDAY   311
-/*Saturday*/
+/*SAT*/
 #define IDS_WEEK_SATURDAY   312
-/*Sunday*/
+/*SUN*/
 #define IDS_WEEK_SUNDAY   313
-/*1km*/
+/*1 km*/
 #define IDS_RUN_1KM   314
-/*5km*/
+/*5 km*/
 #define IDS_RUN_5KM   315
-/*10km*/
+/*10 km*/
 #define IDS_RUN_10KM   316
-/*Best 5km*/
+/*Best 5 km*/
 #define IDS_BEST_5KM   317
-/*Best 10km*/
+/*Best 10 km*/
 #define IDS_BEST_10KM   318
-/*Best Half marathon*/
+/*Best 21 km*/
 #define IDS_BEST_HALF_MARATHON   319
-/*Best Marathon*/
+/*Best 42 km*/
 #define IDS_BEST_MARATHON   320
+/*S. Chinese*/
+#define IDS_LANG_SIMPLIFIED_CHINESE   321
+/*1 mile race level*/
+#define IDS_1MILE_RACE_LEVEL   322
 /*Custom*/
-#define IDS_CUSTOM   321
+#define IDS_CUSTOM   323
 /*Date format*/
-#define IDS_DATE_FORMAT   322
+#define IDS_DATE_FORMAT   324
 /*DD/MM*/
-#define IDS_DATE_FORMAT_DM   323
+#define IDS_DATE_FORMAT_DM   325
 /*MM/DD*/
-#define IDS_DATE_FORMAT_MD   324
+#define IDS_DATE_FORMAT_MD   326
 /*Sound*/
-#define IDS_SOUND   325
+#define IDS_SOUND   327
+/*Activity Level*/
+#define IDS_PROFILE_ACTIVITY_LEVEL   328
 #endif/*_STRINGID_H_*/

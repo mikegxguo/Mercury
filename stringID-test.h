@@ -330,12 +330,13 @@ const STRINGSDEF string_table_EN[] = {
     {    325, "DD/MM"},
     {    326, "MM/DD"},
     {    327, "Sound"},
-    {    328, "Activity Level"},
+    {    328, "Activity LVL"},
     {    329, "L1 Little"},
     {    330, "L2 Light"},
     {    331, "L3 Frequent"},
     {    332, "L4 Intense"},
     {    333, "L5 Hard training"},
+    {    334, "Advanced heartbeat\n analytics by\n Firstbeat"},
 };
 
 /*Czech*/
@@ -674,6 +675,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Danish*/
@@ -1012,6 +1014,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*German*/
@@ -1350,6 +1353,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Greek*/
@@ -1688,6 +1692,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Spanish*/
@@ -2026,6 +2031,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*French*/
@@ -2364,6 +2370,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Croatian*/
@@ -2702,6 +2709,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Italian*/
@@ -3040,6 +3048,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Latvian*/
@@ -3378,6 +3387,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Hungarian*/
@@ -3716,6 +3726,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Dutch*/
@@ -4054,6 +4065,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Norwegian*/
@@ -4392,6 +4404,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Polish*/
@@ -4730,6 +4743,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Portuguese*/
@@ -5068,6 +5082,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Russian*/
@@ -5406,6 +5421,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Slovenian*/
@@ -5744,6 +5760,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Finnish*/
@@ -6082,6 +6099,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Swedish*/
@@ -6420,6 +6438,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Turkish*/
@@ -6758,6 +6777,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Japanese*/
@@ -7096,6 +7116,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Simplified Chinese */
@@ -7434,6 +7455,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Traditional Chinese */
@@ -7772,6 +7794,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Korean*/
@@ -8110,6 +8133,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 /*Romania*/
@@ -8448,6 +8472,7 @@ const STRINGSDEF string_table_EN[] = {
     {    331, 0},
     {    332, 0},
     {    333, 0},
+    {    334, 0},
 };*/
 
 const LANGUAGELIST   language_list[] = {

@@ -712,7 +712,7 @@ RO    Romania    Romania
 #define IDS_DATE_FORMAT_MD   326
 /*Sound*/
 #define IDS_SOUND   327
-/*Activity Level*/
+/*Activity LVL*/
 #define IDS_ACTIVITY_LEVEL   328
 /*L1 Little*/
 #define IDS_LEVEL_LITTLE   329
@@ -724,4 +724,6 @@ RO    Romania    Romania
 #define IDS_LEVEL_INTENSE   332
 /*L5 Hard training*/
 #define IDS_LEVEL_HARD_TRAINING   333
+/*Advanced heartbeat\n analytics by\n Firstbeat*/
+#define IDS_FIRSTBEAT_LICENSE   334
 #endif/*_STRINGID_H_*/

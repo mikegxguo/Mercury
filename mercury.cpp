@@ -26,6 +26,8 @@ void WriteStr2File(const char* pFileName,  char* pStr)
 }
 
 //if the data file is too long, should adjust this value.
+//Here we can split one file into two parts
+//#define MAX_FILE_LEN		1024*12
 #define MAX_FILE_LEN		1024*45//12
 int ReadFile2Str(const char* pFileName, char* pStr)
 {
@@ -39,6 +41,14 @@ int ReadFile2Str(const char* pFileName, char* pStr)
 		{
 				fread(pStr, 1, len, stream);
 		} else {
+				////////////////////////////////////////////////////////////
+				////////////////// Split icon data into two parts here
+				////////////////////////////////////////////////////////////
+			    //fseek(stream, MAX_FILE_LEN, SEEK_CUR);
+				//len -= MAX_FILE_LEN;
+				//cout <<"File name: " << pFileName<<" current length: "<<len<< endl;
+				//fread(pStr, 1, len, stream);
+				////////////////////////////////////////////////////////////
 				fread(pStr, 1, MAX_FILE_LEN, stream);
 				len = MAX_FILE_LEN;
 		}
@@ -109,7 +119,7 @@ void ProduceStrFile(int langID, const char* pFileName)
 		char* ptemp = NULL;
 		unsigned short lenStr = 0;
 		unsigned short lenTotal = 0;
-		for(int stringID=0; stringID<IDS_AUTO_START+1; stringID++)
+		for(int stringID=0; stringID<IDS_ADVICE_RUN_7DAYS+1; stringID++)
 		{
 				ptemp = (char*)((STRINGSDEF*)(language_list[langID].xStringTable)+stringID)->sStringdef;
 				if(ptemp)
@@ -203,6 +213,7 @@ void IntegrateData2File(const char * pFileName,  int sectors)
     {
 			fseek(pFile, 0L, SEEK_END);
 			int dwLen = ftell(pFile);
+			cout << "FileName: "<<pFileName<<" Length: "<<dwLen << endl;
 			rewind(pFile);
 			//fseek (pFile ,0, SEEK_SET);
 			for(int num=0; num<sectors;num++)
@@ -235,10 +246,10 @@ void IntegrateData2File(const char * pFileName,  int sectors)
 
 
 typedef struct {
-		const unsigned short size;
+		const unsigned int size;
 		const char* filename;
 }DataDef;
-
+/*
 #define FontNum			5
 const DataDef FontDef[FontNum]={
 		{2760, "xbf/DIN16.xbf"}, //1
@@ -247,10 +258,70 @@ const DataDef FontDef[FontNum]={
 		{7144, "xbf/DIN32.xbf"}, //2
 		{2816, "xbf/MyriadPro64.xbf"}, //1
 };
+*/
+
+///////////////////////////////////////////////////////////////////////////////////
+/////////////////////////Test font////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+#define FontNum			46
+const DataDef FontDef[FontNum]={
+		{2123, "xbf/Verdanaedit2in1_11.xbf"},
+		{2476, "xbf/Verdanaedit2in1_13.xbf"},
+		{3113, "xbf/Verdanaedit2in1_15.xbf"},
+		{3336, "xbf/Verdanaedit2in1_16.xbf"},
+		{3920, "xbf/Verdanaedit2in1_18.xbf"},
+		{4160, "xbf/Verdanaedit2in1_19.xbf"},
+		{4559, "xbf/Verdanaedit2in1_21.xbf"},
+		{5154, "xbf/Verdanaedit2in1_23.xbf"},
+		{5432, "xbf/Verdanaedit2in1_24.xbf"},
+		{5893, "xbf/Verdanaedit2in1_25.xbf"},
+		{7184, "xbf/Verdanaedit2in1_28.xbf"},
+		{7464, "xbf/Verdanaedit2in1_29.xbf"},
+		{8108, "xbf/Verdanaedit2in1_30.xbf"},
+		{9350, "xbf/Verdanaedit2in1_33.xbf"},
+		{9740, "xbf/Verdanaedit2in1_34.xbf"},
+		{10173, "xbf/Verdanaedit2in1_35.xbf"},
+		{11570, "xbf/Verdanaedit2in1_38.xbf"},
+		{12317, "xbf/Verdanaedit2in1_39.xbf"},
+		{12848, "xbf/Verdanaedit2in1_40.xbf"},
+		{22028, "xbf/Verdanaedit2in1_54.xbf"},
+		{23540, "xbf/Verdanaedit2in1_57.xbf"},
+		{34088, "xbf/Verdanaedit2in1_69.xbf"},
+		{35474, "xbf/Verdanaedit2in1_71.xbf"},
+		/////////////////////////////////////////////////////////////////////////////////////
+        {2266, "xbf/Verdanaedit2in1_Bold_11.xbf"},
+        {2762, "xbf/Verdanaedit2in1_Bold_13.xbf"},
+        {3383, "xbf/Verdanaedit2in1_Bold_15.xbf"},
+        {3528, "xbf/Verdanaedit2in1_Bold_16.xbf"},
+        {4010, "xbf/Verdanaedit2in1_Bold_18.xbf"},
+        {4217, "xbf/Verdanaedit2in1_Bold_19.xbf"},
+        {4811, "xbf/Verdanaedit2in1_Bold_21.xbf"},
+        {5499, "xbf/Verdanaedit2in1_Bold_23.xbf"},
+        {5816, "xbf/Verdanaedit2in1_Bold_24.xbf"},
+        {6318, "xbf/Verdanaedit2in1_Bold_25.xbf"},
+        {7408, "xbf/Verdanaedit2in1_Bold_28.xbf"},
+        {7986, "xbf/Verdanaedit2in1_Bold_29.xbf"},
+        {8588, "xbf/Verdanaedit2in1_Bold_30.xbf"},
+        {9482, "xbf/Verdanaedit2in1_Bold_33.xbf"},
+        {9978, "xbf/Verdanaedit2in1_Bold_34.xbf"},
+        {10698, "xbf/Verdanaedit2in1_Bold_35.xbf"},
+        {12064, "xbf/Verdanaedit2in1_Bold_38.xbf"},
+        {12590, "xbf/Verdanaedit2in1_Bold_39.xbf"},
+        {13208, "xbf/Verdanaedit2in1_Bold_40.xbf"},
+        {22244, "xbf/Verdanaedit2in1_Bold_54.xbf"},
+        {24224, "xbf/Verdanaedit2in1_Bold_57.xbf"},
+        {34226, "xbf/Verdanaedit2in1_Bold_69.xbf"},
+        {36042, "xbf/Verdanaedit2in1_Bold_71.xbf"},
+
+};
+
+/////////////////////////////////////////////////////////////////////////////////////
+
 
 #define StrNum			1//1
 const DataDef StringDef[StrNum]={
-		{4097,    "string_src_en.str"}, //2, 4081, real length
+		{4176,    "string_src_en.str"}, //2, 4176, real length
 		//{8561,    "string_src_de.str"}, //3
 		//{9179,    "string_src_es.str"}, //3
 		//{11078,   "string_src_fr.str"}, //3
@@ -260,7 +331,7 @@ const DataDef StringDef[StrNum]={
 };
 
 const DataDef IconDef[]={
-		{19962,    "icon.data"}, //need 5 sectors
+		{20266,    "icon.data"}, //need 5 sectors
 };
 
 
@@ -293,7 +364,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<72; i++) {//total icon numbers: 72
+			for (unsigned int i=0; i<74; i++) {//total icon numbers: 74
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}

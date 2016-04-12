@@ -252,480 +252,480 @@ RO    Romania    Romania
 #define IDS_BG_COLOR   96
 /*Vibration*/
 #define IDS_VIBRATION_ALERT   97
-/*Buzzer*/
-#define IDS_BUZZER   98
-/*AutoSport Log*/
-#define IDS_AUTO_SPORT_MODE   99
 /*GPS*/
-#define IDS_GPS   100
+#define IDS_GPS   98
 /*Factory reset*/
-#define IDS_FACTORY_RESET   101
+#define IDS_FACTORY_RESET   99
 /*Key tone*/
-#define IDS_KEY_TONE   102
+#define IDS_KEY_TONE   100
 /*About*/
-#define IDS_ABOUT   103
+#define IDS_ABOUT   101
 /*English*/
-#define IDS_LANG_ENGLISH   104
-/*German*/
-#define IDS_LANG_GERMAN   105
-/*French*/
-#define IDS_LANG_FRENCH   106
-/*Dutch*/
-#define IDS_LANG_DUTCH   107
-/*Italian*/
-#define IDS_LANG_ITALIAN   108
-/*Spanish*/
-#define IDS_LANG_SPANISH   109
-/*Russian*/
-#define IDS_LANG_RUSSIAN   110
-/*Polish*/
-#define IDS_LANG_POLISH   111
-/*Hungarian*/
-#define IDS_LANG_HUNGARIAN   112
-/*Czech*/
-#define IDS_LANG_CZECH   113
-/*Romania*/
-#define IDS_LANG_ROMANIA   114
-/*Slovak*/
-#define IDS_LANG_SLOVENSKY   115
-/*Japanese*/
-#define IDS_LANG_JAPANESE   116
-/*T. Chinese*/
-#define IDS_LANG_TRADITIONAL_CHINESE   117
+#define IDS_LANG_ENGLISH   102
+/*Deutsch*/
+#define IDS_LANG_GERMAN   103
+/*Français*/
+#define IDS_LANG_FRENCH   104
+/*Nederlands*/
+#define IDS_LANG_DUTCH   105
+/*Italiano*/
+#define IDS_LANG_ITALIAN   106
+/*Español*/
+#define IDS_LANG_SPANISH   107
+/*Русский*/
+#define IDS_LANG_RUSSIAN   108
+/*Polski*/
+#define IDS_LANG_POLISH   109
+/*Magyar*/
+#define IDS_LANG_HUNGARIAN   110
+/*Český*/
+#define IDS_LANG_CZECH   111
+/*Română*/
+#define IDS_LANG_ROMANIA   112
+/*Slovenčina*/
+#define IDS_LANG_SLOVENSKY   113
+/*日本語*/
+#define IDS_LANG_JAPANESE   114
+/*繁體中文*/
+#define IDS_LANG_TRADITIONAL_CHINESE   115
 /*White*/
-#define IDS_COLOR_WHITE   118
+#define IDS_COLOR_WHITE   116
 /*Black*/
-#define IDS_COLOR_BLACK   119
+#define IDS_COLOR_BLACK   117
 /*SW version:*/
-#define IDS_SW_VERSION   120
+#define IDS_SW_VERSION   118
 /*SN:*/
-#define IDS_ABOUT_UUID   121
+#define IDS_ABOUT_UUID   119
 /*Model:*/
-#define IDS_ABOUT_MODEL   122
+#define IDS_ABOUT_MODEL   120
 /*2016 MiTAC rights\n reserved*/
-#define IDS_ABOUT_MITAC_RIGHTS   123
+#define IDS_ABOUT_MITAC_RIGHTS   121
 /*FIT*/
-#define IDS_FIT_SCORE   124
+#define IDS_FIT_SCORE   122
 /*Start*/
-#define IDS_START   125
+#define IDS_START   123
 /*Easy Run*/
-#define IDS_SPORT_EASY_RUN   126
+#define IDS_SPORT_EASY_RUN   124
 /*Light Run*/
-#define IDS_SPORT_LIGHT_RUN   127
+#define IDS_SPORT_LIGHT_RUN   125
 /*Moderate Run*/
-#define IDS_SPORT_MODERATE_RUN   128
+#define IDS_SPORT_MODERATE_RUN   126
 /*Hard Run*/
-#define IDS_SPORT_HARD_RUN   129
+#define IDS_SPORT_HARD_RUN   127
 /*Rest\n countdown*/
-#define IDS_REST_COUNTDOWN   130
+#define IDS_REST_COUNTDOWN   128
 /*Coaching\nRun for 20 min*/
-#define IDS_RUN_WITHOUT_DATA   131
+#define IDS_RUN_WITHOUT_DATA   129
 /*min*/
-#define IDS_MINUTES   132
+#define IDS_MINUTES   130
 /*TE*/
-#define IDS_TRAINING_EFFECT_ABBR   133
+#define IDS_TRAINING_EFFECT_ABBR   131
 /*Good pace*/
-#define IDS_GOOD_PACE   134
+#define IDS_GOOD_PACE   132
 /*min left*/
-#define IDS_MIN_LEFT   135
+#define IDS_MIN_LEFT   133
 /*Goal achieved*/
-#define IDS_GOAL_ACHIEVED   136
+#define IDS_GOAL_ACHIEVED   134
 /*Good work*/
-#define IDS_GOOD_WORK   137
+#define IDS_GOOD_WORK   135
 /*Well done*/
-#define IDS_WELL_DONE   138
+#define IDS_WELL_DONE   136
 /*Good training*/
-#define IDS_GOOD_TRAINING   139
+#define IDS_GOOD_TRAINING   137
 /*Take it easy*/
-#define IDS_TAKE_IT_EASY   140
+#define IDS_TAKE_IT_EASY   138
 /*Increase\n the pace*/
-#define IDS_INCREASE_PACE   141
+#define IDS_INCREASE_PACE   139
 /*Slow down\n a bit*/
-#define IDS_SLOW_DOWN_BIT   142
+#define IDS_SLOW_DOWN_BIT   140
 /*Layout*/
-#define IDS_LAYOUT   143
+#define IDS_LAYOUT   141
 /*Auto lap*/
-#define IDS_AUTO_LAP   144
+#define IDS_AUTO_LAP   142
 /*Overwrite*/
-#define IDS_DATA_OVERWRITE   145
+#define IDS_DATA_OVERWRITE   143
 /*Page 1*/
-#define IDS_PAGE_1   146
+#define IDS_PAGE_1   144
 /*Page 2*/
-#define IDS_PAGE_2   147
+#define IDS_PAGE_2   145
 /*Page 3*/
-#define IDS_PAGE_3   148
+#define IDS_PAGE_3   146
 /*HR Zone*/
-#define IDS_HR_ZONE   149
+#define IDS_HR_ZONE   147
 /*HR zone %*/
-#define IDS_HR_ZONE_PERCENTAGE   150
+#define IDS_HR_ZONE_PERCENTAGE   148
 /*Choose layout*/
-#define IDS_CHOOSE_LAYOUT   151
+#define IDS_CHOOSE_LAYOUT   149
 /*Set Column*/
-#define IDS_SET_COLUMN   152
+#define IDS_SET_COLUMN   150
 /*Preview*/
-#define IDS_PREVIEW   153
+#define IDS_PREVIEW   151
 /*Column 1*/
-#define IDS_COLUMN_1   154
+#define IDS_COLUMN_1   152
 /*Column 2*/
-#define IDS_COLUMN_2   155
+#define IDS_COLUMN_2   153
 /*Column 3*/
-#define IDS_COLUMN_3   156
+#define IDS_COLUMN_3   154
 /*Time*/
-#define IDS_TIME   157
+#define IDS_TIME   155
 /*HR*/
-#define IDS_HEART_RATE_ABBR   158
+#define IDS_HEART_RATE_ABBR   156
 /*Calories*/
-#define IDS_CALORIES   159
+#define IDS_CALORIES   157
 /*Lap time*/
-#define IDS_LAP_TIME   160
+#define IDS_LAP_TIME   158
 /*Last lap time*/
-#define IDS_LAST_LAP_TIME   161
+#define IDS_LAST_LAP_TIME   159
 /*LLap time*/
-#define IDS_LAST_LAP_TIME_ABBR   162
+#define IDS_LAST_LAP_TIME_ABBR   160
 /*AVG lap time*/
-#define IDS_AVG_LAP_TIME   163
+#define IDS_AVG_LAP_TIME   161
 /*AvgLTime*/
-#define IDS_AVG_LAP_TIME_ABBR   164
+#define IDS_AVG_LAP_TIME_ABBR   162
 /*Current speed*/
-#define IDS_CURRENT_SPEED   165
+#define IDS_CURRENT_SPEED   163
 /*Average speed*/
-#define IDS_AVERAGE_SPEED   166
+#define IDS_AVERAGE_SPEED   164
 /*AvgSPD*/
-#define IDS_AVERAGE_SPEED_ABBR   167
+#define IDS_AVERAGE_SPEED_ABBR   165
 /*Max speed*/
-#define IDS_MAX_SPEED   168
+#define IDS_MAX_SPEED   166
 /*MaxSPD*/
-#define IDS_MAX_SPEED_ABBR   169
+#define IDS_MAX_SPEED_ABBR   167
 /*Lap speed*/
-#define IDS_LAP_SPEED   170
+#define IDS_LAP_SPEED   168
 /*LapSPD*/
-#define IDS_LAP_SPEED_ABBR   171
+#define IDS_LAP_SPEED_ABBR   169
 /*Last Lap SPD*/
-#define IDS_LAST_LAP_SPEED   172
+#define IDS_LAST_LAP_SPEED   170
 /*LLapSPD*/
-#define IDS_LAST_LAP_SPEED_ABBR   173
+#define IDS_LAST_LAP_SPEED_ABBR   171
 /*Pace*/
-#define IDS_CURRENT_PACE   174
+#define IDS_CURRENT_PACE   172
 /*Average pace*/
-#define IDS_AVERAGE_PACE   175
+#define IDS_AVERAGE_PACE   173
 /*AvgPace*/
-#define IDS_AVERAGE_PACE_ABBR   176
+#define IDS_AVERAGE_PACE_ABBR   174
 /*Lap pace*/
-#define IDS_LAP_PACE   177
+#define IDS_LAP_PACE   175
 /*LapPace*/
-#define IDS_LAP_PACE_ABBR   178
+#define IDS_LAP_PACE_ABBR   176
 /*Last lap pace*/
-#define IDS_LAST_LAP_PACE   179
+#define IDS_LAST_LAP_PACE   177
 /*LLapPace*/
-#define IDS_LAST_LAP_PACE_ABBR   180
+#define IDS_LAST_LAP_PACE_ABBR   178
 /*Distance*/
-#define IDS_CURRENT_DISTANCE   181
+#define IDS_CURRENT_DISTANCE   179
 /*Lap distance*/
-#define IDS_LAP_DISTANCE   182
+#define IDS_LAP_DISTANCE   180
 /*LapDist*/
-#define IDS_LAP_DISTANCE_ABBR   183
+#define IDS_LAP_DISTANCE_ABBR   181
 /*Stride rate*/
-#define IDS_CURRENT_CADENCE   184
+#define IDS_CURRENT_CADENCE   182
 /*AVG stride*/
-#define IDS_AVERAGE_CADENCE   185
+#define IDS_AVERAGE_CADENCE   183
 /*AvgStride*/
-#define IDS_AVERAGE_CADENCE_ABBR   186
+#define IDS_AVERAGE_CADENCE_ABBR   184
 /*Lap stride*/
-#define IDS_LAP_CADENCE   187
+#define IDS_LAP_CADENCE   185
 /*LapStride*/
-#define IDS_LAP_CADENCE_ABBR   188
+#define IDS_LAP_CADENCE_ABBR   186
 /*HR*/
-#define IDS_CURRENT_HR   189
+#define IDS_CURRENT_HR   187
 /*Average HR*/
-#define IDS_AVERAGE_HR   190
+#define IDS_AVERAGE_HR   188
 /*AvgHR*/
-#define IDS_AVERAGE_HR_ABBR   191
+#define IDS_AVERAGE_HR_ABBR   189
 /*HR% Max*/
-#define IDS_PERCENT_MAX_HR   192
+#define IDS_PERCENT_MAX_HR   190
 /*MHR%*/
-#define IDS_PERCENT_MAX_HR_ABBR   193
+#define IDS_PERCENT_MAX_HR_ABBR   191
 /*AVG HR/MHR(%)*/
-#define IDS_AVG_PERCENT_MAX_HR   194
+#define IDS_AVG_PERCENT_MAX_HR   192
 /*AvgMHR%*/
-#define IDS_AVG_PERCENT_MAX_HR_ABBR   195
+#define IDS_AVG_PERCENT_MAX_HR_ABBR   193
 /*Lap HR*/
-#define IDS_LAP_HR   196
+#define IDS_LAP_HR   194
 /*LapHR*/
-#define IDS_LAP_HR_ABBR   197
+#define IDS_LAP_HR_ABBR   195
 /*Lap HR% Max*/
-#define IDS_LAP_PERCENT_MAX_HR   198
+#define IDS_LAP_PERCENT_MAX_HR   196
 /*LapMHR%*/
-#define IDS_LAP_PERCENT_MAX_HR_ABBR   199
+#define IDS_LAP_PERCENT_MAX_HR_ABBR   197
 /*TE*/
-#define IDS_TRAINING_EFFECT   200
+#define IDS_TRAINING_EFFECT   198
 /*Cal*/
-#define IDS_CALORIES_ABBR   201
-/*cal*/
-#define IDS_CALORIES_ABBR_1   202
+#define IDS_CALORIES_ABBR   199
 /*c*/
-#define IDS_CALORIES_ABBR_2   203
+#define IDS_CALORIES_ABBR_2   200
 /*Status*/
-#define IDS_STATUS   204
+#define IDS_STATUS   201
 /*Type*/
-#define IDS_TYPE   205
+#define IDS_TYPE   202
 /*h*/
-#define IDS_HOUR_ABBR   206
+#define IDS_HOUR_ABBR   203
 /*m*/
-#define IDS_MINUTE_ABBR   207
+#define IDS_MINUTE_ABBR   204
 /*s*/
-#define IDS_SECOND_ABBR   208
+#define IDS_SECOND_ABBR   205
 /*Moderate*/
-#define IDS_HR_MODERATE   209
+#define IDS_HR_MODERATE   206
 /*Fat burning*/
-#define IDS_HR_FAT_BURNING   210
+#define IDS_HR_FAT_BURNING   207
 /*Anaerobic*/
-#define IDS_HR_ANAEROBIC   211
+#define IDS_HR_ANAEROBIC   208
 /*Max effort*/
-#define IDS_HR_MAX_EFFORT   212
+#define IDS_HR_MAX_EFFORT   209
 /*Set by*/
-#define IDS_SET_BY   213
+#define IDS_SET_BY   210
 /*Auto*/
-#define IDS_AUTO   214
+#define IDS_AUTO   211
 /*Manual*/
-#define IDS_MANUAL   215
+#define IDS_MANUAL   212
 /*Sleep*/
-#define IDS_LAST_NIGHT_SLEEP   216
+#define IDS_LAST_NIGHT_SLEEP   213
 /*Lap*/
-#define IDS_LAP   217
+#define IDS_LAP   214
 /*Split time*/
-#define IDS_SPLIT_TIME   218
+#define IDS_SPLIT_TIME   215
 /*Fitness level\n up*/
-#define IDS_ADVICE_FIT_UP   219
+#define IDS_ADVICE_FIT_UP   216
 /*Fitness level\n increased*/
-#define IDS_ADVICE_FIT_INCREASE   220
+#define IDS_ADVICE_FIT_INCREASE   217
 /*Marathon\n level*/
-#define IDS_ADVICE_MARATHON   221
+#define IDS_ADVICE_MARATHON   218
 /*1/2 marathon\n level*/
-#define IDS_ADVICE_MARATHON_HALF   222
+#define IDS_ADVICE_MARATHON_HALF   219
 /*10 km race\n level*/
-#define IDS_ADVICE_RACE_10KM   223
+#define IDS_ADVICE_RACE_10KM   220
 /*5 km race\n level*/
-#define IDS_ADVICE_RACE_5KM   224
+#define IDS_ADVICE_RACE_5KM   221
 /*1 km race\n level*/
-#define IDS_ADVICE_RACE_1KM   225
+#define IDS_ADVICE_RACE_1KM   222
 /*0.62 mile\n race level*/
-#define IDS_ADVICE_RACE_062MILE   226
+#define IDS_ADVICE_RACE_062MILE   223
 /*3.11 mile\n race level*/
-#define IDS_ADVICE_RACE_311MILE   227
+#define IDS_ADVICE_RACE_311MILE   224
 /*6.21 mile\n race level*/
-#define IDS_ADVICE_RACE_621MILE   228
+#define IDS_ADVICE_RACE_621MILE   225
 /*Good\n progress!*/
-#define IDS_ADVICE_GOOD_PROGRESS   229
+#define IDS_ADVICE_GOOD_PROGRESS   226
 /*Training level\n decreased*/
-#define IDS_ADVICE_TRAINING   230
-/*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   231
+#define IDS_ADVICE_TRAINING   227
 /*Too much\n workout*/
-#define IDS_ADVICE_TOO_MUCH   232
+#define IDS_ADVICE_TOO_MUCH   228
 /*Take more\n workout*/
-#define IDS_ADVICE_TAKE_MORE   233
+#define IDS_ADVICE_TAKE_MORE   229
 /*Well done!*/
-#define IDS_ADVICE_WELL_DONE   234
+#define IDS_ADVICE_WELL_DONE   230
 /*Very poor*/
-#define IDS_FIT_VERY_POOR   235
+#define IDS_FIT_VERY_POOR   231
 /*Poor*/
-#define IDS_FIT_POOR   236
+#define IDS_FIT_POOR   232
 /*Fair*/
-#define IDS_FIT_FAIR   237
+#define IDS_FIT_FAIR   233
 /*Average*/
-#define IDS_FIT_AVERAGE   238
+#define IDS_FIT_AVERAGE   234
 /*Good*/
-#define IDS_FIT_GOOD   239
+#define IDS_FIT_GOOD   235
 /*Very good*/
-#define IDS_FIT_VERY_GOOD   240
+#define IDS_FIT_VERY_GOOD   236
 /*Excellent*/
-#define IDS_FIT_EXCELLENT   241
+#define IDS_FIT_EXCELLENT   237
 /*Today*/
-#define IDS_TODAY   242
+#define IDS_TODAY   238
 /*Avg HR*/
-#define IDS_AVG_HR   243
+#define IDS_AVG_HR   239
 /*Max HR*/
-#define IDS_MAX_HR   244
+#define IDS_MAX_HR   240
 /*Back*/
-#define IDS_FINISH   245
+#define IDS_FINISH   241
 /*Distance*/
-#define IDS_BY_DISTANCE   246
+#define IDS_BY_DISTANCE   242
 /*Time*/
-#define IDS_BY_TIME   247
+#define IDS_BY_TIME   243
 /*DIST & time*/
-#define IDS_BY_DISTANCE_TIME   248
+#define IDS_BY_DISTANCE_TIME   244
 /*DIST & pace*/
-#define IDS_BY_DISTANCE_PACE   249
+#define IDS_BY_DISTANCE_PACE   245
 /*Half marathon*/
-#define IDS_HALF_MARATHON   250
+#define IDS_HALF_MARATHON   246
 /*Marathon*/
-#define IDS_MARATHON   251
+#define IDS_MARATHON   247
 /*Edit */
-#define IDS_EDIT_DISTANCE   252
+#define IDS_EDIT_DISTANCE   248
 /*Edit */
-#define IDS_EDIT_TIME   253
+#define IDS_EDIT_TIME   249
 /*Edit */
-#define IDS_EDIT_PACE   254
+#define IDS_EDIT_PACE   250
 /*Details*/
-#define IDS_DETAILS   255
-/*Status*/
-#define IDS_SET_PROGRAM   256
+#define IDS_DETAILS   251
 /*Maintain*/
-#define IDS_MAINTAIN   257
+#define IDS_MAINTAIN   252
 /*Improve*/
-#define IDS_IMPROVE   258
+#define IDS_IMPROVE   253
 /*Rest*/
-#define IDS_REST   259
+#define IDS_REST   254
 /*Training 1*/
-#define IDS_TRAINING_1   260
+#define IDS_TRAINING_1   255
 /*Training 2*/
-#define IDS_TRAINING_2   261
+#define IDS_TRAINING_2   256
 /*Warm up*/
-#define IDS_WARM_UP   262
+#define IDS_WARM_UP   257
 /*Warm up?*/
-#define IDS_WARM_UP_Q   263
+#define IDS_WARM_UP_Q   258
 /*Cool down*/
-#define IDS_COOL_DOWN   264
+#define IDS_COOL_DOWN   259
 /*Cool down?*/
-#define IDS_COOL_DOWN_Q   265
+#define IDS_COOL_DOWN_Q   260
 /*Set*/
-#define IDS_SET   266
+#define IDS_SET   261
 /*Work*/
-#define IDS_WORK   267
+#define IDS_WORK   262
 /*Target*/
-#define IDS_TARGET   268
+#define IDS_TARGET   263
 /*Repeat*/
-#define IDS_REPEAT   269
+#define IDS_REPEAT   264
 /*Edit */
-#define IDS_EDIT_INTERVALS   270
+#define IDS_EDIT_INTERVALS   265
 /*Edit*/
-#define IDS_EDIT   271
+#define IDS_EDIT   266
 /*Change type*/
-#define IDS_CHANGE_TYPE   272
+#define IDS_CHANGE_TYPE   267
 /*Pace Zone*/
-#define IDS_PACE_ZONE   273
+#define IDS_PACE_ZONE   268
 /*Min*/
-#define IDS_MINIMIZE_ABBR   274
+#define IDS_MINIMIZE_ABBR   269
 /*Min HR*/
-#define IDS_MIN_HR   275
+#define IDS_MIN_HR   270
 /*Max*/
-#define IDS_MAXIMIZE_ABBR   276
+#define IDS_MAXIMIZE_ABBR   271
 /*Min Pace*/
-#define IDS_MIN_PACE   277
+#define IDS_MIN_PACE   272
 /*Max Pace*/
-#define IDS_MAX_PACE   278
+#define IDS_MAX_PACE   273
 /*Metronome*/
-#define IDS_METRONOME   279
+#define IDS_METRONOME   274
 /*Fitness level*/
-#define IDS_FIT_LEVEL   280
+#define IDS_FIT_LEVEL   275
 /*Fitness*/
-#define IDS_FITNESS   281
+#define IDS_FITNESS   276
 /*Best*/
-#define IDS_BEST   282
+#define IDS_BEST   277
 /*Delete*/
-#define IDS_DELETE   283
+#define IDS_DELETE   278
 /*Delete?*/
-#define IDS_DELETE_Q   284
+#define IDS_DELETE_Q   279
 /*Notification*/
-#define IDS_NOTIFICATION   285
+#define IDS_NOTIFICATION   280
 /*Sleep info*/
-#define IDS_SLEEP_INFO   286
+#define IDS_SLEEP_INFO   281
 /*Pair*/
-#define IDS_PAIR   287
+#define IDS_PAIR   282
 /*Searching*/
-#define IDS_SEARCHING   288
+#define IDS_SEARCHING   283
 /*Pairing…*/
-#define IDS_PAIRING   289
+#define IDS_PAIRING   284
 /*Paired*/
-#define IDS_PAIRED   290
+#define IDS_PAIRED   285
 /*Passcode*/
-#define IDS_PASSCODE   291
+#define IDS_PASSCODE   286
 /*Forget*/
-#define IDS_FORGET   292
+#define IDS_FORGET   287
 /*Forget?*/
-#define IDS_FORGET_Q   293
+#define IDS_FORGET_Q   288
 /*Follow the APP for pairing*/
-#define IDS_PAIR_TIPS   294
+#define IDS_PAIR_TIPS   289
 /*Add*/
-#define IDS_ADD   295
+#define IDS_ADD   290
 /*Activate*/
-#define IDS_ACTIVATE   296
+#define IDS_ACTIVATE   291
 /*Deactivate*/
-#define IDS_DEACTIVATE   297
+#define IDS_DEACTIVATE   292
 /*Can't find*/
-#define IDS_CANT_FIND   298
+#define IDS_CANT_FIND   293
 /*Updating…*/
-#define IDS_UPDATING   299
+#define IDS_UPDATING   294
 /*MON*/
-#define IDS_WEEK_MONDAY_ABBR   300
+#define IDS_WEEK_MONDAY_ABBR   295
 /*TUE*/
-#define IDS_WEEK_TUESDAY_ABBR   301
+#define IDS_WEEK_TUESDAY_ABBR   296
 /*WED*/
-#define IDS_WEEK_WEDNESDAY_ABBR   302
+#define IDS_WEEK_WEDNESDAY_ABBR   297
 /*THU*/
-#define IDS_WEEK_THURSDAY_ABBR   303
+#define IDS_WEEK_THURSDAY_ABBR   298
 /*FRI*/
-#define IDS_WEEK_FRIDAY_ABBR   304
+#define IDS_WEEK_FRIDAY_ABBR   299
 /*SAT*/
-#define IDS_WEEK_SATURDAY_ABBR   305
+#define IDS_WEEK_SATURDAY_ABBR   300
 /*SUN*/
-#define IDS_WEEK_SUNDAY_ABBR   306
+#define IDS_WEEK_SUNDAY_ABBR   301
 /*MON*/
-#define IDS_WEEK_MONDAY   307
+#define IDS_WEEK_MONDAY   302
 /*TUE*/
-#define IDS_WEEK_TUESDAY   308
+#define IDS_WEEK_TUESDAY   303
 /*WED*/
-#define IDS_WEEK_WEDNESDAY   309
+#define IDS_WEEK_WEDNESDAY   304
 /*THU*/
-#define IDS_WEEK_THURSDAY   310
+#define IDS_WEEK_THURSDAY   305
 /*FRI*/
-#define IDS_WEEK_FRIDAY   311
+#define IDS_WEEK_FRIDAY   306
 /*SAT*/
-#define IDS_WEEK_SATURDAY   312
+#define IDS_WEEK_SATURDAY   307
 /*SUN*/
-#define IDS_WEEK_SUNDAY   313
+#define IDS_WEEK_SUNDAY   308
 /*1 km*/
-#define IDS_RUN_1KM   314
+#define IDS_RUN_1KM   309
 /*5 km*/
-#define IDS_RUN_5KM   315
+#define IDS_RUN_5KM   310
 /*10 km*/
-#define IDS_RUN_10KM   316
+#define IDS_RUN_10KM   311
 /*Best 5 km*/
-#define IDS_BEST_5KM   317
+#define IDS_BEST_5KM   312
 /*Best 10 km*/
-#define IDS_BEST_10KM   318
+#define IDS_BEST_10KM   313
 /*Best 21 km*/
-#define IDS_BEST_HALF_MARATHON   319
+#define IDS_BEST_HALF_MARATHON   314
 /*Best 42 km*/
-#define IDS_BEST_MARATHON   320
-/*S. Chinese*/
-#define IDS_LANG_SIMPLIFIED_CHINESE   321
+#define IDS_BEST_MARATHON   315
+/*简体中文*/
+#define IDS_LANG_SIMPLIFIED_CHINESE   316
 /*1 mile race level*/
-#define IDS_1MILE_RACE_LEVEL   322
-/*Custom*/
-#define IDS_CUSTOM   323
+#define IDS_1MILE_RACE_LEVEL   317
+/*Customize*/
+#define IDS_CUSTOM   318
 /*Date format*/
-#define IDS_DATE_FORMAT   324
+#define IDS_DATE_FORMAT   319
 /*DD/MM*/
-#define IDS_DATE_FORMAT_DM   325
+#define IDS_DATE_FORMAT_DM   320
 /*MM/DD*/
-#define IDS_DATE_FORMAT_MD   326
+#define IDS_DATE_FORMAT_MD   321
 /*Sound*/
-#define IDS_SOUND   327
+#define IDS_SOUND   322
 /*Activity LVL*/
-#define IDS_ACTIVITY_LEVEL   328
+#define IDS_ACTIVITY_LEVEL   323
 /*L1 Little*/
-#define IDS_LEVEL_LITTLE   329
+#define IDS_LEVEL_LITTLE   324
 /*L2 Light*/
-#define IDS_LEVEL_LIGHT   330
+#define IDS_LEVEL_LIGHT   325
 /*L3 Frequent*/
-#define IDS_LEVEL_FREQUENT   331
+#define IDS_LEVEL_FREQUENT   326
 /*L4 Intense*/
-#define IDS_LEVEL_INTENSE   332
+#define IDS_LEVEL_INTENSE   327
 /*L5 Hard training*/
-#define IDS_LEVEL_HARD_TRAINING   333
+#define IDS_LEVEL_HARD_TRAINING   328
 /*Advanced heartbeat\n analytics by\n Firstbeat*/
-#define IDS_FIRSTBEAT_LICENSE   334
+#define IDS_FIRSTBEAT_LICENSE   329
 /*Auto start*/
-#define IDS_AUTO_START   335
+#define IDS_AUTO_START   330
+/*Long press 3 sec\n to leave*/
+#define IDS_LEAVE_SLEEP_TIP   331
+/*Already have a\n sleep data today*/
+#define IDS_ONE_SLEEP_DATA_TIP   332
+/*Record has been\n saved*/
+#define IDS_SLEEP_DATA_SAVE   333
+/*Set Coaching*/
+#define IDS_SET_COACHING   334
+/*7-day data required*/
+#define IDS_ADVICE_RUN_7DAYS   335
 #endif/*_STRINGID_H_*/

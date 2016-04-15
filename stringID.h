@@ -728,4 +728,8 @@ RO    Romania    Romania
 #define IDS_SET_COACHING   334
 /*7-day data required*/
 #define IDS_ADVICE_RUN_7DAYS   335
+/*Time left*/
+#define IDS_TIME_LEFT   336
+/*DIST left*/
+#define IDS_DIST_LEFT   337
 #endif/*_STRINGID_H_*/

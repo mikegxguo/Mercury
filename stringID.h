@@ -732,4 +732,8 @@ RO    Romania    Romania
 #define IDS_TIME_LEFT   336
 /*DIST left*/
 #define IDS_DIST_LEFT   337
+/*MiVia Run 350*/
+#define IDS_MIVIA_350   338
+/*MiVia Run 300*/
+#define IDS_MIVIA_300   339
 #endif/*_STRINGID_H_*/

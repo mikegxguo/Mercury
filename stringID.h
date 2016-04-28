@@ -736,4 +736,12 @@ RO    Romania    Romania
 #define IDS_MIVIA_350   338
 /*MiVia Run 300*/
 #define IDS_MIVIA_300   339
+/*Tomorrow*/
+#define IDS_TOMORROW   340
+/*Start running?*/
+#define IDS_START_RUNNING   341
+/*with GPS*/
+#define IDS_WITH_GPS   342
+/*without GPS*/
+#define IDS_WITHOUT_GPS   343
 #endif/*_STRINGID_H_*/

@@ -249,7 +249,7 @@ typedef struct {
 		const unsigned int size;
 		const char* filename;
 }DataDef;
-/**/
+/*
 #define FontNum			5
 const DataDef FontDef[FontNum]={
 		{2760, "xbf/DIN16.xbf"}, //1
@@ -258,28 +258,71 @@ const DataDef FontDef[FontNum]={
 		{7144, "xbf/DIN32.xbf"}, //2
 		{2816, "xbf/MyriadPro64.xbf"}, //1
 };
-/**/
+*/
 
 ///////////////////////////////////////////////////////////////////////////////////
 /////////////////////////Test font////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
-/*
-#define FontNum         10
+/**/
+#define FontNum         52
 const DataDef FontDef[FontNum]={
+        {2123, "xbf/Verdanaedit22_11.xbf"},
+        {2476, "xbf/Verdanaedit22_13.xbf"},
         {3113, "xbf/Verdanaedit22_15.xbf"},
         {3336, "xbf/Verdanaedit22_16.xbf"},
+        {3920, "xbf/Verdanaedit22_18.xbf"},
+        {4160, "xbf/Verdanaedit22_19.xbf"},
         {4559, "xbf/Verdanaedit22_21.xbf"},
+        {5154, "xbf/Verdanaedit22_23.xbf"},
+        {5432, "xbf/Verdanaedit22_24.xbf"},
+        {5893, "xbf/Verdanaedit22_25.xbf"},
         {7184, "xbf/Verdanaedit22_28.xbf"},
+        {7464, "xbf/Verdanaedit22_29.xbf"},
         {8108, "xbf/Verdanaedit22_30.xbf"},
+        {9317, "xbf/Verdanaedit22_33.xbf"},
+        {9706, "xbf/Verdanaedit22_34.xbf"},
+        {10173, "xbf/Verdanaedit22_35.xbf"},
+        {11570, "xbf/Verdanaedit22_38.xbf"},
+        {12317, "xbf/Verdanaedit22_39.xbf"},
+        {12848, "xbf/Verdanaedit22_40.xbf"},
         {13820, "xbf/Verdanaedit22_42.xbf"},
+        {22028, "xbf/Verdanaedit22_54.xbf"},
+        {23540, "xbf/Verdanaedit22_57.xbf"},
+        {25335, "xbf/Verdanaedit22_59.xbf"},
+        {27752, "xbf/Verdanaedit22_62.xbf"},
+        {34088, "xbf/Verdanaedit22_69.xbf"},
+        {35474, "xbf/Verdanaedit22_71.xbf"},
+
        /////////////  BOLD   /////////////////////////////
-        {3576, "xbf/Verdanaedit22_bold_16.xbf"},
-        {4811, "xbf/Verdanaedit22_bold_21.xbf"},
-        {7772, "xbf/Verdanaedit22_bold_28.xbf"},
-        {8798, "xbf/Verdanaedit22_bold_30.xbf"},
+        {2068, "xbf/Verdanaedit22_Bold_11.xbf"},
+        {2671, "xbf/Verdanaedit22_Bold_13.xbf"},
+        {3278, "xbf/Verdanaedit22_Bold_15.xbf"},
+        {3576, "xbf/Verdanaedit22_Bold_16.xbf"},
+        {4100, "xbf/Verdanaedit22_Bold_18.xbf"},
+        {4369, "xbf/Verdanaedit22_Bold_19.xbf"},
+        {4811, "xbf/Verdanaedit22_Bold_21.xbf"},
+        {5384, "xbf/Verdanaedit22_Bold_23.xbf"},
+        {5888, "xbf/Verdanaedit22_Bold_24.xbf"},
+        {6243, "xbf/Verdanaedit22_Bold_25.xbf"},
+        {7772, "xbf/Verdanaedit22_Bold_28.xbf"},
+        {8421, "xbf/Verdanaedit22_Bold_29.xbf"},
+        {8798, "xbf/Verdanaedit22_Bold_30.xbf"},
+        {9845, "xbf/Verdanaedit22_Bold_33.xbf"},
+        {10386, "xbf/Verdanaedit22_Bold_34.xbf"},
+        {11083, "xbf/Verdanaedit22_Bold_35.xbf"},
+        {12444, "xbf/Verdanaedit22_Bold_38.xbf"},
+        {12941, "xbf/Verdanaedit22_Bold_39.xbf"},
+        {14048, "xbf/Verdanaedit22_Bold_40.xbf"},
+        {15416, "xbf/Verdanaedit22_Bold_42.xbf"},
+        {23648, "xbf/Verdanaedit22_Bold_54.xbf"},
+        {26675, "xbf/Verdanaedit22_Bold_57.xbf"},
+        {28285, "xbf/Verdanaedit22_Bold_59.xbf"},
+        {30418, "xbf/Verdanaedit22_Bold_62.xbf"},
+        {38090, "xbf/Verdanaedit22_Bold_69.xbf"},
+        {39805, "xbf/Verdanaedit22_Bold_71.xbf"},
 
 	};
-*/
+/**/
 /////////////////////////////////////////////////////////////////////////////////////
 
 

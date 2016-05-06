@@ -291,7 +291,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Passcode"},
     {    287, "Forget"},
     {    288, "Forget?"},
-    {    289, "Follow the APP for pairing"},
+    {    289, "Follow the APP\n for pairing"},
     {    290, "Add"},
     {    291, "Activate"},
     {    292, "Deactivate"},
@@ -346,6 +346,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, "Start running?"},
     {    342, "with GPS"},
     {    343, "without GPS"},
+    {    344, "Get time"},
+    {    345, "By GPS"},
+    {    346, "By smartphone"},
+    {    347, "Please contact\n MiVia app"},
+    {    348, "Connect"},
 };
 
 /*Czech*/
@@ -639,7 +644,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Heslo"},
     {    287, "Zapomenout"},
     {    288, "Zapomenout?"},
-    {    289, "Spárujte podle aplikace"},
+    {    289, "Spárujte podle\n aplikace"},
     {    290, "Přidat"},
     {    291, "Aktivovat"},
     {    292, "Deaktivovat"},
@@ -694,6 +699,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Danish*/
@@ -1042,6 +1052,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*German*/
@@ -1335,7 +1350,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Kennwort"},
     {    287, "Vergessen"},
     {    288, "Vergessen?"},
-    {    289, "Zur Kopplung App folgen"},
+    {    289, "Zur Kopplung\n App folgen"},
     {    290, "Zufügen"},
     {    291, "Aktivieren"},
     {    292, "Deaktivieren"},
@@ -1390,6 +1405,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Greek*/
@@ -1738,6 +1758,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Spanish*/
@@ -2031,7 +2056,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Cód. de paso"},
     {    287, "Olvidar"},
     {    288, "¿Olvidar?"},
-    {    289, "Seguir aplic. para asociar"},
+    {    289, "Seguir aplic.\n para asociar"},
     {    290, "Agregar"},
     {    291, "Activar"},
     {    292, "Desactivar"},
@@ -2086,6 +2111,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*French*/
@@ -2379,7 +2409,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Mot de passe"},
     {    287, "Oublier"},
     {    288, "Oublier ?"},
-    {    289, "Suivre app pour appair."},
+    {    289, "Suivre app\n pour appair."},
     {    290, "Ajouter"},
     {    291, "Activer"},
     {    292, "Désactiver"},
@@ -2434,6 +2464,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Croatian*/
@@ -2782,6 +2817,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Italian*/
@@ -3075,7 +3115,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Passcode"},
     {    287, "Ignora"},
     {    288, "Ignorare?"},
-    {    289, "Segui APP per associazione"},
+    {    289, "Segui APP per\n associazione"},
     {    290, "Aggiungi"},
     {    291, "Attiva"},
     {    292, "Disattiva"},
@@ -3130,6 +3170,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Latvian*/
@@ -3478,6 +3523,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Hungarian*/
@@ -3771,7 +3821,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Eng. kód"},
     {    287, "Törlés"},
     {    288, "Törli?"},
-    {    289, "Kövesse a párosításhoz"},
+    {    289, "Kövesse a\n párosításhoz"},
     {    290, "Hozzáadás"},
     {    291, "Aktiválás"},
     {    292, "Deaktiválás"},
@@ -3826,6 +3876,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Dutch*/
@@ -4119,7 +4174,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Wachtwoord"},
     {    287, "Vergeten"},
     {    288, "Vergeten?"},
-    {    289, "Volg APP voor koppelen"},
+    {    289, "Volg APP\n voor koppelen"},
     {    290, "Toevoegen"},
     {    291, "Activeren"},
     {    292, "Deactiveren"},
@@ -4174,6 +4229,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Norwegian*/
@@ -4522,6 +4582,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Polish*/
@@ -4815,7 +4880,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Hasło"},
     {    287, "Zapomnij"},
     {    288, "Zapomnieć?"},
-    {    289, "Wykonuj instr., by powiąz."},
+    {    289, "Wykonuj instr.,\n by powiąz."},
     {    290, "Dodaj"},
     {    291, "Aktywuj"},
     {    292, "Dezaktywuj"},
@@ -4870,6 +4935,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Portuguese*/
@@ -5218,6 +5288,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Russian*/
@@ -5566,6 +5641,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Slovenian*/
@@ -5914,6 +5994,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Finnish*/
@@ -6262,6 +6347,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Swedish*/
@@ -6610,6 +6700,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Turkish*/
@@ -6958,6 +7053,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Japanese*/
@@ -7306,6 +7406,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Simplified Chinese */
@@ -7654,6 +7759,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Traditional Chinese */
@@ -7947,7 +8057,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "密碼"},
     {    287, "忘記"},
     {    288, "要忘記嗎？"},
-    {    289, "請依程式的指示進行配對"},
+    {    289, "請依程式的指示\n進行配對"},
     {    290, "新增"},
     {    291, "啟動"},
     {    292, "取消啟動"},
@@ -8002,6 +8112,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Korean*/
@@ -8350,6 +8465,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 /*Romania*/
@@ -8643,7 +8763,7 @@ const STRINGSDEF string_table_EN[] = {
     {    286, "Cod acces"},
     {    287, "Nu memora"},
     {    288, "Nu se mem.?"},
-    {    289, "Urmaţi aplic. pt. asociere"},
+    {    289, "Urmaţi aplic.\n pt. asociere"},
     {    290, "Adăugare"},
     {    291, "Activare"},
     {    292, "Dezactivare"},
@@ -8698,6 +8818,11 @@ const STRINGSDEF string_table_EN[] = {
     {    341, 0},
     {    342, 0},
     {    343, 0},
+    {    344, 0},
+    {    345, 0},
+    {    346, 0},
+    {    347, 0},
+    {    348, 0},
 };*/
 
 const LANGUAGELIST   language_list[] = {

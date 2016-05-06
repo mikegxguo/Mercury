@@ -634,7 +634,7 @@ RO    Romania    Romania
 #define IDS_FORGET   287
 /*Forget?*/
 #define IDS_FORGET_Q   288
-/*Follow the APP for pairing*/
+/*Follow the APP\n for pairing*/
 #define IDS_PAIR_TIPS   289
 /*Add*/
 #define IDS_ADD   290
@@ -744,4 +744,14 @@ RO    Romania    Romania
 #define IDS_WITH_GPS   342
 /*without GPS*/
 #define IDS_WITHOUT_GPS   343
+/*Get time*/
+#define IDS_GET_TIME   344
+/*By GPS*/
+#define IDS_BY_GPS   345
+/*By smartphone*/
+#define IDS_BY_SMARTPHONE   346
+/*Please contact\n MiVia app*/
+#define IDS_CONTACT_MIVIA   347
+/*Connect*/
+#define IDS_CONNECT   348
 #endif/*_STRINGID_H_*/

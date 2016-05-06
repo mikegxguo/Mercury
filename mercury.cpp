@@ -119,7 +119,7 @@ void ProduceStrFile(int langID, const char* pFileName)
 		char* ptemp = NULL;
 		unsigned short lenStr = 0;
 		unsigned short lenTotal = 0;
-		for(int stringID=0; stringID<IDS_WITHOUT_GPS+1; stringID++)
+		for(int stringID=0; stringID<IDS_CONNECT+1; stringID++)
 		{
 				ptemp = (char*)((STRINGSDEF*)(language_list[langID].xStringTable)+stringID)->sStringdef;
 				if(ptemp)
@@ -249,7 +249,7 @@ typedef struct {
 		const unsigned int size;
 		const char* filename;
 }DataDef;
-/*
+/**/
 #define FontNum			5
 const DataDef FontDef[FontNum]={
 		{2760, "xbf/DIN16.xbf"}, //1
@@ -258,12 +258,12 @@ const DataDef FontDef[FontNum]={
 		{7144, "xbf/DIN32.xbf"}, //2
 		{2816, "xbf/MyriadPro64.xbf"}, //1
 };
-*/
+/**/
 
 ///////////////////////////////////////////////////////////////////////////////////
 /////////////////////////Test font////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
-/**/
+/*
 #define FontNum         52
 const DataDef FontDef[FontNum]={
         {2123, "xbf/Verdanaedit22_11.xbf"},
@@ -322,13 +322,13 @@ const DataDef FontDef[FontNum]={
         {39805, "xbf/Verdanaedit22_Bold_71.xbf"},
 
 	};
-/**/
+*/
 /////////////////////////////////////////////////////////////////////////////////////
 
 
 #define StrNum			1//1
 const DataDef StringDef[StrNum]={
-		{4293,    "string_src_en.str"}, //2, 4293, real length
+		{4373,    "string_src_en.str"}, //2, 4373, real length
 		//{8561,    "string_src_de.str"}, //3
 		//{9179,    "string_src_es.str"}, //3
 		//{11078,   "string_src_fr.str"}, //3

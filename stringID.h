@@ -539,7 +539,7 @@ RO    Romania    Romania
 /*Max HR*/
 #define IDS_MAX_HR   240
 /*Back*/
-#define IDS_FINISH   241
+#define IDS_BACK   241
 /*Distance*/
 #define IDS_BY_DISTANCE   242
 /*Time*/
@@ -756,4 +756,6 @@ RO    Romania    Romania
 #define IDS_CONNECT   348
 /*Stop*/
 #define IDS_STOP   349
+/*Finish*/
+#define IDS_FINISH   350
 #endif/*_STRINGID_H_*/

@@ -233,7 +233,7 @@ RO    Romania    Romania
 /*Snooze*/
 #define IDS_SNOOZE   87
 /*Stop?*/
-#define IDS_STOP   88
+#define IDS_STOP_Q   88
 /*is found*/
 #define IDS_IS_FOUND   89
 /*is not found*/
@@ -754,4 +754,6 @@ RO    Romania    Romania
 #define IDS_CONTACT_MIVIA   347
 /*Connect*/
 #define IDS_CONNECT   348
+/*Stop*/
+#define IDS_STOP   349
 #endif/*_STRINGID_H_*/

@@ -418,7 +418,7 @@ RO    Romania    Romania
 #define IDS_CURRENT_DISTANCE   179
 /*Lap distance*/
 #define IDS_LAP_DISTANCE   180
-/*LapDist*/
+/*LapDIST*/
 #define IDS_LAP_DISTANCE_ABBR   181
 /*Stride rate*/
 #define IDS_CURRENT_CADENCE   182
@@ -758,4 +758,12 @@ RO    Romania    Romania
 #define IDS_STOP   349
 /*Finish*/
 #define IDS_FINISH   350
+/*Stride*/
+#define IDS_STRIDE   351
+/*LastLap SPD*/
+#define IDS_LAST_LAP_SPEED_00   352
+/*LapTime*/
+#define IDS_LAP_TIME_ABBR   353
+/*LLapTime*/
+#define IDS_LAST_LAP_TIME_ABBR_02   354
 #endif/*_STRINGID_H_*/

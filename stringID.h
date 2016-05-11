@@ -766,4 +766,6 @@ RO    Romania    Romania
 #define IDS_LAP_TIME_ABBR   353
 /*LLapTime*/
 #define IDS_LAST_LAP_TIME_ABBR_02   354
+/*miles*/
+#define IDS_UNIT_MILES_00   355
 #endif/*_STRINGID_H_*/

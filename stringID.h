@@ -718,9 +718,9 @@ RO    Romania    Romania
 #define IDS_FIRSTBEAT_LICENSE   329
 /*Auto start*/
 #define IDS_AUTO_START   330
-/*Long press 3 sec\n to leave*/
+/*Press for 3 sec\n to exit*/
 #define IDS_LEAVE_SLEEP_TIP   331
-/*Already have a\n sleep data today*/
+/*Already have\n sleep data today*/
 #define IDS_ONE_SLEEP_DATA_TIP   332
 /*Record has been\n saved*/
 #define IDS_SLEEP_DATA_SAVE   333
@@ -768,4 +768,6 @@ RO    Romania    Romania
 #define IDS_LAST_LAP_TIME_ABBR_02   354
 /*miles*/
 #define IDS_UNIT_MILES_00   355
+/*Finish?*/
+#define IDS_FINISH_Q   356
 #endif/*_STRINGID_H_*/

@@ -770,4 +770,6 @@ RO    Romania    Romania
 #define IDS_UNIT_MILES_00   355
 /*Finish?*/
 #define IDS_FINISH_Q   356
+/*Watch face*/
+#define IDS_WATCH_FACE   357
 #endif/*_STRINGID_H_*/

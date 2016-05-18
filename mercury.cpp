@@ -250,13 +250,15 @@ typedef struct {
 		const char* filename;
 }DataDef;
 /**/
-#define FontNum			5
+#define FontNum			7
 const DataDef FontDef[FontNum]={
 		{2760, "xbf/DIN16.xbf"}, //1
 		{3419, "xbf/DIN19.xbf"}, //1
 		{5024, "xbf/DIN24.xbf"}, //2
 		{7144, "xbf/DIN32.xbf"}, //2
 		{2816, "xbf/MyriadPro64.xbf"}, //1
+		{4368, "xbf/MyriadPro_85.xbf"}, //2
+		{4368, "xbf/MyriadPro_Bold_85.xbf"}, //2
 };
 /**/
 
@@ -475,6 +477,22 @@ int main() {
 			for(int i=0; i<len; i++)
 			{
 					WriteAscIICode2File("MyriadPro64.xbf.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("MyriadPro_85.xbf", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  MyriadPro_85.xbf" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("MyriadPro_85.xbf.array.h", ptemp[i]);
+			}
+			//////////////////////////////////////////////////////////////////////////////////////
+			len = ReadFile2Str("MyriadPro_Bold_85.xbf", ptemp);
+			//should escape the UTF-8 header: EF BB BF
+			cout << "Transfer from the file to array,  MyriadPro_Bold_85.xbf" << endl;
+			for(int i=0; i<len; i++)
+			{
+					WriteAscIICode2File("MyriadPro_Bold_85.xbf.array.h", ptemp[i]);
 			}
 			cout << "Transfer from the file to array,  END" << endl;
 	}

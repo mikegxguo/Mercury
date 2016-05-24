@@ -726,50 +726,50 @@ RO    Romania    Romania
 #define IDS_SLEEP_DATA_SAVE   333
 /*Set Coaching*/
 #define IDS_SET_COACHING   334
-/*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   335
 /*Time left*/
-#define IDS_TIME_LEFT   336
+#define IDS_TIME_LEFT   335
 /*DIST left*/
-#define IDS_DIST_LEFT   337
+#define IDS_DIST_LEFT   336
 /*MiVia Run 350*/
-#define IDS_MIVIA_350   338
+#define IDS_MIVIA_350   337
 /*MiVia Run 300*/
-#define IDS_MIVIA_300   339
+#define IDS_MIVIA_300   338
 /*Tomorrow*/
-#define IDS_TOMORROW   340
+#define IDS_TOMORROW   339
 /*Start running?*/
-#define IDS_START_RUNNING   341
+#define IDS_START_RUNNING   340
 /*with GPS*/
-#define IDS_WITH_GPS   342
+#define IDS_WITH_GPS   341
 /*without GPS*/
-#define IDS_WITHOUT_GPS   343
+#define IDS_WITHOUT_GPS   342
 /*Get time*/
-#define IDS_GET_TIME   344
+#define IDS_GET_TIME   343
 /*By GPS*/
-#define IDS_BY_GPS   345
+#define IDS_BY_GPS   344
 /*By smartphone*/
-#define IDS_BY_SMARTPHONE   346
+#define IDS_BY_SMARTPHONE   345
 /*Please contact\n MiVia app*/
-#define IDS_CONTACT_MIVIA   347
+#define IDS_CONTACT_MIVIA   346
 /*Connect*/
-#define IDS_CONNECT   348
+#define IDS_CONNECT   347
 /*Stop*/
-#define IDS_STOP   349
-/*Finish*/
-#define IDS_FINISH   350
+#define IDS_STOP   348
 /*Stride*/
-#define IDS_STRIDE   351
+#define IDS_STRIDE   349
 /*LastLap SPD*/
-#define IDS_LAST_LAP_SPEED_00   352
+#define IDS_LAST_LAP_SPEED_00   350
 /*LapTime*/
-#define IDS_LAP_TIME_ABBR   353
+#define IDS_LAP_TIME_ABBR   351
 /*LLapTime*/
-#define IDS_LAST_LAP_TIME_ABBR_02   354
+#define IDS_LAST_LAP_TIME_ABBR_02   352
 /*miles*/
-#define IDS_UNIT_MILES_00   355
+#define IDS_UNIT_MILES_00   353
 /*Finish?*/
-#define IDS_FINISH_Q   356
+#define IDS_FINISH_Q   354
+/*Finish*/
+#define IDS_FINISH   355
 /*Watch face*/
-#define IDS_WATCH_FACE   357
+#define IDS_WATCH_FACE   356
+/*7-day data required*/
+#define IDS_ADVICE_RUN_7DAYS   357
 #endif/*_STRINGID_H_*/

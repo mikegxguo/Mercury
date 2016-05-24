@@ -268,12 +268,24 @@
 
 
 
-extern GUI_BITMAP bmbike;
 extern GUI_BITMAP bmbtn_checkbox_checked;
 extern GUI_BITMAP bmbtn_checkbox_empty;
-extern GUI_BITMAP bmhistory_lift_title;
+extern GUI_BITMAP bmbtn_edit;
+extern GUI_BITMAP bmbtn_play;
+extern GUI_BITMAP bmbtn_setcolumn;
+extern GUI_BITMAP bmbtn_setcolumn_h;
+extern GUI_BITMAP bmico_7days;
 extern GUI_BITMAP bmico_A;
+extern GUI_BITMAP bmico_active_time;
+extern GUI_BITMAP bmico_alarm;
+extern GUI_BITMAP bmico_alarm_stop;
+extern GUI_BITMAP bmico_analog;
+extern GUI_BITMAP bmico_battery01;
+extern GUI_BITMAP bmico_battery02;
+extern GUI_BITMAP bmico_battery03;
+extern GUI_BITMAP bmico_battery04;
 extern GUI_BITMAP bmico_B;
+extern GUI_BITMAP bmico_bestrecord;
 extern GUI_BITMAP bmico_call;
 extern GUI_BITMAP bmico_C;
 extern GUI_BITMAP bmico_content_cal;
@@ -285,19 +297,44 @@ extern GUI_BITMAP bmico_D;
 extern GUI_BITMAP bmico_fb;
 extern GUI_BITMAP bmico_footer_down_arrow;
 extern GUI_BITMAP bmico_footer_pagemark_n;
+extern GUI_BITMAP bmico_headerbar_gps00;
+extern GUI_BITMAP bmico_headerbar_gps01;
+extern GUI_BITMAP bmico_headerbar_gps02;
+extern GUI_BITMAP bmico_headerbar_gps03;
 extern GUI_BITMAP bmico_layout01;
 extern GUI_BITMAP bmico_layout02;
 extern GUI_BITMAP bmico_layout03;
 extern GUI_BITMAP bmico_layout04;
 extern GUI_BITMAP bmico_layout05;
+extern GUI_BITMAP bmico_layout06;
+extern GUI_BITMAP bmico_leave_sleep_b;
+extern GUI_BITMAP bmico_leave_sleep_w;
 extern GUI_BITMAP bmico_line;
+extern GUI_BITMAP bmico_lv1;
+extern GUI_BITMAP bmico_lv2;
+extern GUI_BITMAP bmico_lv3;
+extern GUI_BITMAP bmico_lv4;
+extern GUI_BITMAP bmico_lv5;
+extern GUI_BITMAP bmico_lv6;
+extern GUI_BITMAP bmico_lv7;
+extern GUI_BITMAP bmico_lvincrease;
+extern GUI_BITMAP bmico_lvup;
+extern GUI_BITMAP bmico_marathon;
+extern GUI_BITMAP bmico_pace_32;
+extern GUI_BITMAP bmico_pairing01;
+extern GUI_BITMAP bmico_pairing02;
+extern GUI_BITMAP bmico_pairing03;
+extern GUI_BITMAP bmico_play;
 extern GUI_BITMAP bmico_pop_hover_down;
 extern GUI_BITMAP bmico_pop_hover_top;
 extern GUI_BITMAP bmico_pop_play;
 extern GUI_BITMAP bmico_pop_stop;
+extern GUI_BITMAP bmico_red;
 extern GUI_BITMAP bmico_schedule;
 extern GUI_BITMAP bmico_sleep32;
+extern GUI_BITMAP bmico_sleep;
 extern GUI_BITMAP bmico_SMS;
+extern GUI_BITMAP bmico_start_right_key;
 extern GUI_BITMAP bmico_status_battery_0;
 extern GUI_BITMAP bmico_status_battery_1;
 extern GUI_BITMAP bmico_status_battery_2;
@@ -306,69 +343,49 @@ extern GUI_BITMAP bmico_status_bell;
 extern GUI_BITMAP bmico_status_bluetooth;
 extern GUI_BITMAP bmico_status_heart;
 extern GUI_BITMAP bmico_status_play;
-extern GUI_BITMAP bmico_status_wifi_1;
-extern GUI_BITMAP bmico_status_wifi_2;
-extern GUI_BITMAP bmico_status_wifi_3;
-extern GUI_BITMAP bmico_status_wifi_4;
+extern GUI_BITMAP bmico_status_sleep;
+extern GUI_BITMAP bmico_steps;
+extern GUI_BITMAP bmico_stop;
 extern GUI_BITMAP bmico_takeeasy;
+extern GUI_BITMAP bmico_time;
 extern GUI_BITMAP bmico_trophy32;
 extern GUI_BITMAP bmico_trophy64;
 extern GUI_BITMAP bmico_twitter;
-extern GUI_BITMAP bmMultisport;
-extern GUI_BITMAP bmother;
-extern GUI_BITMAP bmpart_image_01;
-extern GUI_BITMAP bmrun;
-extern GUI_BITMAP bmswim;
-extern GUI_BITMAP bmico_7days;
-extern GUI_BITMAP bmico_lvincrease;
-extern GUI_BITMAP bmico_lvup;
-extern GUI_BITMAP bmico_marathon;
-extern GUI_BITMAP bmico_red;
-extern GUI_BITMAP bmico_yellow;
-extern GUI_BITMAP bmico_headerbar_gps00;
-extern GUI_BITMAP bmico_headerbar_gps01;
-extern GUI_BITMAP bmico_headerbar_gps02;
-extern GUI_BITMAP bmico_headerbar_gps03;
-extern GUI_BITMAP bmico_pairing01;
-extern GUI_BITMAP bmico_pairing02;
-extern GUI_BITMAP bmico_pairing03;
-extern GUI_BITMAP bmbtn_edit;
-extern GUI_BITMAP bmbtn_play;
-extern GUI_BITMAP bmico_battery01;
-extern GUI_BITMAP bmico_battery02;
-extern GUI_BITMAP bmico_battery03;
-extern GUI_BITMAP bmico_battery04;
+extern GUI_BITMAP bmico_updating;
 extern GUI_BITMAP bmico_whatsapp;
-extern GUI_BITMAP bmMiVia_bootup;
-extern GUI_BITMAP bmico_play;
-extern GUI_BITMAP bmico_stop;
+extern GUI_BITMAP bmico_yellow;
+extern GUI_BITMAP bmic_pace;
+extern GUI_BITMAP bmitem_clock01;
+extern GUI_BITMAP bmitem_clock02;
+extern GUI_BITMAP bmitem_clock03;
+extern GUI_BITMAP bmitem_clock04;
+extern GUI_BITMAP bmMercury_poweron;
+extern GUI_BITMAP bmic_fbmessenger;
+extern GUI_BITMAP bmico_skype;
+extern GUI_BITMAP bmico_other;
 
-/*
-extern GUI_BITMAP bmwhole_image_01;
-extern GUI_BITMAP bmwhole_image_02;
-extern GUI_BITMAP bmwhole_image_03;
-extern GUI_BITMAP bmwhole_image_04;
-extern GUI_BITMAP bmwhole_image_05;
-extern GUI_BITMAP bmwhole_image_06;
-extern GUI_BITMAP bmwhole_image_072;
-extern GUI_BITMAP bmwhole_image_073;
-extern GUI_BITMAP bmwhole_image_07;
-extern GUI_BITMAP bmwhole_image_08;
-extern GUI_BITMAP bmwhole_image_09;
-extern GUI_BITMAP bmwhole_image_10;
-extern GUI_BITMAP bmwhole_image_11;
-extern GUI_BITMAP bmwhole_image_12;
-  */
 
 GUI_BITMAP* icon_set[] = {
-        &bmbike,
-        &bmbtn_checkbox_checked,
+        &bmbtn_checkbox_checked,//0
         &bmbtn_checkbox_empty,
-        &bmhistory_lift_title,
+        &bmbtn_edit,
+        &bmbtn_play,
+        &bmbtn_setcolumn,
+        &bmbtn_setcolumn_h,
+        &bmico_7days,
         &bmico_A,
+        &bmico_active_time,
+        &bmico_alarm,//9
+        &bmico_alarm_stop,
+        &bmico_analog,
+        &bmico_battery01,
+        &bmico_battery02,
+        &bmico_battery03,
+        &bmico_battery04,
         &bmico_B,
+        &bmico_bestrecord,
         &bmico_call,
-        &bmico_C,
+        &bmico_C,//19
         &bmico_content_cal,
         &bmico_content_heart_b,
         &bmico_content_heart_w,
@@ -378,79 +395,72 @@ GUI_BITMAP* icon_set[] = {
         &bmico_fb,
         &bmico_footer_down_arrow,
         &bmico_footer_pagemark_n,
+        &bmico_headerbar_gps00,//29
+        &bmico_headerbar_gps01,
+        &bmico_headerbar_gps02,
+        &bmico_headerbar_gps03,
         &bmico_layout01,
         &bmico_layout02,
         &bmico_layout03,
         &bmico_layout04,
         &bmico_layout05,
+        &bmico_layout06,
+        &bmico_leave_sleep_b,//39
+        &bmico_leave_sleep_w,
         &bmico_line,
+        &bmico_lv1,
+        &bmico_lv2,
+        &bmico_lv3,
+        &bmico_lv4,
+        &bmico_lv5,
+        &bmico_lv6,
+        &bmico_lv7,
+        &bmico_lvincrease,//49
+        &bmico_lvup,
+        &bmico_marathon,
+        &bmico_pace_32,
+        &bmico_pairing01,
+        &bmico_pairing02,
+        &bmico_pairing03,
+        &bmico_play,
         &bmico_pop_hover_down,
         &bmico_pop_hover_top,
-        &bmico_pop_play,
+        &bmico_pop_play,//59
         &bmico_pop_stop,
+        &bmico_red,
         &bmico_schedule,
         &bmico_sleep32,
+        &bmico_sleep,
         &bmico_SMS,
+        &bmico_start_right_key,
         &bmico_status_battery_0,
         &bmico_status_battery_1,
-        &bmico_status_battery_2,
+        &bmico_status_battery_2,//69
         &bmico_status_battery_3,
         &bmico_status_bell,
         &bmico_status_bluetooth,
         &bmico_status_heart,
         &bmico_status_play,
-        &bmico_status_wifi_1,
-        &bmico_status_wifi_2,
-        &bmico_status_wifi_3,
-        &bmico_status_wifi_4,
+        &bmico_status_sleep,
+        &bmico_steps,
+        &bmico_stop,
         &bmico_takeeasy,
+        &bmico_time,//79
         &bmico_trophy32,
         &bmico_trophy64,
         &bmico_twitter,
-        &bmMultisport,
-        &bmother,
-        &bmpart_image_01,
-        &bmrun,
-        &bmswim,
-        &bmico_7days,
-        &bmico_lvincrease,
-        &bmico_lvup,
-        &bmico_marathon,
-        &bmico_red,
-        &bmico_yellow,
-        &bmico_headerbar_gps00,
-        &bmico_headerbar_gps01,
-        &bmico_headerbar_gps02,//59
-        &bmico_headerbar_gps03,
-        &bmico_pairing01,
-        &bmico_pairing02,
-        &bmico_pairing03,
-        &bmbtn_edit,
-        &bmbtn_play,
-        &bmico_battery01,
-        &bmico_battery02,
-        &bmico_battery03,
-        &bmico_battery04, //69
+        &bmico_updating,
         &bmico_whatsapp,
-        &bmMiVia_bootup,
-        &bmico_play,
-        &bmico_stop,
+        &bmico_yellow,
+        &bmic_pace,
+        &bmitem_clock01,
+        &bmitem_clock02,
+        &bmitem_clock03,//89
+        &bmitem_clock04,
+        &bmMercury_poweron,
+        &bmic_fbmessenger,
+        &bmico_skype,
+        &bmico_other,
 
-/*
-        &bmwhole_image_01,
-        &bmwhole_image_02,
-        &bmwhole_image_03,
-        &bmwhole_image_04,
-        &bmwhole_image_05,
-        &bmwhole_image_06,
-        &bmwhole_image_072,
-        &bmwhole_image_073,
-        &bmwhole_image_07,
-        &bmwhole_image_08,
-        &bmwhole_image_09,
-        &bmwhole_image_10,
-        &bmwhole_image_11,
-        &bmwhole_image_12,
-  */
 };
 

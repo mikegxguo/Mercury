@@ -27,8 +27,8 @@ void WriteStr2File(const char* pFileName,  char* pStr)
 
 //if the data file is too long, should adjust this value.
 //Here we can split one file into two parts
-//#define MAX_FILE_LEN		1024*12
-#define MAX_FILE_LEN		1024*45//12
+#define MAX_FILE_LEN		1024*12
+//#define MAX_FILE_LEN		1024*45//12
 int ReadFile2Str(const char* pFileName, char* pStr)
 {
 		FILE *stream;
@@ -44,13 +44,13 @@ int ReadFile2Str(const char* pFileName, char* pStr)
 				////////////////////////////////////////////////////////////
 				////////////////// Split icon data into two parts here
 				////////////////////////////////////////////////////////////
-			    //fseek(stream, MAX_FILE_LEN, SEEK_CUR);
-				//len -= MAX_FILE_LEN;
-				//cout <<"File name: " << pFileName<<" current length: "<<len<< endl;
-				//fread(pStr, 1, len, stream);
+			    fseek(stream, 2*MAX_FILE_LEN, SEEK_CUR);
+				len -= 2*MAX_FILE_LEN;
+				cout <<"File name: " << pFileName<<" current length: "<<len<< endl;
+				fread(pStr, 1, len, stream);
 				////////////////////////////////////////////////////////////
-				fread(pStr, 1, MAX_FILE_LEN, stream);
-				len = MAX_FILE_LEN;
+//				fread(pStr, 1, MAX_FILE_LEN, stream);
+//				len = MAX_FILE_LEN;
 		}
 		fclose( stream );
 		return len;
@@ -119,7 +119,7 @@ void ProduceStrFile(int langID, const char* pFileName)
 		char* ptemp = NULL;
 		unsigned short lenStr = 0;
 		unsigned short lenTotal = 0;
-		for(int stringID=0; stringID<IDS_WATCH_FACE+1; stringID++)
+		for(int stringID=0; stringID<IDS_ADVICE_RUN_7DAYS+1; stringID++)
 		{
 				ptemp = (char*)((STRINGSDEF*)(language_list[langID].xStringTable)+stringID)->sStringdef;
 				if(ptemp)
@@ -340,7 +340,7 @@ const DataDef StringDef[StrNum]={
 };
 
 const DataDef IconDef[]={
-		{20266,    "icon.data"}, //need 5 sectors
+		{30978,    "icon.data"}, //need 8 sectors
 };
 
 
@@ -373,7 +373,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<74; i++) {//total icon numbers: 74
+			for (unsigned int i=0; i<95; i++) {//total icon numbers: 95
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}
@@ -416,27 +416,27 @@ int main() {
 					WriteAscIICode2File("string_src_en.str.array.h", ptemp[i]);
 			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("BLEConnectivity.dat", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("BLEConnectivity.dat.array.h", ptemp[i]);
-			}
+//			len = ReadFile2Str("BLEConnectivity.dat", ptemp);
+//			//should escape the UTF-8 header: EF BB BF
+//			for(int i=0; i<len; i++)
+//			{
+//					WriteAscIICode2File("BLEConnectivity.dat.array.h", ptemp[i]);
+//			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("manifest.json", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("manifest.json.array.h", ptemp[i]);
-			}
+//			len = ReadFile2Str("manifest.json", ptemp);
+//			//should escape the UTF-8 header: EF BB BF
+//			for(int i=0; i<len; i++)
+//			{
+//					WriteAscIICode2File("manifest.json.array.h", ptemp[i]);
+//			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("BLEConnectivity.bin", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  BLEConnectivity.bin" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("BLEConnectivity.bin.array.h", ptemp[i]);
-			}
+//			len = ReadFile2Str("BLEConnectivity.bin", ptemp);
+//			//should escape the UTF-8 header: EF BB BF
+//			cout << "Transfer from the file to array,  BLEConnectivity.bin" << endl;
+//			for(int i=0; i<len; i++)
+//			{
+//					WriteAscIICode2File("BLEConnectivity.bin.array.h", ptemp[i]);
+//			}
 
 			//////////////////////////////////////////////////////////////////////////////////////
 			len = ReadFile2Str("DIN16.xbf", ptemp);

@@ -27,8 +27,8 @@ void WriteStr2File(const char* pFileName,  char* pStr)
 
 //if the data file is too long, should adjust this value.
 //Here we can split one file into two parts
-#define MAX_FILE_LEN		1024*12
-//#define MAX_FILE_LEN		1024*45//12
+//#define MAX_FILE_LEN		1024*12
+#define MAX_FILE_LEN		1024*45//12
 int ReadFile2Str(const char* pFileName, char* pStr)
 {
 		FILE *stream;
@@ -250,82 +250,16 @@ typedef struct {
 		const char* filename;
 }DataDef;
 /**/
-#define FontNum			7
+#define FontNum		 6
 const DataDef FontDef[FontNum]={
-		{2760, "xbf/DIN16.xbf"}, //1
-		{3419, "xbf/DIN19.xbf"}, //1
-		{5024, "xbf/DIN24.xbf"}, //2
-		{7144, "xbf/DIN32.xbf"}, //2
-		{2816, "xbf/MyriadPro64.xbf"}, //1
-		{4368, "xbf/MyriadPro_85.xbf"}, //2
-		{4368, "xbf/MyriadPro_Bold_85.xbf"}, //2
+		{3278, "xbf/Verdanaedit22_15.xbf"}, //1
+		{4369, "xbf/Verdanaedit22_19.xbf"}, //2
+		{5384, "xbf/Verdanaedit22_23.xbf"}, //2
+		{8421, "xbf/Verdanaedit22_29.xbf"}, //3
+		{3848, "xbf/Verdanaedit22_40.xbf"}, //1
+		{7427, "xbf/Verdanaedit22_59.xbf"}, //2
 };
 /**/
-
-///////////////////////////////////////////////////////////////////////////////////
-/////////////////////////Test font////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////
-/*
-#define FontNum         52
-const DataDef FontDef[FontNum]={
-        {2123, "xbf/Verdanaedit22_11.xbf"},
-        {2476, "xbf/Verdanaedit22_13.xbf"},
-        {3113, "xbf/Verdanaedit22_15.xbf"},
-        {3336, "xbf/Verdanaedit22_16.xbf"},
-        {3920, "xbf/Verdanaedit22_18.xbf"},
-        {4160, "xbf/Verdanaedit22_19.xbf"},
-        {4559, "xbf/Verdanaedit22_21.xbf"},
-        {5154, "xbf/Verdanaedit22_23.xbf"},
-        {5432, "xbf/Verdanaedit22_24.xbf"},
-        {5893, "xbf/Verdanaedit22_25.xbf"},
-        {7184, "xbf/Verdanaedit22_28.xbf"},
-        {7464, "xbf/Verdanaedit22_29.xbf"},
-        {8108, "xbf/Verdanaedit22_30.xbf"},
-        {9317, "xbf/Verdanaedit22_33.xbf"},
-        {9706, "xbf/Verdanaedit22_34.xbf"},
-        {10173, "xbf/Verdanaedit22_35.xbf"},
-        {11570, "xbf/Verdanaedit22_38.xbf"},
-        {12317, "xbf/Verdanaedit22_39.xbf"},
-        {12848, "xbf/Verdanaedit22_40.xbf"},
-        {13820, "xbf/Verdanaedit22_42.xbf"},
-        {22028, "xbf/Verdanaedit22_54.xbf"},
-        {23540, "xbf/Verdanaedit22_57.xbf"},
-        {25335, "xbf/Verdanaedit22_59.xbf"},
-        {27752, "xbf/Verdanaedit22_62.xbf"},
-        {34088, "xbf/Verdanaedit22_69.xbf"},
-        {35474, "xbf/Verdanaedit22_71.xbf"},
-
-       /////////////  BOLD   /////////////////////////////
-        {2068, "xbf/Verdanaedit22_Bold_11.xbf"},
-        {2671, "xbf/Verdanaedit22_Bold_13.xbf"},
-        {3278, "xbf/Verdanaedit22_Bold_15.xbf"},
-        {3576, "xbf/Verdanaedit22_Bold_16.xbf"},
-        {4100, "xbf/Verdanaedit22_Bold_18.xbf"},
-        {4369, "xbf/Verdanaedit22_Bold_19.xbf"},
-        {4811, "xbf/Verdanaedit22_Bold_21.xbf"},
-        {5384, "xbf/Verdanaedit22_Bold_23.xbf"},
-        {5888, "xbf/Verdanaedit22_Bold_24.xbf"},
-        {6243, "xbf/Verdanaedit22_Bold_25.xbf"},
-        {7772, "xbf/Verdanaedit22_Bold_28.xbf"},
-        {8421, "xbf/Verdanaedit22_Bold_29.xbf"},
-        {8798, "xbf/Verdanaedit22_Bold_30.xbf"},
-        {9845, "xbf/Verdanaedit22_Bold_33.xbf"},
-        {10386, "xbf/Verdanaedit22_Bold_34.xbf"},
-        {11083, "xbf/Verdanaedit22_Bold_35.xbf"},
-        {12444, "xbf/Verdanaedit22_Bold_38.xbf"},
-        {12941, "xbf/Verdanaedit22_Bold_39.xbf"},
-        {14048, "xbf/Verdanaedit22_Bold_40.xbf"},
-        {15416, "xbf/Verdanaedit22_Bold_42.xbf"},
-        {23648, "xbf/Verdanaedit22_Bold_54.xbf"},
-        {26675, "xbf/Verdanaedit22_Bold_57.xbf"},
-        {28285, "xbf/Verdanaedit22_Bold_59.xbf"},
-        {30418, "xbf/Verdanaedit22_Bold_62.xbf"},
-        {38090, "xbf/Verdanaedit22_Bold_69.xbf"},
-        {39805, "xbf/Verdanaedit22_Bold_71.xbf"},
-
-	};
-*/
-/////////////////////////////////////////////////////////////////////////////////////
 
 
 #define StrNum			1//1
@@ -340,7 +274,7 @@ const DataDef StringDef[StrNum]={
 };
 
 const DataDef IconDef[]={
-		{30978,    "icon.data"}, //need 8 sectors
+		{30914,    "icon.data"}, //need 8 sectors
 };
 
 
@@ -439,62 +373,41 @@ int main() {
 //			}
 
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("DIN16.xbf", ptemp);
+			cout << "*********************************************" << endl;
+			cout << "Transfer from the file to array" << endl;
+			len = ReadFile2Str("Verdanaedit22_15.xbf", ptemp);
 			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  DIN16.xbf" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("DIN16.xbf.array.h", ptemp[i]);
+			for(int i=0; i<len; i++)	{
+					WriteAscIICode2File("Verdanaedit22_15.xbf.array.h", ptemp[i]);
 			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("DIN19.xbf", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  DIN19.xbf" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("DIN19.xbf.array.h", ptemp[i]);
+			len = ReadFile2Str("Verdanaedit22_19.xbf", ptemp);
+			for(int i=0; i<len; i++)	{
+					WriteAscIICode2File("Verdanaedit22_19.xbf.array.h", ptemp[i]);
 			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("DIN24.xbf", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  DIN24.xbf" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("DIN24.xbf.array.h", ptemp[i]);
+			len = ReadFile2Str("Verdanaedit22_23.xbf", ptemp);
+			for(int i=0; i<len; i++) {
+					WriteAscIICode2File("Verdanaedit22_23.xbf.array.h", ptemp[i]);
 			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("DIN32.xbf", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  DIN32.xbf" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("DIN32.xbf.array.h", ptemp[i]);
+			len = ReadFile2Str("Verdanaedit22_29.xbf", ptemp);
+			for(int i=0; i<len; i++) {
+					WriteAscIICode2File("Verdanaedit22_29.xbf.array.h", ptemp[i]);
 			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("MyriadPro64.xbf", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  MyriadPro64.xbf" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("MyriadPro64.xbf.array.h", ptemp[i]);
+			len = ReadFile2Str("Verdanaedit22_40.xbf", ptemp);
+			for(int i=0; i<len; i++) {
+					WriteAscIICode2File("Verdanaedit22_40.xbf.array.h", ptemp[i]);
 			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("MyriadPro_85.xbf", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  MyriadPro_85.xbf" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("MyriadPro_85.xbf.array.h", ptemp[i]);
+			len = ReadFile2Str("Verdanaedit22_59.xbf", ptemp);
+			for(int i=0; i<len; i++) {
+					WriteAscIICode2File("Verdanaedit22_59.xbf.array.h", ptemp[i]);
 			}
 			//////////////////////////////////////////////////////////////////////////////////////
-			len = ReadFile2Str("MyriadPro_Bold_85.xbf", ptemp);
-			//should escape the UTF-8 header: EF BB BF
-			cout << "Transfer from the file to array,  MyriadPro_Bold_85.xbf" << endl;
-			for(int i=0; i<len; i++)
-			{
-					WriteAscIICode2File("MyriadPro_Bold_85.xbf.array.h", ptemp[i]);
-			}
-			cout << "Transfer from the file to array,  END" << endl;
+			cout << "END" << endl;
+			cout << "*********************************************" << endl;
 	}
 
 	if(0){

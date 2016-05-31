@@ -44,10 +44,10 @@ int ReadFile2Str(const char* pFileName, char* pStr)
 				////////////////////////////////////////////////////////////
 				////////////////// Split icon data into two parts here
 				////////////////////////////////////////////////////////////
-			    fseek(stream, 2*MAX_FILE_LEN, SEEK_CUR);
-				len -= 2*MAX_FILE_LEN;
-				cout <<"File name: " << pFileName<<" current length: "<<len<< endl;
-				fread(pStr, 1, len, stream);
+//			    fseek(stream, 2*MAX_FILE_LEN, SEEK_CUR);
+//				len -= 2*MAX_FILE_LEN;
+//				cout <<"File name: " << pFileName<<" current length: "<<len<< endl;
+//				fread(pStr, 1, len, stream);
 				////////////////////////////////////////////////////////////
 //				fread(pStr, 1, MAX_FILE_LEN, stream);
 //				len = MAX_FILE_LEN;
@@ -115,6 +115,8 @@ void ProduceStrFile(int langID, const char* pFileName)
 		remove(STRING_DATA_FILE);
 		remove(STRING_LEN_FILE);
 		remove(pFileName);
+
+		cout <<"File name: " << pFileName<<" langID: "<<langID<< endl;
 
 		char* ptemp = NULL;
 		unsigned short lenStr = 0;
@@ -252,24 +254,30 @@ typedef struct {
 /**/
 #define FontNum		 6
 const DataDef FontDef[FontNum]={
-		{3278, "xbf/Verdanaedit22_15.xbf"}, //1
-		{4369, "xbf/Verdanaedit22_19.xbf"}, //2
-		{5384, "xbf/Verdanaedit22_23.xbf"}, //2
-		{8421, "xbf/Verdanaedit22_29.xbf"}, //3
+		{415452, "xbf/Verdanaedit22_15.xbf"}, //
+		{424699, "xbf/Verdanaedit22_19.xbf"}, //
+		{433695, "xbf/Verdanaedit22_23.xbf"}, //
+		{458940, "xbf/Verdanaedit22_29.xbf"}, //
 		{3848, "xbf/Verdanaedit22_40.xbf"}, //1
 		{7427, "xbf/Verdanaedit22_59.xbf"}, //2
 };
 /**/
 
 
-#define StrNum			1//1
+#define StrNum			12//1
 const DataDef StringDef[StrNum]={
-		{4469,    "string_src_en.str"}, //2, 4469, real length
-		//{8561,    "string_src_de.str"}, //3
-		//{9179,    "string_src_es.str"}, //3
-		//{11078,   "string_src_fr.str"}, //3
-		//{8525,     "string_src_it.str"}, //3
-		//{8559,     "string_src_nl.str"}, //3
+		{4469,    "string_src_en.str"}, //2 sectors
+		{4912,    "string_src_cs.str"}, //2 sectors
+		{4713,    "string_src_de.str"}, //2 sectors
+		{4870,    "string_src_es.str"}, //2 sectors
+		{4730,    "string_src_fr.str"}, //2 sectors
+		{4684,     "string_src_it.str"}, //2 sectors
+		{4971,     "string_src_hu.str"}, //2 sectors
+		{4625,     "string_src_nl.str"}, //2 sectors
+		{4883,     "string_src_pl.str"}, //2 sectors
+		{7421,     "string_src_ru.str"}, //2 sectors
+		{5074,     "string_src_tw.str"}, //2 sectors
+		{4831,     "string_src_ro.str"}, //2 sectors
 
 };
 
@@ -284,11 +292,17 @@ int main() {
 	if(1){
 			cout << "String, MUI  ......" << endl;
 			ProduceStrFile(0, "string_src_en.str");
-			//ProduceStrFile(3, "string_src_de.str");
-			//ProduceStrFile(5, "string_src_es.str");
-			//ProduceStrFile(6, "string_src_fr.str");
-			//ProduceStrFile(8, "string_src_it.str");
-			//ProduceStrFile(11, "string_src_nl.str");
+			ProduceStrFile(1, "string_src_cs.str");
+			ProduceStrFile(3, "string_src_de.str");
+			ProduceStrFile(5, "string_src_es.str");
+			ProduceStrFile(6, "string_src_fr.str");
+			ProduceStrFile(8, "string_src_it.str");
+			ProduceStrFile(10, "string_src_hu.str");
+			ProduceStrFile(11, "string_src_nl.str");
+			ProduceStrFile(13, "string_src_pl.str");
+			ProduceStrFile(15, "string_src_ru.str");
+			ProduceStrFile(22, "string_src_tw.str");
+			ProduceStrFile(24, "string_src_ro.str");
 	}
 
 	if(0){
@@ -329,7 +343,7 @@ int main() {
 */
 	}
 
-	if(1){
+	if(0){
 			cout << "Transfer from the file to array ......" << endl;
 			//should change the file encoding to UTF8 format
 			char tempbuf[MAX_FILE_LEN] = {0};
@@ -445,7 +459,7 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			unsigned long SecNum = 11; //need changed
+			unsigned long SecNum = 460; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

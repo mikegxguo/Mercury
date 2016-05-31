@@ -363,7 +363,7 @@ const STRINGSDEF string_table_EN[] = {
 };
 
 /*Czech*/
-/*const STRINGSDEF string_table_CS[] = {
+const STRINGSDEF string_table_CS[] = {
     {    0, "Trvání"},
     {    1, "Vzdálenost"},
     {    2, "Tempo"},
@@ -722,7 +722,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Danish*/
 /*const STRINGSDEF string_table_DA[] = {
@@ -1087,7 +1087,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*German*/
-/*const STRINGSDEF string_table_DE[] = {
+const STRINGSDEF string_table_DE[] = {
     {    0, "Dauer"},
     {    1, "Entfernung"},
     {    2, "Tempo"},
@@ -1446,7 +1446,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Greek*/
 /*const STRINGSDEF string_table_EL[] = {
@@ -1811,7 +1811,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*Spanish*/
-/*const STRINGSDEF string_table_ES[] = {
+const STRINGSDEF string_table_ES[] = {
     {    0, "Duración"},
     {    1, "Distancia"},
     {    2, "Ritmo"},
@@ -2170,10 +2170,10 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*French*/
-/*const STRINGSDEF string_table_FR[] = {
+const STRINGSDEF string_table_FR[] = {
     {    0, "Durée"},
     {    1, "Distance"},
     {    2, "Rythme"},
@@ -2532,7 +2532,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Croatian*/
 /*const STRINGSDEF string_table_HR [] = {
@@ -2897,7 +2897,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*Italian*/
-/*const STRINGSDEF string_table_IT[] = {
+const STRINGSDEF string_table_IT[] = {
     {    0, "Durata"},
     {    1, "Distanza"},
     {    2, "Passo"},
@@ -3256,7 +3256,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Latvian*/
 /*const STRINGSDEF string_table_LV[] = {
@@ -3621,7 +3621,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*Hungarian*/
-/*const STRINGSDEF string_table_HU[] = {
+const STRINGSDEF string_table_HU[] = {
     {    0, "Időtartam"},
     {    1, "Távolság"},
     {    2, "Tempó"},
@@ -3980,10 +3980,10 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Dutch*/
-/*const STRINGSDEF string_table_NL[] = {
+const STRINGSDEF string_table_NL[] = {
     {    0, "Duur"},
     {    1, "Afstand"},
     {    2, "Tempo"},
@@ -4342,7 +4342,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Norwegian*/
 /*const STRINGSDEF string_table_NO[] = {
@@ -4707,7 +4707,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*Polish*/
-/*const STRINGSDEF string_table_PL[] = {
+const STRINGSDEF string_table_PL[] = {
     {    0, "Czas trwania"},
     {    1, "Odległość"},
     {    2, "Tempo"},
@@ -5066,7 +5066,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Portuguese*/
 /*const STRINGSDEF string_table_PT[] = {
@@ -5431,7 +5431,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*Russian*/
-/*const STRINGSDEF string_table_RU[] = {
+const STRINGSDEF string_table_RU[] = {
     {    0, "Длительность"},
     {    1, "Расстояние"},
     {    2, "Темп"},
@@ -5790,7 +5790,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Slovenian*/
 /*const STRINGSDEF string_table_SL[] = {
@@ -7965,7 +7965,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*Traditional Chinese */
-/*const STRINGSDEF string_table_TW[] = {
+const STRINGSDEF string_table_TW[] = {
     {    0, "持續時間"},
     {    1, "距離"},
     {    2, "配速"},
@@ -8324,7 +8324,7 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 /*Korean*/
 /*const STRINGSDEF string_table_KO[] = {
@@ -8689,7 +8689,7 @@ const STRINGSDEF string_table_EN[] = {
 };*/
 
 /*Romania*/
-/*const STRINGSDEF string_table_RO[] = {
+const STRINGSDEF string_table_RO[] = {
     {    0, "Durată"},
     {    1, "Distanţă"},
     {    2, "Ritm"},
@@ -9048,33 +9048,33 @@ const STRINGSDEF string_table_EN[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
-};*/
+};
 
 const LANGUAGELIST   language_list[] = {
     { 0,  (STRINGSDEF **)&string_table_EN   },
-    /*{ 1,  (STRINGSDEF **)&string_table_CS   },*/
-    /*{ 2,  (STRINGSDEF **)&string_table_DA   },*/
-    /*{ 3,  (STRINGSDEF **)&string_table_DE   },*/
-    /*{ 4,  (STRINGSDEF **)&string_table_EL   },*/
-    /*{ 5,  (STRINGSDEF **)&string_table_ES   },*/
-    /*{ 6,  (STRINGSDEF **)&string_table_FR   },*/
-    /*{ 7,  (STRINGSDEF **)&string_table_HR    },*/
-    /*{ 8,  (STRINGSDEF **)&string_table_IT   },*/
-    /*{ 9,  (STRINGSDEF **)&string_table_LV   },*/
-    /*{ 10,  (STRINGSDEF **)&string_table_HU   },*/
-    /*{ 11,  (STRINGSDEF **)&string_table_NL   },*/
-    /*{ 12,  (STRINGSDEF **)&string_table_NO   },*/
-    /*{ 13,  (STRINGSDEF **)&string_table_PL   },*/
-    /*{ 14,  (STRINGSDEF **)&string_table_PT   },*/
-    /*{ 15,  (STRINGSDEF **)&string_table_RU   },*/
-    /*{ 16,  (STRINGSDEF **)&string_table_SL   },*/
-    /*{ 17,  (STRINGSDEF **)&string_table_FI   },*/
-    /*{ 18,  (STRINGSDEF **)&string_table_SV   },*/
-    /*{ 19,  (STRINGSDEF **)&string_table_TR   },*/
-    /*{ 20,  (STRINGSDEF **)&string_table_JA   },*/
-    /*{ 21,  (STRINGSDEF **)&string_table_CN   },*/
-    /*{ 22,  (STRINGSDEF **)&string_table_TW   },*/
-    /*{ 23,  (STRINGSDEF **)&string_table_KO   },*/
-    /*{ 24,  (STRINGSDEF **)&string_table_RO   },*/
+    { 1,  (STRINGSDEF **)&string_table_CS   },
+    { 2,  (STRINGSDEF **)0   },                            //&string_table_DA   },*/
+    { 3,  (STRINGSDEF **)&string_table_DE   },
+    { 4,  (STRINGSDEF **)0   },                            //&string_table_EL   },*/
+    { 5,  (STRINGSDEF **)&string_table_ES   },
+    { 6,  (STRINGSDEF **)&string_table_FR   },
+    { 7,  (STRINGSDEF **)0   },                            //&string_table_HR    },*/
+    { 8,  (STRINGSDEF **)&string_table_IT   },
+    { 9,  (STRINGSDEF **)0   },                            //&string_table_LV   },*/
+    { 10,  (STRINGSDEF **)&string_table_HU   },
+    { 11,  (STRINGSDEF **)&string_table_NL   },
+    { 12,  (STRINGSDEF **)0   },                           //&string_table_NO   },*/
+    { 13,  (STRINGSDEF **)&string_table_PL   },
+    { 14,  (STRINGSDEF **)0   },                           //&string_table_PT   },*/
+    { 15,  (STRINGSDEF **)&string_table_RU   },
+    { 16,  (STRINGSDEF **)0   },                           //&string_table_SL   },*/
+    { 17,  (STRINGSDEF **)0   },                           //&string_table_FI   },*/
+    { 18,  (STRINGSDEF **)0   },                           //&string_table_SV   },*/
+    { 19,  (STRINGSDEF **)0   },                           //&string_table_TR   },*/
+    { 20,  (STRINGSDEF **)0   },                           //&string_table_JA   },*/
+    { 21,  (STRINGSDEF **)0   },                           //&string_table_CN   },*/
+    { 22,  (STRINGSDEF **)&string_table_TW   },
+    { 23,  (STRINGSDEF **)0   },                           //&string_table_KO   },*/
+    { 24,  (STRINGSDEF **)&string_table_RO   },
     { 99,  (STRINGSDEF **)0   },
 };

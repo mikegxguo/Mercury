@@ -359,7 +359,9 @@ const STRINGSDEF string_table_EN[] = {
     {    354, "Finish?"},
     {    355, "Finish"},
     {    356, "Watch face"},
-    {    357, "7-day data required"},
+    {    357, "Cooldown"},
+    {    358, "High\n Intensity"},
+    {    359, "7-day data required"},
 };
 
 /*Czech*/
@@ -722,6 +724,8 @@ const STRINGSDEF string_table_CS[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Danish*/
@@ -1084,6 +1088,8 @@ const STRINGSDEF string_table_CS[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*German*/
@@ -1446,6 +1452,8 @@ const STRINGSDEF string_table_DE[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Greek*/
@@ -1808,6 +1816,8 @@ const STRINGSDEF string_table_DE[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Spanish*/
@@ -2170,6 +2180,8 @@ const STRINGSDEF string_table_ES[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*French*/
@@ -2532,6 +2544,8 @@ const STRINGSDEF string_table_FR[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Croatian*/
@@ -2894,6 +2908,8 @@ const STRINGSDEF string_table_FR[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Italian*/
@@ -3256,6 +3272,8 @@ const STRINGSDEF string_table_IT[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Latvian*/
@@ -3618,6 +3636,8 @@ const STRINGSDEF string_table_IT[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Hungarian*/
@@ -3980,6 +4000,8 @@ const STRINGSDEF string_table_HU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Dutch*/
@@ -4342,6 +4364,8 @@ const STRINGSDEF string_table_NL[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Norwegian*/
@@ -4704,6 +4728,8 @@ const STRINGSDEF string_table_NL[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Polish*/
@@ -5066,6 +5092,8 @@ const STRINGSDEF string_table_PL[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Portuguese*/
@@ -5428,6 +5456,8 @@ const STRINGSDEF string_table_PL[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Russian*/
@@ -5790,6 +5820,8 @@ const STRINGSDEF string_table_RU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Slovenian*/
@@ -6152,6 +6184,8 @@ const STRINGSDEF string_table_RU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Finnish*/
@@ -6514,6 +6548,8 @@ const STRINGSDEF string_table_RU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Swedish*/
@@ -6876,6 +6912,8 @@ const STRINGSDEF string_table_RU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Turkish*/
@@ -7238,6 +7276,8 @@ const STRINGSDEF string_table_RU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Japanese*/
@@ -7600,6 +7640,8 @@ const STRINGSDEF string_table_RU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Simplified Chinese */
@@ -7962,6 +8004,8 @@ const STRINGSDEF string_table_RU[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8324,6 +8368,8 @@ const STRINGSDEF string_table_TW[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 /*Korean*/
@@ -8686,6 +8732,8 @@ const STRINGSDEF string_table_TW[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };*/
 
 /*Romania*/
@@ -9048,33 +9096,35 @@ const STRINGSDEF string_table_RO[] = {
     {    355, 0},
     {    356, 0},
     {    357, 0},
+    {    358, 0},
+    {    359, 0},
 };
 
 const LANGUAGELIST   language_list[] = {
     { 0,  (STRINGSDEF **)&string_table_EN   },
     { 1,  (STRINGSDEF **)&string_table_CS   },
-    { 2,  (STRINGSDEF **)0   },                            //&string_table_DA   },*/
+    { 2,  (STRINGSDEF **)0   },                             //&string_table_DA   },
     { 3,  (STRINGSDEF **)&string_table_DE   },
-    { 4,  (STRINGSDEF **)0   },                            //&string_table_EL   },*/
+    { 4,  (STRINGSDEF **)0   },                             //&string_table_EL   },
     { 5,  (STRINGSDEF **)&string_table_ES   },
     { 6,  (STRINGSDEF **)&string_table_FR   },
-    { 7,  (STRINGSDEF **)0   },                            //&string_table_HR    },*/
+    { 7,  (STRINGSDEF **)0   },                             //&string_table_HR    },
     { 8,  (STRINGSDEF **)&string_table_IT   },
-    { 9,  (STRINGSDEF **)0   },                            //&string_table_LV   },*/
+    { 9,  (STRINGSDEF **)0   },                             //&string_table_LV   },
     { 10,  (STRINGSDEF **)&string_table_HU   },
     { 11,  (STRINGSDEF **)&string_table_NL   },
-    { 12,  (STRINGSDEF **)0   },                           //&string_table_NO   },*/
+    { 12,  (STRINGSDEF **)0   },                             //&string_table_NO   },
     { 13,  (STRINGSDEF **)&string_table_PL   },
-    { 14,  (STRINGSDEF **)0   },                           //&string_table_PT   },*/
+    { 14,  (STRINGSDEF **)0   },                             //&string_table_PT   },
     { 15,  (STRINGSDEF **)&string_table_RU   },
-    { 16,  (STRINGSDEF **)0   },                           //&string_table_SL   },*/
-    { 17,  (STRINGSDEF **)0   },                           //&string_table_FI   },*/
-    { 18,  (STRINGSDEF **)0   },                           //&string_table_SV   },*/
-    { 19,  (STRINGSDEF **)0   },                           //&string_table_TR   },*/
-    { 20,  (STRINGSDEF **)0   },                           //&string_table_JA   },*/
-    { 21,  (STRINGSDEF **)0   },                           //&string_table_CN   },*/
+    { 16,  (STRINGSDEF **)0   },                             //&string_table_SL   },
+    { 17,  (STRINGSDEF **)0   },                             //&string_table_FI   },
+    { 18,  (STRINGSDEF **)0   },                             //&string_table_SV   },
+    { 19,  (STRINGSDEF **)0   },                             //&string_table_TR   },
+    { 20,  (STRINGSDEF **)0   },                             //&string_table_JA   },
+    { 21,  (STRINGSDEF **)0   },                             //&string_table_CN   },
     { 22,  (STRINGSDEF **)&string_table_TW   },
-    { 23,  (STRINGSDEF **)0   },                           //&string_table_KO   },*/
+    { 23,  (STRINGSDEF **)0   },                             //&string_table_KO   },
     { 24,  (STRINGSDEF **)&string_table_RO   },
     { 99,  (STRINGSDEF **)0   },
 };

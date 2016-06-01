@@ -106,6 +106,14 @@ void WriteStrData2File(const char* pFileName,  const char* pStr, int len)
 		fclose( stream );
 }
 
+void WriteData2File(const char* pFileName,  unsigned char* pStr, int len)
+{
+		FILE *stream;
+		stream = fopen(pFileName, "a+" );
+		fwrite(pStr, len, 1, stream);
+		fclose( stream );
+}
+
 //default English, unicode coding, should save it with UTF-8 coding
 //should change it when MUI mode
 #define STRING_DATA_FILE    "string.data"
@@ -126,8 +134,9 @@ void ProduceStrFile(int langID, const char* pFileName)
 				ptemp = (char*)((STRINGSDEF*)(language_list[langID].xStringTable)+stringID)->sStringdef;
 				if(ptemp)
 				{
-						WriteStr2File(STRING_DATA_FILE, (char*)ptemp);
 						lenStr = (unsigned short)strlen(ptemp);
+						//WriteStr2File(STRING_DATA_FILE, (char*)ptemp);
+						WriteStrData2File(STRING_DATA_FILE, ptemp, lenStr);
 				}
 				else
 				{
@@ -196,13 +205,6 @@ void addIcon2DataFile(const char* pFileName, const GUI_BITMAP GUI_UNI_PTR * pBit
 		}
 }
 
-void WriteData2File(const char* pFileName,  unsigned char* pStr, int len)
-{
-		FILE *stream;
-		stream = fopen(pFileName, "a+" );
-		fwrite(pStr, len, 1, stream);
-		fclose( stream );
-}
 
 #define DATA_INTEGRATED       "integrated.data"
 void IntegrateData2File(const char * pFileName,  int sectors)
@@ -266,18 +268,18 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={
-		{4469,    "string_src_en.str"}, //2 sectors
-		{4912,    "string_src_cs.str"}, //2 sectors
-		{4713,    "string_src_de.str"}, //2 sectors
-		{4870,    "string_src_es.str"}, //2 sectors
-		{4730,    "string_src_fr.str"}, //2 sectors
-		{4684,     "string_src_it.str"}, //2 sectors
-		{4971,     "string_src_hu.str"}, //2 sectors
-		{4625,     "string_src_nl.str"}, //2 sectors
-		{4883,     "string_src_pl.str"}, //2 sectors
-		{7421,     "string_src_ru.str"}, //2 sectors
-		{5074,     "string_src_tw.str"}, //2 sectors
-		{4831,     "string_src_ro.str"}, //2 sectors
+		{4500,    "string_src_en.str"}, //2 sectors
+		{4920,    "string_src_cs.str"}, //2 sectors
+		{4721,    "string_src_de.str"}, //2 sectors
+		{4878,    "string_src_es.str"}, //2 sectors
+		{4738,    "string_src_fr.str"}, //2 sectors
+		{4692,     "string_src_it.str"}, //2 sectors
+		{4979,     "string_src_hu.str"}, //2 sectors
+		{4633,     "string_src_nl.str"}, //2 sectors
+		{4891,     "string_src_pl.str"}, //2 sectors
+		{7429,     "string_src_ru.str"}, //2 sectors
+		{5082,     "string_src_tw.str"}, //2 sectors
+		{4839,     "string_src_ro.str"}, //2 sectors
 
 };
 

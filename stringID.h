@@ -770,6 +770,10 @@ RO    Romania    Romania
 #define IDS_FINISH   355
 /*Watch face*/
 #define IDS_WATCH_FACE   356
+/*Cooldown*/
+#define IDS_COOL_DOWN_ABBR   357
+/*High\n Intensity*/
+#define IDS_HIGH_INTENSITY   358
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   357
+#define IDS_ADVICE_RUN_7DAYS   359
 #endif/*_STRINGID_H_*/

@@ -254,16 +254,16 @@ typedef struct {
 		const char* filename;
 }DataDef;
 /**/
-#define FontNum		 6
+#define FontNum		 10
 const DataDef FontDef[FontNum]={
-//		{415452, "xbf/Verdanaedit22_15.xbf"}, // total 425 sectors
-//		{424699, "xbf/Verdanaedit22_19.xbf"}, //
-//		{433695, "xbf/Verdanaedit22_23.xbf"}, //
-//		{458940, "xbf/Verdanaedit22_29.xbf"}, //
-		{493248, "xbf/MSPGothic_15.xbf"}, //
-		{686771, "xbf/MSPGothic_19.xbf"}, //
-		{774399, "xbf/MSPGothic_23.xbf"}, //
-		{1110717, "xbf/MSPGothic_29.xbf"}, //
+		{415452, "xbf/Verdanaedit22_15.xbf"}, // total 912 sectors
+		{424699, "xbf/Verdanaedit22_19.xbf"}, //
+		{433695, "xbf/Verdanaedit22_23.xbf"}, //
+		{458940, "xbf/Verdanaedit22_29.xbf"}, //
+		{362417, "xbf/MSPGothic_15.xbf"}, //
+		{455297, "xbf/MSPGothic_19.xbf"}, //
+		{496775, "xbf/MSPGothic_23.xbf"}, //
+		{658001, "xbf/MSPGothic_29.xbf"}, //
 		{3848, "xbf/Verdanaedit22_40.xbf"}, //1
 		{7427, "xbf/Verdanaedit22_59.xbf"}, //2
 };
@@ -465,9 +465,8 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			//425 sectors(font, VerdanaEdit22) + 35 sectors(string + icon) = 460 sectors,
-			//751 sectors(font, MS PGothic)       + 35 sectors(string + icon) = 786 sectors
-			unsigned long SecNum = 786; //need changed
+			//912 sectors(font, VerdanaEdit22+MS PGothic)       + 35 sectors(string + icon) = 947 sectors
+			unsigned long SecNum = 947; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

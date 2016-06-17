@@ -357,12 +357,12 @@ const STRINGSDEF string_table_EN[] = {
     {    352, "LLapTime"},
     {    353, "miles"},
     {    354, "Finish?"},
-    {    355, "Watch face"},
-    {    356, "Cooldown"},
-    {    357, "End interval"},
-    {    358, "Easy running"},
-    {    359, "Get ready"},
-    {    360, "Warm-up"},
+    {    355, "Finish"},
+    {    356, "Watch face"},
+    {    357, "Cooldown"},
+    {    358, "End interval"},
+    {    359, "Easy running"},
+    {    360, "Get ready"},
     {    361, "7-day data required"},
 };
 
@@ -9178,3 +9178,4 @@ const LANGUAGELIST   language_list[] = {
     { 24,  (STRINGSDEF **)&string_table_RO   },
     { 99,  (STRINGSDEF **)0   },
 };
+

@@ -539,7 +539,7 @@ RO    Romania    Romania
 /*Max HR*/
 #define IDS_MAX_HR   240
 /*Back*/
-#define IDS_BACK   241
+#define IDS_FINISH   241
 /*Distance*/
 #define IDS_BY_DISTANCE   242
 /*Time*/
@@ -766,14 +766,18 @@ RO    Romania    Romania
 #define IDS_UNIT_MILES_00   353
 /*Finish?*/
 #define IDS_FINISH_Q   354
-/*Finish*/
-#define IDS_FINISH   355
 /*Watch face*/
-#define IDS_WATCH_FACE   356
+#define IDS_WATCH_FACE   355
 /*Cooldown*/
-#define IDS_COOL_DOWN_ABBR   357
-/*High\n Intensity*/
-#define IDS_HIGH_INTENSITY   358
+#define IDS_COOL_DOWN_ABBR   356
+/*End interval*/
+#define IDS_END_INTERVAL   357
+/*Easy running*/
+#define IDS_EASY_RUNNING   358
+/*Get ready*/
+#define IDS_GET_READY   359
+/*Warm-up*/
+#define IDS_WARM_UP_2   360
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   359
+#define IDS_ADVICE_RUN_7DAYS   361
 #endif/*_STRINGID_H_*/

@@ -273,18 +273,18 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={
-		{4526,    "string_src_en.str"}, //2 sectors
-		{4928,    "string_src_cs.str"}, //2 sectors
-		{4729,    "string_src_de.str"}, //2 sectors
-		{4886,    "string_src_es.str"}, //2 sectors
-		{4746,    "string_src_fr.str"}, //2 sectors
-		{4700,     "string_src_it.str"}, //2 sectors
-		{4987,     "string_src_hu.str"}, //2 sectors
-		{4641,     "string_src_nl.str"}, //2 sectors
-		{4899,     "string_src_pl.str"}, //2 sectors
-		{7437,     "string_src_ru.str"}, //2 sectors
-		{5090,     "string_src_tw.str"}, //2 sectors
-		{4847,     "string_src_ro.str"}, //2 sectors
+		{4558,    "string_src_en.str"}, //2 sectors
+		{4936,    "string_src_cs.str"}, //2 sectors
+		{4737,    "string_src_de.str"}, //2 sectors
+		{4894,    "string_src_es.str"}, //2 sectors
+		{4754,    "string_src_fr.str"}, //2 sectors
+		{4708,     "string_src_it.str"}, //2 sectors
+		{4995,     "string_src_hu.str"}, //2 sectors
+		{4649,     "string_src_nl.str"}, //2 sectors
+		{4907,     "string_src_pl.str"}, //2 sectors
+		{7445,     "string_src_ru.str"}, //2 sectors
+		{5098,     "string_src_tw.str"}, //2 sectors
+		{4855,     "string_src_ro.str"}, //2 sectors
 
 };
 

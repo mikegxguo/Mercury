@@ -778,6 +778,10 @@ RO    Romania    Romania
 #define IDS_EASY_RUNNING   359
 /*Get ready*/
 #define IDS_GET_READY   360
+/*BLE version:*/
+#define IDS_BLE_VERSION   361
+/*OHR version:*/
+#define IDS_OHR_VERSION   362
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   361
+#define IDS_ADVICE_RUN_7DAYS   363
 #endif/*_STRINGID_H_*/

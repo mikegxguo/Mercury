@@ -123,7 +123,7 @@ const STRINGSDEF string_table_EN[] = {
     {    118, "SW version:"},
     {    119, "SN:"},
     {    120, "Model:"},
-    {    121, "2016 MiTAC rights\n reserved"},
+    {    121, "2016 MiTAC\nrights reserved"},
     {    122, "FIT"},
     {    123, "Start"},
     {    124, "Easy Run"},
@@ -248,7 +248,7 @@ const STRINGSDEF string_table_EN[] = {
     {    243, "Time"},
     {    244, "DIST & time"},
     {    245, "DIST & pace"},
-    {    246, "Half marathon"},
+    {    246, "1/2 marathon"},
     {    247, "Marathon"},
     {    248, "Edit "},
     {    249, "Edit "},
@@ -331,7 +331,7 @@ const STRINGSDEF string_table_EN[] = {
     {    326, "L3 Frequent"},
     {    327, "L4 Intense"},
     {    328, "L5 Hard training"},
-    {    329, "Advanced heartbeat\n analytics by\n Firstbeat"},
+    {    329, "Advanced heartbeat\nanalytics by\nFirstbeat"},
     {    330, "Auto start"},
     {    331, "Press for 3 sec\n to exit"},
     {    332, "Already have\n sleep data today"},
@@ -365,7 +365,8 @@ const STRINGSDEF string_table_EN[] = {
     {    360, "Get ready"},
     {    361, "BLE version:"},
     {    362, "OHR version:"},
-    {    363, "7-day data required"},
+    {    363, "Hard training"},
+    {    364, "7-day data required"},
 };
 
 /*Czech*/
@@ -734,6 +735,7 @@ const STRINGSDEF string_table_CS[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Danish*/
@@ -1102,6 +1104,7 @@ const STRINGSDEF string_table_CS[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*German*/
@@ -1470,6 +1473,7 @@ const STRINGSDEF string_table_DE[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Greek*/
@@ -1838,6 +1842,7 @@ const STRINGSDEF string_table_DE[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Spanish*/
@@ -2206,6 +2211,7 @@ const STRINGSDEF string_table_ES[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*French*/
@@ -2574,6 +2580,7 @@ const STRINGSDEF string_table_FR[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Croatian*/
@@ -2942,6 +2949,7 @@ const STRINGSDEF string_table_FR[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Italian*/
@@ -3310,6 +3318,7 @@ const STRINGSDEF string_table_IT[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Latvian*/
@@ -3678,6 +3687,7 @@ const STRINGSDEF string_table_IT[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Hungarian*/
@@ -4046,6 +4056,7 @@ const STRINGSDEF string_table_HU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Dutch*/
@@ -4414,6 +4425,7 @@ const STRINGSDEF string_table_NL[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Norwegian*/
@@ -4782,6 +4794,7 @@ const STRINGSDEF string_table_NL[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Polish*/
@@ -5150,6 +5163,7 @@ const STRINGSDEF string_table_PL[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Portuguese*/
@@ -5518,6 +5532,7 @@ const STRINGSDEF string_table_PL[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Russian*/
@@ -5886,6 +5901,7 @@ const STRINGSDEF string_table_RU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Slovenian*/
@@ -6254,6 +6270,7 @@ const STRINGSDEF string_table_RU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Finnish*/
@@ -6622,6 +6639,7 @@ const STRINGSDEF string_table_RU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Swedish*/
@@ -6990,6 +7008,7 @@ const STRINGSDEF string_table_RU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Turkish*/
@@ -7358,6 +7377,7 @@ const STRINGSDEF string_table_RU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Japanese*/
@@ -7726,6 +7746,7 @@ const STRINGSDEF string_table_RU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8094,6 +8115,7 @@ const STRINGSDEF string_table_RU[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8462,6 +8484,7 @@ const STRINGSDEF string_table_TW[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 /*Korean*/
@@ -8830,6 +8853,7 @@ const STRINGSDEF string_table_TW[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };*/
 
 /*Romania*/
@@ -9198,6 +9222,7 @@ const STRINGSDEF string_table_RO[] = {
     {    361, 0},
     {    362, 0},
     {    363, 0},
+    {    364, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

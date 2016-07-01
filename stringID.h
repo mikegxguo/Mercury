@@ -298,7 +298,7 @@ RO    Romania    Romania
 #define IDS_ABOUT_UUID   119
 /*Model:*/
 #define IDS_ABOUT_MODEL   120
-/*2016 MiTAC rights\n reserved*/
+/*2016 MiTAC\nrights reserved*/
 #define IDS_ABOUT_MITAC_RIGHTS   121
 /*FIT*/
 #define IDS_FIT_SCORE   122
@@ -548,7 +548,7 @@ RO    Romania    Romania
 #define IDS_BY_DISTANCE_TIME   244
 /*DIST & pace*/
 #define IDS_BY_DISTANCE_PACE   245
-/*Half marathon*/
+/*1/2 marathon*/
 #define IDS_HALF_MARATHON   246
 /*Marathon*/
 #define IDS_MARATHON   247
@@ -714,7 +714,7 @@ RO    Romania    Romania
 #define IDS_LEVEL_INTENSE   327
 /*L5 Hard training*/
 #define IDS_LEVEL_HARD_TRAINING   328
-/*Advanced heartbeat\n analytics by\n Firstbeat*/
+/*Advanced heartbeat\nanalytics by\nFirstbeat*/
 #define IDS_FIRSTBEAT_LICENSE   329
 /*Auto start*/
 #define IDS_AUTO_START   330
@@ -782,6 +782,8 @@ RO    Romania    Romania
 #define IDS_BLE_VERSION   361
 /*OHR version:*/
 #define IDS_OHR_VERSION   362
+/*Hard training*/
+#define IDS_LEVEL_HARD_TRAINING_ABBR   363
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   363
+#define IDS_ADVICE_RUN_7DAYS   364
 #endif/*_STRINGID_H_*/

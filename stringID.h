@@ -782,8 +782,10 @@ RO    Romania    Romania
 #define IDS_BLE_VERSION   361
 /*OHR version:*/
 #define IDS_OHR_VERSION   362
+/*No record*/
+#define IDS_NO_RECORD   363
 /*Hard training*/
-#define IDS_LEVEL_HARD_TRAINING_ABBR   363
+#define IDS_LEVEL_HARD_TRAINING_ABBR   364
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   364
+#define IDS_ADVICE_RUN_7DAYS   365
 #endif/*_STRINGID_H_*/

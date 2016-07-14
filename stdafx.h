@@ -363,6 +363,8 @@ extern GUI_BITMAP bmMercury_poweron;
 extern GUI_BITMAP bmic_fbmessenger;
 extern GUI_BITMAP bmico_skype;
 extern GUI_BITMAP bmico_other;
+extern GUI_BITMAP bmico_status_bluetooth_off;
+extern GUI_BITMAP bmico_status_bluetooth_error;
 
 
 GUI_BITMAP* icon_set[] = {
@@ -461,6 +463,8 @@ GUI_BITMAP* icon_set[] = {
         &bmic_fbmessenger,
         &bmico_skype,
         &bmico_other,
+        &bmico_status_bluetooth_off,
+        &bmico_status_bluetooth_error,
 
 };
 

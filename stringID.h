@@ -786,6 +786,8 @@ RO    Romania    Romania
 #define IDS_NO_RECORD   363
 /*Hard training*/
 #define IDS_LEVEL_HARD_TRAINING_ABBR   364
+/*Preparing…*/
+#define IDS_PREPARING   365
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   365
+#define IDS_ADVICE_RUN_7DAYS   366
 #endif/*_STRINGID_H_*/

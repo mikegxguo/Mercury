@@ -367,7 +367,8 @@ const STRINGSDEF string_table_EN[] = {
     {    362, "OHR version:"},
     {    363, "No record"},
     {    364, "Hard training"},
-    {    365, "7-day data required"},
+    {    365, "Preparing…"},
+    {    366, "7-day data required"},
 };
 
 /*Czech*/
@@ -738,6 +739,7 @@ const STRINGSDEF string_table_CS[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Danish*/
@@ -1108,6 +1110,7 @@ const STRINGSDEF string_table_CS[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*German*/
@@ -1478,6 +1481,7 @@ const STRINGSDEF string_table_DE[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Greek*/
@@ -1848,6 +1852,7 @@ const STRINGSDEF string_table_DE[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Spanish*/
@@ -2218,6 +2223,7 @@ const STRINGSDEF string_table_ES[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*French*/
@@ -2588,6 +2594,7 @@ const STRINGSDEF string_table_FR[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Croatian*/
@@ -2958,6 +2965,7 @@ const STRINGSDEF string_table_FR[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Italian*/
@@ -3328,6 +3336,7 @@ const STRINGSDEF string_table_IT[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Latvian*/
@@ -3698,6 +3707,7 @@ const STRINGSDEF string_table_IT[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Hungarian*/
@@ -4068,6 +4078,7 @@ const STRINGSDEF string_table_HU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Dutch*/
@@ -4438,6 +4449,7 @@ const STRINGSDEF string_table_NL[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Norwegian*/
@@ -4808,6 +4820,7 @@ const STRINGSDEF string_table_NL[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Polish*/
@@ -5178,6 +5191,7 @@ const STRINGSDEF string_table_PL[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Portuguese*/
@@ -5548,6 +5562,7 @@ const STRINGSDEF string_table_PL[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Russian*/
@@ -5918,6 +5933,7 @@ const STRINGSDEF string_table_RU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Slovenian*/
@@ -6288,6 +6304,7 @@ const STRINGSDEF string_table_RU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Finnish*/
@@ -6658,6 +6675,7 @@ const STRINGSDEF string_table_RU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Swedish*/
@@ -7028,6 +7046,7 @@ const STRINGSDEF string_table_RU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Turkish*/
@@ -7398,6 +7417,7 @@ const STRINGSDEF string_table_RU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Japanese*/
@@ -7768,6 +7788,7 @@ const STRINGSDEF string_table_RU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8138,6 +8159,7 @@ const STRINGSDEF string_table_RU[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8508,6 +8530,7 @@ const STRINGSDEF string_table_TW[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 /*Korean*/
@@ -8878,6 +8901,7 @@ const STRINGSDEF string_table_TW[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };*/
 
 /*Romania*/
@@ -9248,6 +9272,7 @@ const STRINGSDEF string_table_RO[] = {
     {    363, 0},
     {    364, 0},
     {    365, 0},
+    {    366, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

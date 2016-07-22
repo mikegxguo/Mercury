@@ -788,6 +788,8 @@ RO    Romania    Romania
 #define IDS_LEVEL_HARD_TRAINING_ABBR   364
 /*Preparing…*/
 #define IDS_PREPARING   365
+/*Phone is\n disconnected*/
+#define IDS_PHONE_DISCONNECT   366
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   366
+#define IDS_ADVICE_RUN_7DAYS   367
 #endif/*_STRINGID_H_*/

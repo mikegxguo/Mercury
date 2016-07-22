@@ -368,7 +368,8 @@ const STRINGSDEF string_table_EN[] = {
     {    363, "No record"},
     {    364, "Hard training"},
     {    365, "Preparing…"},
-    {    366, "7-day data required"},
+    {    366, "Phone is\n disconnected"},
+    {    367, "7-day data required"},
 };
 
 /*Czech*/
@@ -740,6 +741,7 @@ const STRINGSDEF string_table_CS[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Danish*/
@@ -1111,6 +1113,7 @@ const STRINGSDEF string_table_CS[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*German*/
@@ -1482,6 +1485,7 @@ const STRINGSDEF string_table_DE[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Greek*/
@@ -1853,6 +1857,7 @@ const STRINGSDEF string_table_DE[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Spanish*/
@@ -2224,6 +2229,7 @@ const STRINGSDEF string_table_ES[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*French*/
@@ -2595,6 +2601,7 @@ const STRINGSDEF string_table_FR[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Croatian*/
@@ -2966,6 +2973,7 @@ const STRINGSDEF string_table_FR[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Italian*/
@@ -3337,6 +3345,7 @@ const STRINGSDEF string_table_IT[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Latvian*/
@@ -3708,6 +3717,7 @@ const STRINGSDEF string_table_IT[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Hungarian*/
@@ -4079,6 +4089,7 @@ const STRINGSDEF string_table_HU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Dutch*/
@@ -4450,6 +4461,7 @@ const STRINGSDEF string_table_NL[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Norwegian*/
@@ -4821,6 +4833,7 @@ const STRINGSDEF string_table_NL[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Polish*/
@@ -5192,6 +5205,7 @@ const STRINGSDEF string_table_PL[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Portuguese*/
@@ -5563,6 +5577,7 @@ const STRINGSDEF string_table_PL[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Russian*/
@@ -5934,6 +5949,7 @@ const STRINGSDEF string_table_RU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Slovenian*/
@@ -6305,6 +6321,7 @@ const STRINGSDEF string_table_RU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Finnish*/
@@ -6676,6 +6693,7 @@ const STRINGSDEF string_table_RU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Swedish*/
@@ -7047,6 +7065,7 @@ const STRINGSDEF string_table_RU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Turkish*/
@@ -7418,6 +7437,7 @@ const STRINGSDEF string_table_RU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Japanese*/
@@ -7789,6 +7809,7 @@ const STRINGSDEF string_table_RU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8160,6 +8181,7 @@ const STRINGSDEF string_table_RU[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8518,19 +8540,20 @@ const STRINGSDEF string_table_TW[] = {
     {    351, "單圈時間"},
     {    352, "前一圈時間"},
     {    353, "英里"},
-    {    354, 0},
-    {    355, 0},
-    {    356, 0},
-    {    357, 0},
-    {    358, 0},
-    {    359, 0},
-    {    360, 0},
+    {    354, "要完成嗎？"},
+    {    355, "完成"},
+    {    356, "錶面"},
+    {    357, "緩和"},
+    {    358, "結束間歇訓練"},
+    {    359, "輕鬆跑"},
+    {    360, "預備"},
     {    361, 0},
     {    362, 0},
     {    363, 0},
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 /*Korean*/
@@ -8902,6 +8925,7 @@ const STRINGSDEF string_table_TW[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };*/
 
 /*Romania*/
@@ -9273,6 +9297,7 @@ const STRINGSDEF string_table_RO[] = {
     {    364, 0},
     {    365, 0},
     {    366, 0},
+    {    367, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

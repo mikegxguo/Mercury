@@ -790,6 +790,10 @@ RO    Romania    Romania
 #define IDS_PREPARING   365
 /*Phone is\n disconnected*/
 #define IDS_PHONE_DISCONNECT   366
+/*Warm*/
+#define IDS_WARM   367
+/*Cool*/
+#define IDS_COOL   368
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   367
+#define IDS_ADVICE_RUN_7DAYS   369
 #endif/*_STRINGID_H_*/

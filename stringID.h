@@ -794,6 +794,14 @@ RO    Romania    Romania
 #define IDS_WARM   367
 /*Cool*/
 #define IDS_COOL   368
+/*1km Pace*/
+#define IDS_1KM_PACE   369
+/*1mile Pace*/
+#define IDS_1MILE_PACE   370
+/*1kmPace*/
+#define IDS_1KM_PACE_ABBR   371
+/*1miPace*/
+#define IDS_1MILE_PACE_ABBR   372
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   369
+#define IDS_ADVICE_RUN_7DAYS   373
 #endif/*_STRINGID_H_*/

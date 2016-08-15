@@ -371,7 +371,11 @@ const STRINGSDEF string_table_EN[] = {
     {    366, "Phone is\n disconnected"},
     {    367, "Warm"},
     {    368, "Cool"},
-    {    369, "7-day data required"},
+    {    369, "1km Pace"},
+    {    370, "1mile Pace"},
+    {    371, "1kmPace"},
+    {    372, "1miPace"},
+    {    373, "7-day data required"},
 };
 
 /*Czech*/
@@ -746,6 +750,10 @@ const STRINGSDEF string_table_CS[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Danish*/
@@ -1120,6 +1128,10 @@ const STRINGSDEF string_table_CS[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*German*/
@@ -1494,6 +1506,10 @@ const STRINGSDEF string_table_DE[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Greek*/
@@ -1868,6 +1884,10 @@ const STRINGSDEF string_table_DE[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Spanish*/
@@ -2242,6 +2262,10 @@ const STRINGSDEF string_table_ES[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*French*/
@@ -2616,6 +2640,10 @@ const STRINGSDEF string_table_FR[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Croatian*/
@@ -2990,6 +3018,10 @@ const STRINGSDEF string_table_FR[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Italian*/
@@ -3364,6 +3396,10 @@ const STRINGSDEF string_table_IT[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Latvian*/
@@ -3738,6 +3774,10 @@ const STRINGSDEF string_table_IT[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Hungarian*/
@@ -4112,6 +4152,10 @@ const STRINGSDEF string_table_HU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Dutch*/
@@ -4486,6 +4530,10 @@ const STRINGSDEF string_table_NL[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Norwegian*/
@@ -4860,6 +4908,10 @@ const STRINGSDEF string_table_NL[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Polish*/
@@ -5234,6 +5286,10 @@ const STRINGSDEF string_table_PL[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Portuguese*/
@@ -5608,6 +5664,10 @@ const STRINGSDEF string_table_PL[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Russian*/
@@ -5982,6 +6042,10 @@ const STRINGSDEF string_table_RU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Slovenian*/
@@ -6356,6 +6420,10 @@ const STRINGSDEF string_table_RU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Finnish*/
@@ -6730,6 +6798,10 @@ const STRINGSDEF string_table_RU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Swedish*/
@@ -7104,6 +7176,10 @@ const STRINGSDEF string_table_RU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Turkish*/
@@ -7478,6 +7554,10 @@ const STRINGSDEF string_table_RU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Japanese*/
@@ -7852,6 +7932,10 @@ const STRINGSDEF string_table_RU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8226,6 +8310,10 @@ const STRINGSDEF string_table_RU[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8600,6 +8688,10 @@ const STRINGSDEF string_table_TW[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 /*Korean*/
@@ -8974,6 +9066,10 @@ const STRINGSDEF string_table_TW[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };*/
 
 /*Romania*/
@@ -9348,6 +9444,10 @@ const STRINGSDEF string_table_RO[] = {
     {    367, 0},
     {    368, 0},
     {    369, 0},
+    {    370, 0},
+    {    371, 0},
+    {    372, 0},
+    {    373, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

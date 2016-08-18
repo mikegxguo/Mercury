@@ -802,6 +802,8 @@ RO    Romania    Romania
 #define IDS_1KM_PACE_ABBR   371
 /*1miPace*/
 #define IDS_1MILE_PACE_ABBR   372
+/*Simple*/
+#define IDS_SIMPLE_02   373
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   373
+#define IDS_ADVICE_RUN_7DAYS   374
 #endif/*_STRINGID_H_*/

@@ -375,7 +375,8 @@ const STRINGSDEF string_table_EN[] = {
     {    370, "1mile Pace"},
     {    371, "1kmPace"},
     {    372, "1miPace"},
-    {    373, "7-day data required"},
+    {    373, "Simple"},
+    {    374, "7-day data required"},
 };
 
 /*Czech*/
@@ -754,6 +755,7 @@ const STRINGSDEF string_table_CS[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Danish*/
@@ -1132,6 +1134,7 @@ const STRINGSDEF string_table_CS[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*German*/
@@ -1510,6 +1513,7 @@ const STRINGSDEF string_table_DE[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Greek*/
@@ -1888,6 +1892,7 @@ const STRINGSDEF string_table_DE[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Spanish*/
@@ -2266,6 +2271,7 @@ const STRINGSDEF string_table_ES[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*French*/
@@ -2644,6 +2650,7 @@ const STRINGSDEF string_table_FR[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Croatian*/
@@ -3022,6 +3029,7 @@ const STRINGSDEF string_table_FR[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Italian*/
@@ -3400,6 +3408,7 @@ const STRINGSDEF string_table_IT[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Latvian*/
@@ -3778,6 +3787,7 @@ const STRINGSDEF string_table_IT[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Hungarian*/
@@ -4156,6 +4166,7 @@ const STRINGSDEF string_table_HU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Dutch*/
@@ -4534,6 +4545,7 @@ const STRINGSDEF string_table_NL[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Norwegian*/
@@ -4912,6 +4924,7 @@ const STRINGSDEF string_table_NL[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Polish*/
@@ -5290,6 +5303,7 @@ const STRINGSDEF string_table_PL[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Portuguese*/
@@ -5668,6 +5682,7 @@ const STRINGSDEF string_table_PL[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Russian*/
@@ -6046,6 +6061,7 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Slovenian*/
@@ -6424,6 +6440,7 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Finnish*/
@@ -6802,6 +6819,7 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Swedish*/
@@ -7180,6 +7198,7 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Turkish*/
@@ -7558,6 +7577,7 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Japanese*/
@@ -7936,6 +7956,7 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8314,6 +8335,7 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8692,6 +8714,7 @@ const STRINGSDEF string_table_TW[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 /*Korean*/
@@ -9070,6 +9093,7 @@ const STRINGSDEF string_table_TW[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };*/
 
 /*Romania*/
@@ -9448,6 +9472,7 @@ const STRINGSDEF string_table_RO[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
+    {    374, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

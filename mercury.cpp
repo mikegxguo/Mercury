@@ -281,7 +281,7 @@ const DataDef StringDef[StrNum]={
 		{4773,     "string_src_nl.str"}, //2 sectors
 		{5019,     "string_src_pl.str"}, //2 sectors
 		{7602,     "string_src_ru.str"}, //2 sectors
-		{5287,     "string_src_tw.str"}, //2 sectors
+		{5285,     "string_src_tw.str"}, //2 sectors
 		{4976,     "string_src_ro.str"}, //2 sectors
 
 };

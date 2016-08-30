@@ -376,7 +376,8 @@ const STRINGSDEF string_table_EN[] = {
     {    371, "1kmPace"},
     {    372, "1miPace"},
     {    373, "Simple"},
-    {    374, "7-day data required"},
+    {    374, "km"},
+    {    375, "7-day data required"},
 };
 
 /*Czech*/
@@ -755,7 +756,8 @@ const STRINGSDEF string_table_CS[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*Danish*/
@@ -1135,6 +1137,7 @@ const STRINGSDEF string_table_CS[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*German*/
@@ -1513,7 +1516,8 @@ const STRINGSDEF string_table_DE[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*Greek*/
@@ -1893,6 +1897,7 @@ const STRINGSDEF string_table_DE[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Spanish*/
@@ -2271,7 +2276,8 @@ const STRINGSDEF string_table_ES[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*French*/
@@ -2650,7 +2656,8 @@ const STRINGSDEF string_table_FR[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*Croatian*/
@@ -3030,6 +3037,7 @@ const STRINGSDEF string_table_FR[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Italian*/
@@ -3408,7 +3416,8 @@ const STRINGSDEF string_table_IT[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*Latvian*/
@@ -3788,6 +3797,7 @@ const STRINGSDEF string_table_IT[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Hungarian*/
@@ -4166,7 +4176,8 @@ const STRINGSDEF string_table_HU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*Dutch*/
@@ -4545,7 +4556,8 @@ const STRINGSDEF string_table_NL[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*Norwegian*/
@@ -4925,6 +4937,7 @@ const STRINGSDEF string_table_NL[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Polish*/
@@ -5303,7 +5316,8 @@ const STRINGSDEF string_table_PL[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 /*Portuguese*/
@@ -5683,6 +5697,7 @@ const STRINGSDEF string_table_PL[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Russian*/
@@ -6061,7 +6076,8 @@ const STRINGSDEF string_table_RU[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "км"},
+    {    375, 0},
 };
 
 /*Slovenian*/
@@ -6441,6 +6457,7 @@ const STRINGSDEF string_table_RU[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Finnish*/
@@ -6820,6 +6837,7 @@ const STRINGSDEF string_table_RU[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Swedish*/
@@ -7199,6 +7217,7 @@ const STRINGSDEF string_table_RU[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Turkish*/
@@ -7578,6 +7597,7 @@ const STRINGSDEF string_table_RU[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Japanese*/
@@ -7957,6 +7977,7 @@ const STRINGSDEF string_table_RU[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8336,6 +8357,7 @@ const STRINGSDEF string_table_RU[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8693,7 +8715,7 @@ const STRINGSDEF string_table_TW[] = {
     {    350, "前一圈速度"},
     {    351, "單圈時間"},
     {    352, "前一圈時間"},
-    {    353, "英里"},
+    {    353, "英裏"},
     {    354, "要完成嗎？"},
     {    355, "完成"},
     {    356, "錶面"},
@@ -8714,7 +8736,8 @@ const STRINGSDEF string_table_TW[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "公裏"},
+    {    375, 0},
 };
 
 /*Korean*/
@@ -9094,6 +9117,7 @@ const STRINGSDEF string_table_TW[] = {
     {    372, 0},
     {    373, 0},
     {    374, 0},
+    {    375, 0},
 };*/
 
 /*Romania*/
@@ -9472,7 +9496,8 @@ const STRINGSDEF string_table_RO[] = {
     {    371, 0},
     {    372, 0},
     {    373, 0},
-    {    374, 0},
+    {    374, "km"},
+    {    375, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

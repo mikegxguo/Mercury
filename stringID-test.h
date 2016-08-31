@@ -377,7 +377,8 @@ const STRINGSDEF string_table_EN[] = {
     {    372, "1miPace"},
     {    373, "Simple"},
     {    374, "km"},
-    {    375, "7-day data required"},
+    {    375, "GPS version:"},
+    {    376, "7-day data required"},
 };
 
 /*Czech*/
@@ -758,6 +759,7 @@ const STRINGSDEF string_table_CS[] = {
     {    373, "Jednoduchý"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Danish*/
@@ -1138,6 +1140,7 @@ const STRINGSDEF string_table_CS[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*German*/
@@ -1518,6 +1521,7 @@ const STRINGSDEF string_table_DE[] = {
     {    373, "Leicht"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Greek*/
@@ -1898,6 +1902,7 @@ const STRINGSDEF string_table_DE[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Spanish*/
@@ -2278,6 +2283,7 @@ const STRINGSDEF string_table_ES[] = {
     {    373, "Simple"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*French*/
@@ -2658,6 +2664,7 @@ const STRINGSDEF string_table_FR[] = {
     {    373, "Simple"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Croatian*/
@@ -3038,6 +3045,7 @@ const STRINGSDEF string_table_FR[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Italian*/
@@ -3418,6 +3426,7 @@ const STRINGSDEF string_table_IT[] = {
     {    373, "Semplice"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Latvian*/
@@ -3798,6 +3807,7 @@ const STRINGSDEF string_table_IT[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Hungarian*/
@@ -4178,6 +4188,7 @@ const STRINGSDEF string_table_HU[] = {
     {    373, "Egyszerű"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Dutch*/
@@ -4558,6 +4569,7 @@ const STRINGSDEF string_table_NL[] = {
     {    373, "Eenvoudig"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Norwegian*/
@@ -4938,6 +4950,7 @@ const STRINGSDEF string_table_NL[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Polish*/
@@ -5318,6 +5331,7 @@ const STRINGSDEF string_table_PL[] = {
     {    373, "Prosty"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Portuguese*/
@@ -5698,6 +5712,7 @@ const STRINGSDEF string_table_PL[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Russian*/
@@ -6078,6 +6093,7 @@ const STRINGSDEF string_table_RU[] = {
     {    373, "Простой"},
     {    374, "км"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Slovenian*/
@@ -6458,6 +6474,7 @@ const STRINGSDEF string_table_RU[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Finnish*/
@@ -6838,6 +6855,7 @@ const STRINGSDEF string_table_RU[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Swedish*/
@@ -7218,6 +7236,7 @@ const STRINGSDEF string_table_RU[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Turkish*/
@@ -7598,6 +7617,7 @@ const STRINGSDEF string_table_RU[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Japanese*/
@@ -7978,6 +7998,7 @@ const STRINGSDEF string_table_RU[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8358,6 +8379,7 @@ const STRINGSDEF string_table_RU[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8738,6 +8760,7 @@ const STRINGSDEF string_table_TW[] = {
     {    373, "簡易模式"},
     {    374, "公里"},
     {    375, 0},
+    {    376, 0},
 };
 
 /*Korean*/
@@ -9118,6 +9141,7 @@ const STRINGSDEF string_table_TW[] = {
     {    373, 0},
     {    374, 0},
     {    375, 0},
+    {    376, 0},
 };*/
 
 /*Romania*/
@@ -9498,6 +9522,7 @@ const STRINGSDEF string_table_RO[] = {
     {    373, "Simplu"},
     {    374, "km"},
     {    375, 0},
+    {    376, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

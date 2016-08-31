@@ -806,6 +806,8 @@ RO    Romania    Romania
 #define IDS_SIMPLE_02   373
 /*km*/
 #define IDS_UNIT_KM_00   374
+/*GPS version:*/
+#define IDS_GPS_VERSION   375
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   375
+#define IDS_ADVICE_RUN_7DAYS   376
 #endif/*_STRINGID_H_*/

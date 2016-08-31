@@ -260,10 +260,10 @@ const DataDef FontDef[FontNum]={
 		{424699, "xbf/Verdanaedit22_19.xbf"}, //
 		{433695, "xbf/Verdanaedit22_23.xbf"}, //
 		{458940, "xbf/Verdanaedit22_29.xbf"}, //
-		{362519, "xbf/MSPGothic_15.xbf"}, //
-		{455480, "xbf/MSPGothic_19.xbf"}, //
-		{496994, "xbf/MSPGothic_23.xbf"}, //
-		{658361, "xbf/MSPGothic_29.xbf"}, //
+		{362655, "xbf/MSPGothic_15.xbf"}, //
+		{455724, "xbf/MSPGothic_19.xbf"}, //
+		{497286, "xbf/MSPGothic_23.xbf"}, //
+		{658841, "xbf/MSPGothic_29.xbf"}, //
 		{3848, "xbf/Verdanaedit22_40.xbf"}, //1
 		{7427, "xbf/Verdanaedit22_59.xbf"}, //2
 };

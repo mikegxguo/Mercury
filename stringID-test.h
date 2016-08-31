@@ -758,7 +758,7 @@ const STRINGSDEF string_table_CS[] = {
     {    372, "1miTempo"},
     {    373, "Jednoduchý"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "Verze GPS:"},
     {    376, 0},
 };
 
@@ -1520,7 +1520,7 @@ const STRINGSDEF string_table_DE[] = {
     {    372, "1-mi-Tempo"},
     {    373, "Leicht"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "GPS-Version:"},
     {    376, 0},
 };
 
@@ -2282,7 +2282,7 @@ const STRINGSDEF string_table_ES[] = {
     {    372, "Ritmo1mi"},
     {    373, "Simple"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "Versión GPS:"},
     {    376, 0},
 };
 
@@ -2663,7 +2663,7 @@ const STRINGSDEF string_table_FR[] = {
     {    372, "Rythme1mi"},
     {    373, "Simple"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "Version GPS:"},
     {    376, 0},
 };
 
@@ -3425,7 +3425,7 @@ const STRINGSDEF string_table_IT[] = {
     {    372, "And. 1 m."},
     {    373, "Semplice"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "Versione GPS:"},
     {    376, 0},
 };
 
@@ -4187,7 +4187,7 @@ const STRINGSDEF string_table_HU[] = {
     {    372, "1 mérf táv"},
     {    373, "Egyszerű"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "GPS verzió:"},
     {    376, 0},
 };
 
@@ -4568,7 +4568,7 @@ const STRINGSDEF string_table_NL[] = {
     {    372, "1mlTempo"},
     {    373, "Eenvoudig"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "GPS-versie:"},
     {    376, 0},
 };
 
@@ -5330,7 +5330,7 @@ const STRINGSDEF string_table_PL[] = {
     {    372, "Tempo 1 mi"},
     {    373, "Prosty"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "Wersja GPS:"},
     {    376, 0},
 };
 
@@ -6092,7 +6092,7 @@ const STRINGSDEF string_table_RU[] = {
     {    372, "Темп1миля"},
     {    373, "Простой"},
     {    374, "км"},
-    {    375, 0},
+    {    375, "Версия GPS:"},
     {    376, 0},
 };
 
@@ -8759,7 +8759,7 @@ const STRINGSDEF string_table_TW[] = {
     {    372, "1 mi 配速"},
     {    373, "簡易模式"},
     {    374, "公里"},
-    {    375, 0},
+    {    375, "GPS 版本："},
     {    376, 0},
 };
 
@@ -9521,7 +9521,7 @@ const STRINGSDEF string_table_RO[] = {
     {    372, "Ritm1milă"},
     {    373, "Simplu"},
     {    374, "km"},
-    {    375, 0},
+    {    375, "Versiune GPS:"},
     {    376, 0},
 };
 

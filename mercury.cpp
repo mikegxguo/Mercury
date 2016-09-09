@@ -260,10 +260,10 @@ const DataDef FontDef[FontNum]={
 		{424699, "xbf/Verdanaedit22_19.xbf"}, //
 		{433695, "xbf/Verdanaedit22_23.xbf"}, //
 		{458940, "xbf/Verdanaedit22_29.xbf"}, //
-		{362689, "xbf/MSPGothic_15.xbf"}, //
-		{455785, "xbf/MSPGothic_19.xbf"}, //
-		{497359, "xbf/MSPGothic_23.xbf"}, //
-		{658961, "xbf/MSPGothic_29.xbf"}, //
+		{362723, "xbf/MSPGothic_15.xbf"}, //
+		{455846, "xbf/MSPGothic_19.xbf"}, //
+		{497432, "xbf/MSPGothic_23.xbf"}, //
+		{659081, "xbf/MSPGothic_29.xbf"}, //
 		{3848, "xbf/Verdanaedit22_40.xbf"}, //1
 		{7427, "xbf/Verdanaedit22_59.xbf"}, //2
 };
@@ -271,18 +271,18 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={
-		{4722,    "string_src_en.str"}, //2 sectors
-		{5215,    "string_src_cs.str"}, //2 sectors
-		{4977,    "string_src_de.str"}, //2 sectors
-		{5163,    "string_src_es.str"}, //2 sectors
-		{5039,    "string_src_fr.str"}, //2 sectors
-		{4964,     "string_src_it.str"}, //2 sectors
-		{5275,     "string_src_hu.str"}, //2 sectors
-		{4921,     "string_src_nl.str"}, //2 sectors
-		{5170,     "string_src_pl.str"}, //2 sectors
-		{7845,     "string_src_ru.str"}, //2 sectors
-		{5380,     "string_src_tw.str"}, //2 sectors
-		{5123,     "string_src_ro.str"}, //2 sectors
+		{4742,    "string_src_en.str"}, //2 sectors
+		{5238,    "string_src_cs.str"}, //2 sectors
+		{4997,    "string_src_de.str"}, //2 sectors
+		{5186,    "string_src_es.str"}, //2 sectors
+		{5059,    "string_src_fr.str"}, //2 sectors
+		{4984,     "string_src_it.str"}, //2 sectors
+		{5301,     "string_src_hu.str"}, //2 sectors
+		{4944,     "string_src_nl.str"}, //2 sectors
+		{5196,     "string_src_pl.str"}, //2 sectors
+		{7887,     "string_src_ru.str"}, //2 sectors
+		{5412,     "string_src_tw.str"}, //2 sectors
+		{5143,     "string_src_ro.str"}, //2 sectors
 
 };
 

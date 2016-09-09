@@ -378,7 +378,9 @@ const STRINGSDEF string_table_EN[] = {
     {    373, "Simple"},
     {    374, "km"},
     {    375, "GPS version:"},
-    {    376, "7-day data required"},
+    {    376, "Easy"},
+    {    377, "Duration"},
+    {    378, "7-day data required"},
 };
 
 /*Czech*/
@@ -759,7 +761,9 @@ const STRINGSDEF string_table_CS[] = {
     {    373, "Jednoduchý"},
     {    374, "km"},
     {    375, "Verze GPS:"},
-    {    376, 0},
+    {    376, "Snadné"},
+    {    377, "Trvání"},
+    {    378, 0},
 };
 
 /*Danish*/
@@ -1141,6 +1145,8 @@ const STRINGSDEF string_table_CS[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*German*/
@@ -1521,7 +1527,9 @@ const STRINGSDEF string_table_DE[] = {
     {    373, "Leicht"},
     {    374, "km"},
     {    375, "GPS-Version:"},
-    {    376, 0},
+    {    376, "Einfach"},
+    {    377, "Dauer"},
+    {    378, 0},
 };
 
 /*Greek*/
@@ -1903,6 +1911,8 @@ const STRINGSDEF string_table_DE[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Spanish*/
@@ -2283,7 +2293,9 @@ const STRINGSDEF string_table_ES[] = {
     {    373, "Simple"},
     {    374, "km"},
     {    375, "Versión GPS:"},
-    {    376, 0},
+    {    376, "Fácil"},
+    {    377, "Duración"},
+    {    378, 0},
 };
 
 /*French*/
@@ -2664,7 +2676,9 @@ const STRINGSDEF string_table_FR[] = {
     {    373, "Simple"},
     {    374, "km"},
     {    375, "Version GPS:"},
-    {    376, 0},
+    {    376, "Facile"},
+    {    377, "Durée"},
+    {    378, 0},
 };
 
 /*Croatian*/
@@ -3046,6 +3060,8 @@ const STRINGSDEF string_table_FR[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Italian*/
@@ -3426,7 +3442,9 @@ const STRINGSDEF string_table_IT[] = {
     {    373, "Semplice"},
     {    374, "km"},
     {    375, "Versione GPS:"},
-    {    376, 0},
+    {    376, "Facile"},
+    {    377, "Durata"},
+    {    378, 0},
 };
 
 /*Latvian*/
@@ -3808,6 +3826,8 @@ const STRINGSDEF string_table_IT[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Hungarian*/
@@ -4188,7 +4208,9 @@ const STRINGSDEF string_table_HU[] = {
     {    373, "Egyszerű"},
     {    374, "km"},
     {    375, "GPS verzió:"},
-    {    376, 0},
+    {    376, "Könnyű"},
+    {    377, "Időtartam"},
+    {    378, 0},
 };
 
 /*Dutch*/
@@ -4569,7 +4591,9 @@ const STRINGSDEF string_table_NL[] = {
     {    373, "Eenvoudig"},
     {    374, "km"},
     {    375, "GPS-versie:"},
-    {    376, 0},
+    {    376, "Gemakkelijk"},
+    {    377, "Duur"},
+    {    378, 0},
 };
 
 /*Norwegian*/
@@ -4951,6 +4975,8 @@ const STRINGSDEF string_table_NL[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Polish*/
@@ -5331,7 +5357,9 @@ const STRINGSDEF string_table_PL[] = {
     {    373, "Prosty"},
     {    374, "km"},
     {    375, "Wersja GPS:"},
-    {    376, 0},
+    {    376, "Łatwy"},
+    {    377, "Czas trwania"},
+    {    378, 0},
 };
 
 /*Portuguese*/
@@ -5713,6 +5741,8 @@ const STRINGSDEF string_table_PL[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Russian*/
@@ -6093,7 +6123,9 @@ const STRINGSDEF string_table_RU[] = {
     {    373, "Простой"},
     {    374, "км"},
     {    375, "Версия GPS:"},
-    {    376, 0},
+    {    376, "Легко"},
+    {    377, "Длительность"},
+    {    378, 0},
 };
 
 /*Slovenian*/
@@ -6475,6 +6507,8 @@ const STRINGSDEF string_table_RU[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Finnish*/
@@ -6856,6 +6890,8 @@ const STRINGSDEF string_table_RU[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Swedish*/
@@ -7237,6 +7273,8 @@ const STRINGSDEF string_table_RU[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Turkish*/
@@ -7618,6 +7656,8 @@ const STRINGSDEF string_table_RU[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Japanese*/
@@ -7999,6 +8039,8 @@ const STRINGSDEF string_table_RU[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8380,6 +8422,8 @@ const STRINGSDEF string_table_RU[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8760,7 +8804,9 @@ const STRINGSDEF string_table_TW[] = {
     {    373, "簡易模式"},
     {    374, "公里"},
     {    375, "GPS 版本："},
-    {    376, 0},
+    {    376, "輕鬆運動"},
+    {    377, "持續距離"},
+    {    378, 0},
 };
 
 /*Korean*/
@@ -9142,6 +9188,8 @@ const STRINGSDEF string_table_TW[] = {
     {    374, 0},
     {    375, 0},
     {    376, 0},
+    {    377, 0},
+    {    378, 0},
 };*/
 
 /*Romania*/
@@ -9522,7 +9570,9 @@ const STRINGSDEF string_table_RO[] = {
     {    373, "Simplu"},
     {    374, "km"},
     {    375, "Versiune GPS:"},
-    {    376, 0},
+    {    376, "Uşor"},
+    {    377, "Durată"},
+    {    378, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

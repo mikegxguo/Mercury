@@ -384,7 +384,7 @@ RO    Romania    Romania
 #define IDS_AVG_LAP_TIME_ABBR   162
 /*Current speed*/
 #define IDS_CURRENT_SPEED   163
-/*Average speed*/
+/*AVG speed*/
 #define IDS_AVERAGE_SPEED   164
 /*AvgSPD*/
 #define IDS_AVERAGE_SPEED_ABBR   165
@@ -448,7 +448,7 @@ RO    Romania    Romania
 #define IDS_LAP_HR   194
 /*LapHR*/
 #define IDS_LAP_HR_ABBR   195
-/*Lap HR% Max*/
+/*Lap HR% max*/
 #define IDS_LAP_PERCENT_MAX_HR   196
 /*LapMHR%*/
 #define IDS_LAP_PERCENT_MAX_HR_ABBR   197

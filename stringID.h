@@ -448,7 +448,7 @@ RO    Romania    Romania
 #define IDS_LAP_HR   194
 /*LapHR*/
 #define IDS_LAP_HR_ABBR   195
-/*Lap HR% max*/
+/*Lap HR%max*/
 #define IDS_LAP_PERCENT_MAX_HR   196
 /*LapMHR%*/
 #define IDS_LAP_PERCENT_MAX_HR_ABBR   197

@@ -198,7 +198,7 @@ const STRINGSDEF string_table_EN[] = {
     {    193, "AvgMHR%"},
     {    194, "Lap HR"},
     {    195, "LapHR"},
-    {    196, "Lap HR% max"},
+    {    196, "Lap HR%max"},
     {    197, "LapMHR%"},
     {    198, "TE"},
     {    199, "Cal"},

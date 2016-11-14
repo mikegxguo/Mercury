@@ -271,7 +271,7 @@ const DataDef FontDef[FontNum]={
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={
-		{4738,    "string_src_en.str"}, //2 sectors
+		{4737,    "string_src_en.str"}, //2 sectors
 		{5238,    "string_src_cs.str"}, //2 sectors
 		{4997,    "string_src_de.str"}, //2 sectors
 		{5186,    "string_src_es.str"}, //2 sectors

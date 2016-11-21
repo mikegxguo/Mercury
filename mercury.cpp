@@ -260,10 +260,10 @@ const DataDef FontDef[FontNum]={
 		{424699, "xbf/Verdanaedit22_19.xbf"}, //
 		{433695, "xbf/Verdanaedit22_23.xbf"}, //
 		{458940, "xbf/Verdanaedit22_29.xbf"}, //
-		{362757, "xbf/MSPGothic_15.xbf"}, //
-		{455907, "xbf/MSPGothic_19.xbf"}, //
-		{497505, "xbf/MSPGothic_23.xbf"}, //
-		{659201, "xbf/MSPGothic_29.xbf"}, //
+		{888398, "xbf/MSPGothic_15.xbf"}, //
+		{414867, "xbf/MSPGothic_19.xbf"}, //
+		{152413, "xbf/MSPGothic_23.xbf"}, //
+		{236705, "xbf/MSPGothic_29.xbf"}, //
 		{3848, "xbf/Verdanaedit22_40.xbf"}, //1
 		{7427, "xbf/Verdanaedit22_59.xbf"}, //2
 };
@@ -464,8 +464,8 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			//912 sectors(font, VerdanaEdit22+MS PGothic)       + 35 sectors(string + icon) = 947 sectors
-			unsigned long SecNum = 947; //need changed
+			//840 sectors(font, VerdanaEdit22+MS PGothic)       + 35 sectors(string + icon) = 875 sectors
+			unsigned long SecNum = 875; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

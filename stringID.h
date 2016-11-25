@@ -812,7 +812,7 @@ RO    Romania    Romania
 #define IDS_HR_EASY   376
 /*Duration*/
 #define IDS_DURATION_01   377
-/*Time out, press any key to continue.*/
+/*Time out, continue?*/
 #define IDS_SPORT_TIME_OUT   378
 /*7-day data required*/
 #define IDS_ADVICE_RUN_7DAYS   379

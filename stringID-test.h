@@ -380,7 +380,7 @@ const STRINGSDEF string_table_EN[] = {
     {    375, "GPS version:"},
     {    376, "Easy"},
     {    377, "Duration"},
-    {    378, "Time out, continue?"},
+    {    378, "Keep waiting?"},
     {    379, "7-day data required"},
 };
 

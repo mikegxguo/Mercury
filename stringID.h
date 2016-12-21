@@ -812,8 +812,10 @@ RO    Romania    Romania
 #define IDS_HR_EASY   376
 /*Duration*/
 #define IDS_DURATION_01   377
-/*Time out, continue?*/
+/*Keep waiting?*/
 #define IDS_SPORT_TIME_OUT   378
+/*Smart REC*/
+#define IDS_SMART_REC   379
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   379
+#define IDS_ADVICE_RUN_7DAYS   380
 #endif/*_STRINGID_H_*/

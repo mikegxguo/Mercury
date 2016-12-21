@@ -381,7 +381,8 @@ const STRINGSDEF string_table_EN[] = {
     {    376, "Easy"},
     {    377, "Duration"},
     {    378, "Keep waiting?"},
-    {    379, "7-day data required"},
+    {    379, "Smart REC"},
+    {    380, "7-day data required"},
 };
 
 /*Czech*/
@@ -766,6 +767,7 @@ const STRINGSDEF string_table_CS[] = {
     {    377, "Trvání"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Danish*/
@@ -1150,6 +1152,7 @@ const STRINGSDEF string_table_CS[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*German*/
@@ -1534,6 +1537,7 @@ const STRINGSDEF string_table_DE[] = {
     {    377, "Dauer"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Greek*/
@@ -1918,6 +1922,7 @@ const STRINGSDEF string_table_DE[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Spanish*/
@@ -2302,6 +2307,7 @@ const STRINGSDEF string_table_ES[] = {
     {    377, "Duración"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*French*/
@@ -2686,6 +2692,7 @@ const STRINGSDEF string_table_FR[] = {
     {    377, "Durée"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Croatian*/
@@ -3070,6 +3077,7 @@ const STRINGSDEF string_table_FR[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Italian*/
@@ -3454,6 +3462,7 @@ const STRINGSDEF string_table_IT[] = {
     {    377, "Durata"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Latvian*/
@@ -3838,6 +3847,7 @@ const STRINGSDEF string_table_IT[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Hungarian*/
@@ -4222,6 +4232,7 @@ const STRINGSDEF string_table_HU[] = {
     {    377, "Időtartam"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Dutch*/
@@ -4606,6 +4617,7 @@ const STRINGSDEF string_table_NL[] = {
     {    377, "Duur"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Norwegian*/
@@ -4990,6 +5002,7 @@ const STRINGSDEF string_table_NL[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Polish*/
@@ -5374,6 +5387,7 @@ const STRINGSDEF string_table_PL[] = {
     {    377, "Czas trwania"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Portuguese*/
@@ -5758,6 +5772,7 @@ const STRINGSDEF string_table_PL[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Russian*/
@@ -6142,6 +6157,7 @@ const STRINGSDEF string_table_RU[] = {
     {    377, "Длительность"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Slovenian*/
@@ -6526,6 +6542,7 @@ const STRINGSDEF string_table_RU[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Finnish*/
@@ -6910,6 +6927,7 @@ const STRINGSDEF string_table_RU[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Swedish*/
@@ -7294,6 +7312,7 @@ const STRINGSDEF string_table_RU[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Turkish*/
@@ -7678,6 +7697,7 @@ const STRINGSDEF string_table_RU[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Japanese*/
@@ -8062,6 +8082,7 @@ const STRINGSDEF string_table_RU[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8446,6 +8467,7 @@ const STRINGSDEF string_table_RU[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8830,6 +8852,7 @@ const STRINGSDEF string_table_TW[] = {
     {    377, "持續距離"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 /*Korean*/
@@ -9214,6 +9237,7 @@ const STRINGSDEF string_table_TW[] = {
     {    377, 0},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };*/
 
 /*Romania*/
@@ -9598,6 +9622,7 @@ const STRINGSDEF string_table_RO[] = {
     {    377, "Durată"},
     {    378, 0},
     {    379, 0},
+    {    380, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

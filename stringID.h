@@ -818,6 +818,8 @@ RO    Romania    Romania
 #define IDS_SMART_REC   379
 /*Very Hard*/
 #define IDS_SPORT_VERY_HARD   380
+/*Fit Run*/
+#define IDS_SPORT_FIT_RUN   381
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   381
+#define IDS_ADVICE_RUN_7DAYS   382
 #endif/*_STRINGID_H_*/

@@ -382,7 +382,8 @@ const STRINGSDEF string_table_EN[] = {
     {    377, "Duration"},
     {    378, "Keep waiting?"},
     {    379, "Smart REC"},
-    {    380, "7-day data required"},
+    {    380, "Very Hard"},
+    {    381, "7-day data required"},
 };
 
 /*Czech*/
@@ -768,6 +769,7 @@ const STRINGSDEF string_table_CS[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Danish*/
@@ -1153,6 +1155,7 @@ const STRINGSDEF string_table_CS[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*German*/
@@ -1538,6 +1541,7 @@ const STRINGSDEF string_table_DE[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Greek*/
@@ -1923,6 +1927,7 @@ const STRINGSDEF string_table_DE[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Spanish*/
@@ -2308,6 +2313,7 @@ const STRINGSDEF string_table_ES[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*French*/
@@ -2693,6 +2699,7 @@ const STRINGSDEF string_table_FR[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Croatian*/
@@ -3078,6 +3085,7 @@ const STRINGSDEF string_table_FR[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Italian*/
@@ -3463,6 +3471,7 @@ const STRINGSDEF string_table_IT[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Latvian*/
@@ -3848,6 +3857,7 @@ const STRINGSDEF string_table_IT[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Hungarian*/
@@ -4233,6 +4243,7 @@ const STRINGSDEF string_table_HU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Dutch*/
@@ -4618,6 +4629,7 @@ const STRINGSDEF string_table_NL[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Norwegian*/
@@ -5003,6 +5015,7 @@ const STRINGSDEF string_table_NL[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Polish*/
@@ -5388,6 +5401,7 @@ const STRINGSDEF string_table_PL[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Portuguese*/
@@ -5773,6 +5787,7 @@ const STRINGSDEF string_table_PL[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Russian*/
@@ -6158,6 +6173,7 @@ const STRINGSDEF string_table_RU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Slovenian*/
@@ -6543,6 +6559,7 @@ const STRINGSDEF string_table_RU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Finnish*/
@@ -6928,6 +6945,7 @@ const STRINGSDEF string_table_RU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Swedish*/
@@ -7313,6 +7331,7 @@ const STRINGSDEF string_table_RU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Turkish*/
@@ -7698,6 +7717,7 @@ const STRINGSDEF string_table_RU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Japanese*/
@@ -8083,6 +8103,7 @@ const STRINGSDEF string_table_RU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8468,6 +8489,7 @@ const STRINGSDEF string_table_RU[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Traditional Chinese */
@@ -8853,6 +8875,7 @@ const STRINGSDEF string_table_TW[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 /*Korean*/
@@ -9238,6 +9261,7 @@ const STRINGSDEF string_table_TW[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };*/
 
 /*Romania*/
@@ -9623,6 +9647,7 @@ const STRINGSDEF string_table_RO[] = {
     {    378, 0},
     {    379, 0},
     {    380, 0},
+    {    381, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

@@ -814,12 +814,26 @@ RO    Romania    Romania
 #define IDS_DURATION_01   377
 /*Keep waiting?*/
 #define IDS_SPORT_TIME_OUT   378
-/*Smart REC*/
+/*Recording*/
 #define IDS_SMART_REC   379
+/*File size*/
+#define IDS_FILE_SIZE   380
+/*Compact*/
+#define IDS_RECORD_COMPACT   381
+/*Normal*/
+#define IDS_RECORD_NORMAL   382
 /*Very Hard*/
-#define IDS_SPORT_VERY_HARD   380
-/*Fit Run*/
-#define IDS_SPORT_FIT_RUN   381
+#define IDS_SPORT_VERY_HARD   383
+/*Fit*/
+#define IDS_SPORT_FIT   384
+/*Easy*/
+#define IDS_SPORT_EASY   385
+/*Light*/
+#define IDS_SPORT_LIGHT   386
+/*Moderate*/
+#define IDS_SPORT_MODERATE   387
+/*Hard*/
+#define IDS_SPORT_HARD   388
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   382
+#define IDS_ADVICE_RUN_7DAYS   389
 #endif/*_STRINGID_H_*/

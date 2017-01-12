@@ -468,3 +468,21 @@ GUI_BITMAP* icon_set[] = {
 
 };
 
+//4KB per sector, total 7 sectors;
+extern GUI_BITMAP bmEn_Updaterequires;
+GUI_BITMAP* bl_set[] = {
+        &bmEn_Updaterequires,//0
+        &bmEn_Updaterequires,//1
+        &bmEn_Updaterequires,//2
+        &bmEn_Updaterequires,//3
+        &bmEn_Updaterequires,//4
+        &bmEn_Updaterequires,//5
+        &bmEn_Updaterequires,//6
+        &bmEn_Updaterequires,//7
+        &bmEn_Updaterequires,//8
+        &bmEn_Updaterequires,//9
+        &bmEn_Updaterequires,//10
+        &bmEn_Updaterequires,//11
+        &bmEn_Updaterequires,//12
+        &bmEn_Updaterequires,//13
+ };

@@ -205,6 +205,41 @@ void addIcon2DataFile(const char* pFileName, const GUI_BITMAP GUI_UNI_PTR * pBit
 		}
 }
 
+#define BL_DATA_FILE    "bl.data"//bootloader relative UI, 128x128
+void addBL2DataFile(const char* pFileName, const GUI_BITMAP GUI_UNI_PTR * pBitmap)
+{
+		if(pBitmap) {
+				FILE *stream;
+				stream = fopen( pFileName, "a+" );
+
+				unsigned short  ID = 0x4D42; //BM
+				unsigned short  Format = 100;
+				unsigned short  XSize        = pBitmap->XSize;
+				unsigned short  YSize        = pBitmap->YSize;
+				unsigned short  BytesPerLine = pBitmap->BytesPerLine;
+				unsigned short  BitsPerPixel   =  pBitmap->BitsPerPixel;
+				int  NumColors    = ((GUI_LOGPALETTE*)(pBitmap->pPal))->NumEntries;
+				unsigned short  HasTrans        =  0;
+				unsigned int colors[] = {0x00FFFFFF, 0x00000000, };
+
+				unsigned char *p = (unsigned char *)(pBitmap->pData);
+				int len = YSize*BytesPerLine;
+
+//				fwrite(&ID, sizeof(unsigned short), 1, stream);
+//				fwrite(&Format, sizeof(unsigned short), 1, stream);
+//				fwrite(&XSize, sizeof(unsigned short), 1, stream);
+//				fwrite(&YSize, sizeof(unsigned short), 1, stream);
+//				fwrite(&BytesPerLine, sizeof(unsigned short), 1, stream);
+//				fwrite(&BitsPerPixel, sizeof(unsigned short), 1, stream);
+//				fwrite(&NumColors, sizeof(unsigned short), 1, stream);
+//				fwrite(&HasTrans, sizeof(unsigned short), 1, stream);
+//				fwrite(&colors[1], sizeof(unsigned int), 1, stream);
+//				fwrite(&colors[0], sizeof(unsigned int), 1, stream);
+
+				fwrite(p, len, 1, stream);
+				fclose( stream );
+		}
+}
 
 #define DATA_INTEGRATED       "integrated.data"
 void IntegrateData2File(const char * pFileName,  int sectors)
@@ -254,24 +289,28 @@ typedef struct {
 		const char* filename;
 }DataDef;
 /**/
+const DataDef BLDef[]={
+		{28672,    "bl.data"}, //need 7 sectors
+};
+
 #define FontNum		 10
-const DataDef FontDef[FontNum]={
-		{415452, "xbf/Verdanaedit22_15.xbf"}, // total 912 sectors
-		{424699, "xbf/Verdanaedit22_19.xbf"}, //
-		{433695, "xbf/Verdanaedit22_23.xbf"}, //
-		{458940, "xbf/Verdanaedit22_29.xbf"}, //
-		{888398, "xbf/MSPGothic_15.xbf"}, //
-		{414989, "xbf/MSPGothic_19.xbf"}, //
-		{152413, "xbf/MSPGothic_23.xbf"}, //
-		{236705, "xbf/MSPGothic_29.xbf"}, //
-		{3848, "xbf/Verdanaedit22_40.xbf"}, //1
-		{7427, "xbf/Verdanaedit22_59.xbf"}, //2
+const DataDef FontDef[FontNum]={//total 843 sectors
+		{415452, "xbf/Verdanaedit22_15.xbf"}, //102
+		{424699, "xbf/Verdanaedit22_19.xbf"}, //104
+		{433695, "xbf/Verdanaedit22_23.xbf"}, //106
+		{458940, "xbf/Verdanaedit22_29.xbf"}, //113
+		{888398, "xbf/MSPGothic_15.xbf"},        //217
+		{414989, "xbf/MSPGothic_19.xbf"},        //102
+		{152413, "xbf/MSPGothic_23.xbf"},        //38
+		{236705, "xbf/MSPGothic_29.xbf"},        //58
+		{3848, "xbf/Verdanaedit22_40.xbf"},     //1
+		{7427, "xbf/Verdanaedit22_59.xbf"},     //2
 };
 /**/
 
 
 #define StrNum			12//1
-const DataDef StringDef[StrNum]={
+const DataDef StringDef[StrNum]={//total 24 sectors
 		{4858,    "string_src_en.str"}, //2 sectors
 		{5298,    "string_src_cs.str"}, //2 sectors
 		{5054,    "string_src_de.str"}, //2 sectors
@@ -293,6 +332,15 @@ const DataDef IconDef[]={
 
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	//////////////////////////////////////////////////////////////////////////////////////
+    if(1){
+				cout << "BootLoader Icon   ......" << endl;
+				for (unsigned int i=0; i<14; i++) {//total icon numbers: 14
+						cout << ". ";
+						addBL2DataFile(BL_DATA_FILE, bl_set[i]);
+				}
+				cout << "." << endl;
+    }
 
 	if(1){
 			cout << "String, MUI  ......" << endl;
@@ -449,6 +497,8 @@ int main() {
 /////////////////////////////////////////////////////////////////////////////////////////////
 	if(1) {
 		cout << "Integrating all data(Font, String, Icon)  ......" << endl;
+		IntegrateData2File(BLDef[0].filename, (BLDef[0].size)/4096);
+
 		for(int i=0; i<FontNum; i++) {
 				IntegrateData2File(FontDef[i].filename, (FontDef[i].size)/4096+1);
 		}
@@ -464,8 +514,8 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			//840 sectors(font, VerdanaEdit22+MS PGothic)       + 35 sectors(string + icon) = 875 sectors
-			unsigned long SecNum = 875; //need changed
+			//total 882 sectors
+			unsigned long SecNum = 882; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

@@ -385,13 +385,18 @@ const STRINGSDEF string_table_EN[] = {
     {    380, "File size"},
     {    381, "Compact"},
     {    382, "Normal"},
-    {    383, "Very Hard"},
-    {    384, "Fit"},
-    {    385, "Easy"},
-    {    386, "Light"},
+    {    383, "Very intense"},
+    {    384, "Fit run"},
+    {    385, "Easy run"},
+    {    386, "Light run"},
     {    387, "Moderate"},
-    {    388, "Hard"},
-    {    389, "7-day data required"},
+    {    388, "Intense run"},
+    {    389, "Very easy"},
+    {    390, "Easy"},
+    {    391, "Moderate"},
+    {    392, "Hard"},
+    {    393, "Very hard"},
+    {    394, "7-day data required"},
 };
 
 /*Czech*/
@@ -786,6 +791,11 @@ const STRINGSDEF string_table_CS[] = {
     {    387, "Střední"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Danish*/
@@ -1180,6 +1190,11 @@ const STRINGSDEF string_table_CS[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*German*/
@@ -1574,6 +1589,11 @@ const STRINGSDEF string_table_DE[] = {
     {    387, "Mittel"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Greek*/
@@ -1968,6 +1988,11 @@ const STRINGSDEF string_table_DE[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Spanish*/
@@ -2362,6 +2387,11 @@ const STRINGSDEF string_table_ES[] = {
     {    387, "Moderado"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*French*/
@@ -2756,6 +2786,11 @@ const STRINGSDEF string_table_FR[] = {
     {    387, "Modéré"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Croatian*/
@@ -3150,6 +3185,11 @@ const STRINGSDEF string_table_FR[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Italian*/
@@ -3544,6 +3584,11 @@ const STRINGSDEF string_table_IT[] = {
     {    387, "Moderato"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Latvian*/
@@ -3938,6 +3983,11 @@ const STRINGSDEF string_table_IT[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Hungarian*/
@@ -4332,6 +4382,11 @@ const STRINGSDEF string_table_HU[] = {
     {    387, "Közepes"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Dutch*/
@@ -4726,6 +4781,11 @@ const STRINGSDEF string_table_NL[] = {
     {    387, "Gemiddeld"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Norwegian*/
@@ -5120,6 +5180,11 @@ const STRINGSDEF string_table_NL[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Polish*/
@@ -5514,6 +5579,11 @@ const STRINGSDEF string_table_PL[] = {
     {    387, "Umiarkowane"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Portuguese*/
@@ -5908,6 +5978,11 @@ const STRINGSDEF string_table_PL[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Russian*/
@@ -6302,6 +6377,11 @@ const STRINGSDEF string_table_RU[] = {
     {    387, "Умеренная"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Slovenian*/
@@ -6696,6 +6776,11 @@ const STRINGSDEF string_table_RU[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Finnish*/
@@ -7090,6 +7175,11 @@ const STRINGSDEF string_table_RU[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Swedish*/
@@ -7484,6 +7574,11 @@ const STRINGSDEF string_table_RU[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Turkish*/
@@ -7878,6 +7973,11 @@ const STRINGSDEF string_table_RU[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Japanese*/
@@ -8272,6 +8372,11 @@ const STRINGSDEF string_table_RU[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8666,6 +8771,11 @@ const STRINGSDEF string_table_RU[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Traditional Chinese */
@@ -9060,6 +9170,11 @@ const STRINGSDEF string_table_TW[] = {
     {    387, "中度有氧運動"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 /*Korean*/
@@ -9454,6 +9569,11 @@ const STRINGSDEF string_table_TW[] = {
     {    387, 0},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };*/
 
 /*Romania*/
@@ -9848,6 +9968,11 @@ const STRINGSDEF string_table_RO[] = {
     {    387, "Moderat"},
     {    388, 0},
     {    389, 0},
+    {    390, 0},
+    {    391, 0},
+    {    392, 0},
+    {    393, 0},
+    {    394, 0},
 };
 
 const LANGUAGELIST   language_list[] = {
@@ -9878,3 +10003,4 @@ const LANGUAGELIST   language_list[] = {
     { 24,  (STRINGSDEF **)&string_table_RO   },
     { 99,  (STRINGSDEF **)0   },
 };
+

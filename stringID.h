@@ -822,18 +822,28 @@ RO    Romania    Romania
 #define IDS_RECORD_COMPACT   381
 /*Normal*/
 #define IDS_RECORD_NORMAL   382
-/*Very Hard*/
+/*Very intense*/
 #define IDS_SPORT_VERY_HARD   383
-/*Fit*/
+/*Fit run*/
 #define IDS_SPORT_FIT   384
-/*Easy*/
+/*Easy run*/
 #define IDS_SPORT_EASY   385
-/*Light*/
+/*Light run*/
 #define IDS_SPORT_LIGHT   386
 /*Moderate*/
 #define IDS_SPORT_MODERATE   387
-/*Hard*/
+/*Intense run*/
 #define IDS_SPORT_HARD   388
+/*Very easy*/
+#define IDS_TE_VERY_EASY   389
+/*Easy*/
+#define IDS_TE_EASY   390
+/*Moderate*/
+#define IDS_TE_MODERATE   391
+/*Hard*/
+#define IDS_TE_HARD   392
+/*Very hard*/
+#define IDS_TE_VERY_HARD   393
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   389
+#define IDS_ADVICE_RUN_7DAYS   394
 #endif/*_STRINGID_H_*/

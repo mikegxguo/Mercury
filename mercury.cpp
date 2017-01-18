@@ -212,15 +212,15 @@ void addBL2DataFile(const char* pFileName, const GUI_BITMAP GUI_UNI_PTR * pBitma
 				FILE *stream;
 				stream = fopen( pFileName, "a+" );
 
-				unsigned short  ID = 0x4D42; //BM
-				unsigned short  Format = 100;
-				unsigned short  XSize        = pBitmap->XSize;
+//				unsigned short  ID = 0x4D42; //BM
+//				unsigned short  Format = 100;
+//				unsigned short  XSize        = pBitmap->XSize;
 				unsigned short  YSize        = pBitmap->YSize;
 				unsigned short  BytesPerLine = pBitmap->BytesPerLine;
-				unsigned short  BitsPerPixel   =  pBitmap->BitsPerPixel;
-				int  NumColors    = ((GUI_LOGPALETTE*)(pBitmap->pPal))->NumEntries;
-				unsigned short  HasTrans        =  0;
-				unsigned int colors[] = {0x00FFFFFF, 0x00000000, };
+//				unsigned short  BitsPerPixel   =  pBitmap->BitsPerPixel;
+//				int  NumColors    = ((GUI_LOGPALETTE*)(pBitmap->pPal))->NumEntries;
+//				unsigned short  HasTrans        =  0;
+//				unsigned int colors[] = {0x00FFFFFF, 0x00000000, };
 
 				unsigned char *p = (unsigned char *)(pBitmap->pData);
 				int len = YSize*BytesPerLine;
@@ -311,18 +311,18 @@ const DataDef FontDef[FontNum]={//total 843 sectors
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={//total 24 sectors
-		{4858,    "string_src_en.str"}, //2 sectors
-		{5298,    "string_src_cs.str"}, //2 sectors
-		{5054,    "string_src_de.str"}, //2 sectors
-		{5244,    "string_src_es.str"}, //2 sectors
-		{5117,    "string_src_fr.str"}, //2 sectors
-		{5042,     "string_src_it.str"}, //2 sectors
-		{5361,     "string_src_hu.str"}, //2 sectors
-		{5008,     "string_src_nl.str"}, //2 sectors
-		{5257,     "string_src_pl.str"}, //2 sectors
-		{7959,     "string_src_ru.str"}, //2 sectors
-		{5489,     "string_src_tw.str"}, //2 sectors
-		{5199,     "string_src_ro.str"}, //2 sectors
+		{4934,    "string_src_en.str"}, //2 sectors
+		{5318,    "string_src_cs.str"}, //2 sectors
+		{5074,    "string_src_de.str"}, //2 sectors
+		{5264,    "string_src_es.str"}, //2 sectors
+		{5137,    "string_src_fr.str"}, //2 sectors
+		{5062,     "string_src_it.str"}, //2 sectors
+		{5381,     "string_src_hu.str"}, //2 sectors
+		{5028,     "string_src_nl.str"}, //2 sectors
+		{5277,     "string_src_pl.str"}, //2 sectors
+		{7979,     "string_src_ru.str"}, //2 sectors
+		{5509,     "string_src_tw.str"}, //2 sectors
+		{5219,     "string_src_ro.str"}, //2 sectors
 };
 
 const DataDef IconDef[]={

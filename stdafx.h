@@ -469,20 +469,34 @@ GUI_BITMAP* icon_set[] = {
 };
 
 //4KB per sector, total 7 sectors;
-extern GUI_BITMAP bmEn_Updaterequires;
+extern GUI_BITMAP bmEN_updaterequires;
+extern GUI_BITMAP bmDE_updaterequires;
+extern GUI_BITMAP bmFR_Updaterequires;
+extern GUI_BITMAP bmNL_Updaterequires;
+extern GUI_BITMAP bmIT_updaterequires;
+extern GUI_BITMAP bmES_Updaterequires;
+extern GUI_BITMAP bmRU_Updaterequires;
+extern GUI_BITMAP bmPL_Updaterequires;
+extern GUI_BITMAP bmHU_Updaterequires;
+extern GUI_BITMAP bmCS_updaterequires;
+extern GUI_BITMAP bmRO_Updaterequires;
+//FIXME, JAPANESE
+//FIXME, CHINESE
+extern GUI_BITMAP bmZHTW_Updaterequires;
+
 GUI_BITMAP* bl_set[] = {
-        &bmEn_Updaterequires,//0
-        &bmEn_Updaterequires,//1
-        &bmEn_Updaterequires,//2
-        &bmEn_Updaterequires,//3
-        &bmEn_Updaterequires,//4
-        &bmEn_Updaterequires,//5
-        &bmEn_Updaterequires,//6
-        &bmEn_Updaterequires,//7
-        &bmEn_Updaterequires,//8
-        &bmEn_Updaterequires,//9
-        &bmEn_Updaterequires,//10
-        &bmEn_Updaterequires,//11
-        &bmEn_Updaterequires,//12
-        &bmEn_Updaterequires,//13
+        &bmEN_updaterequires,//0, FIT_LANGUAGE_ENGLISH
+        &bmDE_updaterequires,//1, FIT_LANGUAGE_GERMAN
+        &bmFR_Updaterequires,//2, FIT_LANGUAGE_FRENCH
+        &bmNL_Updaterequires,//3, FIT_LANGUAGE_DUTCH
+        &bmIT_updaterequires,//4, FIT_LANGUAGE_ITALIAN
+        &bmES_Updaterequires,//5, FIT_LANGUAGE_SPANISH
+        &bmRU_Updaterequires,//6, FIT_LANGUAGE_RUSSIAN
+        &bmPL_Updaterequires,//7, FIT_LANGUAGE_POLISH
+        &bmHU_Updaterequires,//8, FIT_LANGUAGE_HUNGARIAN
+        &bmCS_updaterequires,//9, FIT_LANGUAGE_CZECH
+        &bmRO_Updaterequires,//10, FIT_LANGUAGE_ROMANIAN
+        &bmEN_updaterequires,//11, FIT_LANGUAGE_JAPANESE, XXX, FIXME
+        &bmEN_updaterequires,//12, FIT_LANGUAGE_CHINESE, XXX, FIXME
+        &bmZHTW_Updaterequires,//13, FIT_LANGUAGE_TAIWANESE
  };

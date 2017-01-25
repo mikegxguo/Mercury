@@ -808,10 +808,10 @@ RO    Romania    Romania
 #define IDS_UNIT_KM_00   374
 /*GPS version:*/
 #define IDS_GPS_VERSION   375
-/*Easy*/
-#define IDS_HR_EASY   376
 /*Duration*/
-#define IDS_DURATION_01   377
+#define IDS_DURATION_01   376
+/*Easy*/
+#define IDS_HR_EASY   377
 /*Keep waiting?*/
 #define IDS_SPORT_TIME_OUT   378
 /*Recording*/

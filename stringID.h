@@ -214,7 +214,7 @@ RO    Romania    Romania
 #define IDS_GPS_FOUND   77
 /*BT is connected*/
 #define IDS_BT_CONNECTED   78
-/*Adjust band to get HR*/
+/*Adjust band\n to get HR*/
 #define IDS_HR_ADJUST_WRIST   79
 /*Not enough\n memory space*/
 #define IDS_MEM_NOT_ENOUGH   80
@@ -722,7 +722,7 @@ RO    Romania    Romania
 #define IDS_LEAVE_SLEEP_TIP   331
 /*Already have\n sleep data today*/
 #define IDS_ONE_SLEEP_DATA_TIP   332
-/*Record has been\n saved*/
+/*Record has \nbeen saved*/
 #define IDS_SLEEP_DATA_SAVE   333
 /*Set Coaching*/
 #define IDS_SET_COACHING   334

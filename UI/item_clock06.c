@@ -45,8 +45,8 @@ static GUI_CONST_STORAGE GUI_COLOR Colorsitem_clock06[] = {
 };
 
 static GUI_CONST_STORAGE GUI_LOGPALETTE Palitem_clock06 = {
-  2,	/* number of entries */
-  0, 	/* No transparency */
+  2,    /* number of entries */
+  0,    /* No transparency */
   &Colorsitem_clock06[0]
 };
 

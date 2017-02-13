@@ -844,6 +844,8 @@ RO    Romania    Romania
 #define IDS_TE_HARD   392
 /*Very hard*/
 #define IDS_TE_VERY_HARD   393
+/*Clock*/
+#define IDS_CLOCK   394
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   394
+#define IDS_ADVICE_RUN_7DAYS   395
 #endif/*_STRINGID_H_*/

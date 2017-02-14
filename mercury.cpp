@@ -311,22 +311,22 @@ const DataDef FontDef[FontNum]={//total 843 sectors
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={//total 24 sectors
-		{4944,    "string_src_en.str"}, //2 sectors
-		{5487,    "string_src_cs.str"}, //2 sectors
-		{5195,    "string_src_de.str"}, //2 sectors
-		{5408,    "string_src_es.str"}, //2 sectors
-		{5296,    "string_src_fr.str"}, //2 sectors
-		{5204,     "string_src_it.str"}, //2 sectors
-		{5552,     "string_src_hu.str"}, //2 sectors
-		{5165,     "string_src_nl.str"}, //2 sectors
-		{5460,     "string_src_pl.str"}, //2 sectors
-		{8250,     "string_src_ru.str"}, //3 sectors,  XXX
-		{5651,     "string_src_tw.str"}, //2 sectors
-		{5377,     "string_src_ro.str"}, //2 sectors
+		{5023,    "string_src_en.str"}, //2 sectors
+		{5495,    "string_src_cs.str"}, //2 sectors
+		{5203,    "string_src_de.str"}, //2 sectors
+		{5416,    "string_src_es.str"}, //2 sectors
+		{5304,    "string_src_fr.str"}, //2 sectors
+		{5212,     "string_src_it.str"}, //2 sectors
+		{5560,     "string_src_hu.str"}, //2 sectors
+		{5173,     "string_src_nl.str"}, //2 sectors
+		{5468,     "string_src_pl.str"}, //2 sectors
+		{8258,     "string_src_ru.str"}, //3 sectors,  XXX
+		{5659,     "string_src_tw.str"}, //2 sectors
+		{5385,     "string_src_ro.str"}, //2 sectors
 };
 
 const DataDef IconDef[]={
-		{32674,    "icon.data"}, //need 8 sectors
+		{32730,    "icon.data"}, //need 8 sectors
 };
 
 
@@ -374,7 +374,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<99; i++) {//total icon numbers: 99
+			for (unsigned int i=0; i<100; i++) {//total icon numbers: 100
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}

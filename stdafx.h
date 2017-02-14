@@ -367,6 +367,7 @@ extern GUI_BITMAP bmico_status_bluetooth_off;
 extern GUI_BITMAP bmico_status_bluetooth_error;
 extern GUI_BITMAP bmitem_clock05;
 extern GUI_BITMAP bmitem_clock06;
+extern GUI_BITMAP bmico_EPO_expired_w;
 
 GUI_BITMAP* icon_set[] = {
         &bmbtn_checkbox_checked,//0
@@ -468,6 +469,7 @@ GUI_BITMAP* icon_set[] = {
         &bmico_status_bluetooth_error,
         &bmitem_clock05,
         &bmitem_clock06,
+        &bmico_EPO_expired_w, //99
 
 };
 

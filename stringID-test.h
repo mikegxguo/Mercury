@@ -397,7 +397,9 @@ const STRINGSDEF string_table_EN[] = {
     {    392, "Hard"},
     {    393, "Very hard"},
     {    394, "Clock"},
-    {    395, "7-day data required"},
+    {    395, "Connect app \nto update \nInstant Fix \ndata"},
+    {    396, "Instant fix \nexpiration \ndate:"},
+    {    397, "7-day data required"},
 };
 
 /*Czech*/
@@ -798,6 +800,8 @@ const STRINGSDEF string_table_CS[] = {
     {    393, "Velmi náročné"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Danish*/
@@ -1198,6 +1202,8 @@ const STRINGSDEF string_table_CS[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*German*/
@@ -1598,6 +1604,8 @@ const STRINGSDEF string_table_DE[] = {
     {    393, "Sehr hart"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Greek*/
@@ -1998,6 +2006,8 @@ const STRINGSDEF string_table_DE[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Spanish*/
@@ -2398,6 +2408,8 @@ const STRINGSDEF string_table_ES[] = {
     {    393, "Muy duro"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*French*/
@@ -2798,6 +2810,8 @@ const STRINGSDEF string_table_FR[] = {
     {    393, "Trs difficile"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Croatian*/
@@ -3198,6 +3212,8 @@ const STRINGSDEF string_table_FR[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Italian*/
@@ -3598,6 +3614,8 @@ const STRINGSDEF string_table_IT[] = {
     {    393, "Molto duro"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Latvian*/
@@ -3998,6 +4016,8 @@ const STRINGSDEF string_table_IT[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Hungarian*/
@@ -4398,6 +4418,8 @@ const STRINGSDEF string_table_HU[] = {
     {    393, "Nagyon kemény"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Dutch*/
@@ -4798,6 +4820,8 @@ const STRINGSDEF string_table_NL[] = {
     {    393, "Heel moeilijk"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Norwegian*/
@@ -5198,6 +5222,8 @@ const STRINGSDEF string_table_NL[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Polish*/
@@ -5598,6 +5624,8 @@ const STRINGSDEF string_table_PL[] = {
     {    393, "Bardzo ciężk."},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Portuguese*/
@@ -5998,6 +6026,8 @@ const STRINGSDEF string_table_PL[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Russian*/
@@ -6398,6 +6428,8 @@ const STRINGSDEF string_table_RU[] = {
     {    393, "Очень тяжело"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Slovenian*/
@@ -6798,6 +6830,8 @@ const STRINGSDEF string_table_RU[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Finnish*/
@@ -7198,6 +7232,8 @@ const STRINGSDEF string_table_RU[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Swedish*/
@@ -7598,6 +7634,8 @@ const STRINGSDEF string_table_RU[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Turkish*/
@@ -7998,6 +8036,8 @@ const STRINGSDEF string_table_RU[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Japanese*/
@@ -8398,6 +8438,8 @@ const STRINGSDEF string_table_RU[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8798,6 +8840,8 @@ const STRINGSDEF string_table_RU[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Traditional Chinese */
@@ -9198,6 +9242,8 @@ const STRINGSDEF string_table_TW[] = {
     {    393, "超高強度"},
     {    394, "現在時間"},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 /*Korean*/
@@ -9598,6 +9644,8 @@ const STRINGSDEF string_table_TW[] = {
     {    393, 0},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };*/
 
 /*Romania*/
@@ -9998,6 +10046,8 @@ const STRINGSDEF string_table_RO[] = {
     {    393, "F. dificil"},
     {    394, 0},
     {    395, 0},
+    {    396, 0},
+    {    397, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

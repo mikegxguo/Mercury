@@ -398,7 +398,7 @@ const STRINGSDEF string_table_EN[] = {
     {    393, "Very hard"},
     {    394, "Clock"},
     {    395, "Connect app \nto update \nInstant Fix \ndata"},
-    {    396, "Instant fix \nexpiration \ndate:"},
+    {    396, "EPO EXP.:"},
     {    397, "7-day data required"},
 };
 

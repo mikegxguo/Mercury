@@ -848,7 +848,7 @@ RO    Romania    Romania
 #define IDS_CLOCK   394
 /*Connect app \nto update \nInstant Fix \ndata*/
 #define IDS_EPO_TIPS   395
-/*Instant fix \nexpiration \ndate:*/
+/*EPO EXP.:*/
 #define IDS_EPO_DATE   396
 /*7-day data required*/
 #define IDS_ADVICE_RUN_7DAYS   397

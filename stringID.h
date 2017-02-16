@@ -298,7 +298,7 @@ RO    Romania    Romania
 #define IDS_ABOUT_UUID   119
 /*Model:*/
 #define IDS_ABOUT_MODEL   120
-/*2016 MiTAC\nrights reserved*/
+/*2017 MiTAC\nrights reserved*/
 #define IDS_ABOUT_MITAC_RIGHTS   121
 /*FIT*/
 #define IDS_FIT_SCORE   122

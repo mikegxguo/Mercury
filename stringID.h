@@ -850,6 +850,8 @@ RO    Romania    Romania
 #define IDS_EPO_TIPS   395
 /*EPO EXP.:*/
 #define IDS_EPO_DATE   396
+/*Set interval \ntraining \nvia app*/
+#define IDS_INTERVAL_NO_DATA   397
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   397
+#define IDS_ADVICE_RUN_7DAYS   398
 #endif/*_STRINGID_H_*/

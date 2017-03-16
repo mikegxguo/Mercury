@@ -326,7 +326,7 @@ const DataDef StringDef[StrNum]={//total 24 sectors
 };
 
 const DataDef IconDef[]={
-		{32730,    "icon.data"}, //need 8 sectors
+		{33266,    "icon.data"}, //need 9 sectors
 };
 
 
@@ -374,7 +374,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<100; i++) {//total icon numbers: 100
+			for (unsigned int i=0; i<101; i++) {//total icon numbers: 101
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}
@@ -514,8 +514,8 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			//total 883 sectors
-			unsigned long SecNum = 883; //need changed
+			//total 884 sectors
+			unsigned long SecNum = 884; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

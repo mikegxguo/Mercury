@@ -852,6 +852,8 @@ RO    Romania    Romania
 #define IDS_EPO_DATE   396
 /*Set interval \ntraining \nvia app*/
 #define IDS_INTERVAL_NO_DATA   397
+/*Record must\n more than\n 2 minutes*/
+#define IDS_SLEEP_WARN   398
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   398
+#define IDS_ADVICE_RUN_7DAYS   399
 #endif/*_STRINGID_H_*/

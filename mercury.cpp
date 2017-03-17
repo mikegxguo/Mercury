@@ -311,18 +311,18 @@ const DataDef FontDef[FontNum]={//total 843 sectors
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={//total 24 sectors
-		{5037,    "string_src_en.str"}, //2 sectors
-		{5499,    "string_src_cs.str"}, //2 sectors
-		{5207,    "string_src_de.str"}, //2 sectors
-		{5420,    "string_src_es.str"}, //2 sectors
-		{5308,    "string_src_fr.str"}, //2 sectors
-		{5216,     "string_src_it.str"}, //2 sectors
-		{5564,     "string_src_hu.str"}, //2 sectors
-		{5177,     "string_src_nl.str"}, //2 sectors
-		{5472,     "string_src_pl.str"}, //2 sectors
-		{8262,     "string_src_ru.str"}, //3 sectors,  XXX
-		{5654,     "string_src_tw.str"}, //2 sectors
-		{5389,     "string_src_ro.str"}, //2 sectors
+		{5074,    "string_src_en.str"}, //2 sectors
+		{5503,    "string_src_cs.str"}, //2 sectors
+		{5211,    "string_src_de.str"}, //2 sectors
+		{5424,    "string_src_es.str"}, //2 sectors
+		{5312,    "string_src_fr.str"}, //2 sectors
+		{5220,     "string_src_it.str"}, //2 sectors
+		{5568,     "string_src_hu.str"}, //2 sectors
+		{5181,     "string_src_nl.str"}, //2 sectors
+		{5476,     "string_src_pl.str"}, //2 sectors
+		{8266,     "string_src_ru.str"}, //3 sectors,  XXX
+		{5658,     "string_src_tw.str"}, //2 sectors
+		{5393,     "string_src_ro.str"}, //2 sectors
 };
 
 const DataDef IconDef[]={

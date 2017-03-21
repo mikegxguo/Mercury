@@ -854,6 +854,12 @@ RO    Romania    Romania
 #define IDS_INTERVAL_NO_DATA   397
 /*Record must\n more than\n 2 minutes*/
 #define IDS_SLEEP_WARN   398
+/*Wait for GPS*/
+#define IDS_GPS_WAIT_02   399
+/*Start run*/
+#define IDS_START_RUN   400
+/*Search GPS*/
+#define IDS_SEARCH_GPS   401
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   399
+#define IDS_ADVICE_RUN_7DAYS   402
 #endif/*_STRINGID_H_*/

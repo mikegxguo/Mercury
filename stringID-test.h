@@ -401,7 +401,10 @@ const STRINGSDEF string_table_EN[] = {
     {    396, "EPO EXP.:"},
     {    397, "Set interval \ntraining \nvia app"},
     {    398, "Record must\n more than\n 2 minutes"},
-    {    399, "7-day data required"},
+    {    399, "Wait for GPS"},
+    {    400, "Start run"},
+    {    401, "Search GPS"},
+    {    402, "7-day data required"},
 };
 
 /*Czech*/
@@ -806,6 +809,9 @@ const STRINGSDEF string_table_CS[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Danish*/
@@ -1210,6 +1216,9 @@ const STRINGSDEF string_table_CS[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*German*/
@@ -1614,6 +1623,9 @@ const STRINGSDEF string_table_DE[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Greek*/
@@ -2018,6 +2030,9 @@ const STRINGSDEF string_table_DE[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Spanish*/
@@ -2422,6 +2437,9 @@ const STRINGSDEF string_table_ES[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*French*/
@@ -2826,6 +2844,9 @@ const STRINGSDEF string_table_FR[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Croatian*/
@@ -3230,6 +3251,9 @@ const STRINGSDEF string_table_FR[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Italian*/
@@ -3634,6 +3658,9 @@ const STRINGSDEF string_table_IT[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Latvian*/
@@ -4038,6 +4065,9 @@ const STRINGSDEF string_table_IT[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Hungarian*/
@@ -4442,6 +4472,9 @@ const STRINGSDEF string_table_HU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Dutch*/
@@ -4846,6 +4879,9 @@ const STRINGSDEF string_table_NL[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Norwegian*/
@@ -5250,6 +5286,9 @@ const STRINGSDEF string_table_NL[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Polish*/
@@ -5654,6 +5693,9 @@ const STRINGSDEF string_table_PL[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Portuguese*/
@@ -6058,6 +6100,9 @@ const STRINGSDEF string_table_PL[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Russian*/
@@ -6462,6 +6507,9 @@ const STRINGSDEF string_table_RU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Slovenian*/
@@ -6866,6 +6914,9 @@ const STRINGSDEF string_table_RU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Finnish*/
@@ -7270,6 +7321,9 @@ const STRINGSDEF string_table_RU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Swedish*/
@@ -7674,6 +7728,9 @@ const STRINGSDEF string_table_RU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Turkish*/
@@ -8078,6 +8135,9 @@ const STRINGSDEF string_table_RU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Japanese*/
@@ -8482,6 +8542,9 @@ const STRINGSDEF string_table_RU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8886,6 +8949,9 @@ const STRINGSDEF string_table_RU[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Traditional Chinese */
@@ -9290,6 +9356,9 @@ const STRINGSDEF string_table_TW[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 /*Korean*/
@@ -9694,6 +9763,9 @@ const STRINGSDEF string_table_TW[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };*/
 
 /*Romania*/
@@ -10098,6 +10170,9 @@ const STRINGSDEF string_table_RO[] = {
     {    397, 0},
     {    398, 0},
     {    399, 0},
+    {    400, 0},
+    {    401, 0},
+    {    402, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

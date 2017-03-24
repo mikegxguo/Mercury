@@ -860,6 +860,8 @@ RO    Romania    Romania
 #define IDS_START_RUN   400
 /*Search GPS*/
 #define IDS_SEARCH_GPS   401
+/*Record/Target*/
+#define IDS_COACHING_HISTORY_DETAIL   402
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   402
+#define IDS_ADVICE_RUN_7DAYS   403
 #endif/*_STRINGID_H_*/

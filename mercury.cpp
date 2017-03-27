@@ -293,19 +293,21 @@ const DataDef BLDef[]={
 		{28672,    "bl.data"}, //need 7 sectors
 };
 
-#define FontNum		 11
-const DataDef FontDef[FontNum]={//total 844 sectors
-		{415452, "xbf/Verdanaedit22_15.xbf"}, //102
-		{424699, "xbf/Verdanaedit22_19.xbf"}, //104
-		{433695, "xbf/Verdanaedit22_23.xbf"}, //106
-		{458940, "xbf/Verdanaedit22_29.xbf"}, //113
-		{888533, "xbf/MSPGothic_15.xbf"},        //217
-		{415233, "xbf/MSPGothic_19.xbf"},        //102
-		{152413, "xbf/MSPGothic_23.xbf"},        //38
-		{237024, "xbf/MSPGothic_29.xbf"},        //58
-        {1665,   "xbf/Verdanaedit22_35.xbf"},     //1
-		{2210,   "xbf/Verdanaedit22_40.xbf"},     //1
-		{7427,   "xbf/Verdanaedit22_59.xbf"},     //2
+#define FontNum		 13
+const DataDef FontDef[FontNum]={//total 846 sectors
+{415452, "xbf/Verdanaedit22_15.xbf"}, //102
+{424699, "xbf/Verdanaedit22_19.xbf"}, //104
+{433695, "xbf/Verdanaedit22_23.xbf"}, //106
+{458940, "xbf/Verdanaedit22_29.xbf"}, //113
+{888533, "xbf/MSPGothic_15.xbf"},        //217
+{415233, "xbf/MSPGothic_19.xbf"},        //102
+{152413, "xbf/MSPGothic_23.xbf"},        //38
+{237024, "xbf/MSPGothic_29.xbf"},        //58
+{1665,     "xbf/Verdanaedit22_35.xbf"},     //1
+{1700,     "xbf/Verdanaedit22_38.xbf"},     //1
+{2210,     "xbf/Verdanaedit22_40.xbf"},     //1
+{2746,     "xbf/Verdanaedit22_54.xbf"},     //1
+{7427,     "xbf/Verdanaedit22_59.xbf"},     //2
 };
 /**/
 
@@ -515,8 +517,8 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			//total 885 sectors
-			unsigned long SecNum = 885; //need changed
+			//total 887 sectors
+			unsigned long SecNum = 887; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

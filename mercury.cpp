@@ -293,8 +293,8 @@ const DataDef BLDef[]={
 		{28672,    "bl.data"}, //need 7 sectors
 };
 
-#define FontNum		 10
-const DataDef FontDef[FontNum]={//total 843 sectors
+#define FontNum		 11
+const DataDef FontDef[FontNum]={//total 844 sectors
 		{415452, "xbf/Verdanaedit22_15.xbf"}, //102
 		{424699, "xbf/Verdanaedit22_19.xbf"}, //104
 		{433695, "xbf/Verdanaedit22_23.xbf"}, //106
@@ -303,8 +303,9 @@ const DataDef FontDef[FontNum]={//total 843 sectors
 		{415233, "xbf/MSPGothic_19.xbf"},        //102
 		{152413, "xbf/MSPGothic_23.xbf"},        //38
 		{237024, "xbf/MSPGothic_29.xbf"},        //58
-		{3848, "xbf/Verdanaedit22_40.xbf"},     //1
-		{7427, "xbf/Verdanaedit22_59.xbf"},     //2
+        {1665,   "xbf/Verdanaedit22_35.xbf"},     //1
+		{2210,   "xbf/Verdanaedit22_40.xbf"},     //1
+		{7427,   "xbf/Verdanaedit22_59.xbf"},     //2
 };
 /**/
 
@@ -514,8 +515,8 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			//total 884 sectors
-			unsigned long SecNum = 884; //need changed
+			//total 885 sectors
+			unsigned long SecNum = 885; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

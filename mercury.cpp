@@ -299,7 +299,7 @@ const DataDef FontDef[FontNum]={//total 846 sectors
 {424699, "xbf/Verdanaedit22_19.xbf"}, //104
 {433695, "xbf/Verdanaedit22_23.xbf"}, //106
 {458940, "xbf/Verdanaedit22_29.xbf"}, //113
-{888533, "xbf/MSPGothic_15.xbf"},        //217
+{888567, "xbf/MSPGothic_15.xbf"},        //217
 {415233, "xbf/MSPGothic_19.xbf"},        //102
 {152413, "xbf/MSPGothic_23.xbf"},        //38
 {237053, "xbf/MSPGothic_29.xbf"},        //58

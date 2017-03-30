@@ -314,11 +314,11 @@ const DataDef FontDef[FontNum]={//total 846 sectors
 
 #define StrNum			12//1
 const DataDef StringDef[StrNum]={//total 24 sectors
-		{5125,    "string_src_en.str"}, //2 sectors
+		{5124,    "string_src_en.str"}, //2 sectors
 		{5514,    "string_src_cs.str"}, //2 sectors
 		{5220,    "string_src_de.str"}, //2 sectors
 		{5435,    "string_src_es.str"}, //2 sectors
-		{5323,    "string_src_fr.str"}, //2 sectors
+		{5321,    "string_src_fr.str"}, //2 sectors
 		{5229,     "string_src_it.str"}, //2 sectors
 		{5582,     "string_src_hu.str"}, //2 sectors
 		{5190,     "string_src_nl.str"}, //2 sectors

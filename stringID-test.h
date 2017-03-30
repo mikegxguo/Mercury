@@ -738,7 +738,7 @@ const STRINGSDEF string_table_CS[] = {
     {    326, "L3 Pravidelná"},
     {    327, "L4 Intenzivní"},
     {    328, "L5 Náročný trén."},
-    {    329, "Pokročilá analýza\nsrdečního tepu\nvyužívající tech\n-nologii Firstbeat"},
+    {    329, "Pokročilá analýz-\na srdečního tepu\nvyužívající tech-\nnologii Firstbeat"},
     {    330, "Auto start"},
     {    331, "Podržením 3 s\n ukončíte"},
     {    332, "Dnes již\n máte spánková data"},

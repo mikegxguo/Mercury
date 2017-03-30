@@ -714,7 +714,7 @@ RO    Romania    Romania
 #define IDS_LEVEL_INTENSE   327
 /*L5 Hard training*/
 #define IDS_LEVEL_HARD_TRAINING   328
-/*Advanced heartbe\n-at analytics by\n Firstbeat*/
+/*Advanced heart\n-beat analytics by\n Firstbeat*/
 #define IDS_FIRSTBEAT_LICENSE   329
 /*Auto start*/
 #define IDS_AUTO_START   330

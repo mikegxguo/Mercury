@@ -123,7 +123,7 @@ const STRINGSDEF string_table_EN[] = {
     {    118, "SW version:"},
     {    119, "SN:"},
     {    120, "Model:"},
-    {    121, "2017 MiTAC\nrights reserved"},
+    {    121, "2017 MiTAC ri\n-ghts reserved"},
     {    122, "FIT"},
     {    123, "Start"},
     {    124, "Easy Run"},
@@ -331,7 +331,7 @@ const STRINGSDEF string_table_EN[] = {
     {    326, "L3 Frequent"},
     {    327, "L4 Intense"},
     {    328, "L5 Hard training"},
-    {    329, "Advanced heartbeat\nanalytics by\nFirstbeat"},
+    {    329, "Advanced heartbe\n-at analytics by\n Firstbeat"},
     {    330, "Auto start"},
     {    331, "Press for 3 sec\n to exit"},
     {    332, "Already have\n sleep data today"},
@@ -403,9 +403,8 @@ const STRINGSDEF string_table_EN[] = {
     {    398, "Record must\n more than\n 2 minutes"},
     {    399, "Wait for GPS"},
     {    400, "Start run"},
-    {    401, "Search GPS"},
-    {    402, "Record/Target"},
-    {    403, "7-day data required"},
+    {    401, "Record/Target"},
+    {    402, "7-day data required"},
 };
 
 /*Czech*/
@@ -531,7 +530,7 @@ const STRINGSDEF string_table_CS[] = {
     {    118, "Verze SW:"},
     {    119, "SN:"},
     {    120, "Model:"},
-    {    121, "2017 MiTAC práva\n vyhraz."},
+    {    121, "2017 MiTAC\npráva vyhraz."},
     {    122, "FIT"},
     {    123, "Spustit"},
     {    124, "Volný běh"},
@@ -739,7 +738,7 @@ const STRINGSDEF string_table_CS[] = {
     {    326, "L3 Pravidelná"},
     {    327, "L4 Intenzivní"},
     {    328, "L5 Náročný trén."},
-    {    329, "Pokročilá analýza\n srdečního tepu využívající\n technologii Firstbeat"},
+    {    329, "Pokročilá analýza\nsrdečního tepu\nvyužívající tech\n-nologii Firstbeat"},
     {    330, "Auto start"},
     {    331, "Podržením 3 s\n ukončíte"},
     {    332, "Dnes již\n máte spánková data"},
@@ -813,7 +812,6 @@ const STRINGSDEF string_table_CS[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Danish*/
@@ -1221,7 +1219,6 @@ const STRINGSDEF string_table_CS[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*German*/
@@ -1347,7 +1344,7 @@ const STRINGSDEF string_table_DE[] = {
     {    118, "SW-Version:"},
     {    119, "SN:"},
     {    120, "Mod.:"},
-    {    121, "2017 MiTac\n Rechte vorbeh."},
+    {    121, "2017 MiTac\nRechte vorbeh."},
     {    122, "FIT"},
     {    123, "Start"},
     {    124, "Einfach"},
@@ -1555,7 +1552,7 @@ const STRINGSDEF string_table_DE[] = {
     {    326, "S3 Mittel"},
     {    327, "S4 Intensiv"},
     {    328, "S5 Hart"},
-    {    329, "Verbesserte Herz-\n schlaganalyse von\n Firstbeat"},
+    {    329, "Verbesserte Herz\n-schlaganalyse\nvon Firstbeat"},
     {    330, "Autostart"},
     {    331, "Zum Beenden\n 3 s drücken"},
     {    332, "Heutige \nSchlafdaten vorhanden"},
@@ -1629,7 +1626,6 @@ const STRINGSDEF string_table_DE[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Greek*/
@@ -2037,7 +2033,6 @@ const STRINGSDEF string_table_DE[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Spanish*/
@@ -2163,7 +2158,7 @@ const STRINGSDEF string_table_ES[] = {
     {    118, "Ver. soft.:"},
     {    119, "NS:"},
     {    120, "Mod.:"},
-    {    121, "2017 MiTAC \nDerechos res."},
+    {    121, "2017 MiTAC\nDerechos res."},
     {    122, "FIT"},
     {    123, "Iniciar"},
     {    124, "Carrera fácil"},
@@ -2371,7 +2366,7 @@ const STRINGSDEF string_table_ES[] = {
     {    326, "N3 Frecuente"},
     {    327, "N4 Intenso"},
     {    328, "N5 Entreno duro"},
-    {    329, "Análisis avanzado \nde latidos por\n Firstbeat"},
+    {    329, "Análisis avanza\n-do de latidos\npor Firstbeat"},
     {    330, "Inicio autom."},
     {    331, "Pulsar 3 seg.\n para salir"},
     {    332, "Ya tiene datos\n de sueño hoy"},
@@ -2445,7 +2440,6 @@ const STRINGSDEF string_table_ES[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*French*/
@@ -2571,7 +2565,7 @@ const STRINGSDEF string_table_FR[] = {
     {    118, "V logiciel :"},
     {    119, "NS:"},
     {    120, "Mod :"},
-    {    121, "2017 MiTAC \ndroits rés"},
+    {    121, "2017 MiTAC\ndroits rés"},
     {    122, "FIT"},
     {    123, "Démarrer"},
     {    124, "Course facile"},
@@ -2779,7 +2773,7 @@ const STRINGSDEF string_table_FR[] = {
     {    326, "L3 Fréquent"},
     {    327, "L4 Intense"},
     {    328, "L5 Difficile"},
-    {    329, "Analyse avancée \ndu rythme cardiaque \npar Firstbeat"},
+    {    329, "Analyse avancée\ndu rythme cardia\-que par Firstbeat"},
     {    330, "Démarr auto"},
     {    331, "Appuyez 3 s\n pour quitter"},
     {    332, "Dispose données\n sommeil jour"},
@@ -2853,7 +2847,6 @@ const STRINGSDEF string_table_FR[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Croatian*/
@@ -3261,7 +3254,6 @@ const STRINGSDEF string_table_FR[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Italian*/
@@ -3387,7 +3379,7 @@ const STRINGSDEF string_table_IT[] = {
     {    118, "Versione SW:"},
     {    119, "SN:"},
     {    120, "Mod.:"},
-    {    121, "2017 MiTAC \ndiritti riserv."},
+    {    121, "2017 MiTAC\ndiritti riserv."},
     {    122, "FIT"},
     {    123, "Avvia"},
     {    124, "Corsa facile"},
@@ -3595,7 +3587,7 @@ const STRINGSDEF string_table_IT[] = {
     {    326, "L3 frequente"},
     {    327, "L4 intenso"},
     {    328, "L5 duro"},
-    {    329, "Analisi avanzata\n battito cardiaco\n con Firstbeat"},
+    {    329, "Analisi avanzata\nbattito cardiaco\ncon Firstbeat"},
     {    330, "Avvio aut."},
     {    331, "Prem. 3 sec\n per uscire"},
     {    332, "Dati sonno già\n presenti oggi"},
@@ -3669,7 +3661,6 @@ const STRINGSDEF string_table_IT[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Latvian*/
@@ -4077,7 +4068,6 @@ const STRINGSDEF string_table_IT[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Hungarian*/
@@ -4203,7 +4193,7 @@ const STRINGSDEF string_table_HU[] = {
     {    118, "Szoftververz:"},
     {    119, "SN:"},
     {    120, "Típus:"},
-    {    121, "2017MiTAC jogok\n fenntartva"},
+    {    121, "2017 MiTAC jog\n-ok fenntartva"},
     {    122, "FIT"},
     {    123, "Start"},
     {    124, "Egysz. futás"},
@@ -4411,7 +4401,7 @@ const STRINGSDEF string_table_HU[] = {
     {    326, "L3 Gyakori"},
     {    327, "L4 Intenzív"},
     {    328, "L5 Erős edzés"},
-    {    329, "Magas szintű \npulzusanalízis a \nFirstbeat jóvoltából"},
+    {    329, "Magas szintű\npulzusanalízis a\nFirstbeat jóvolt\n-ából"},
     {    330, "Automata ind."},
     {    331, "Kilépéshez \nnyomja 3 mp-ig"},
     {    332, "Már meglévő \nmai alvásadatok "},
@@ -4485,7 +4475,6 @@ const STRINGSDEF string_table_HU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Dutch*/
@@ -4611,7 +4600,7 @@ const STRINGSDEF string_table_NL[] = {
     {    118, "Softw.versie:"},
     {    119, "SN:"},
     {    120, "Model:"},
-    {    121, "2017 MiTAC \nrecht. vbh."},
+    {    121, "2017 MiTAC\nrecht. vbh."},
     {    122, "FIT"},
     {    123, "Start"},
     {    124, "Gemakkelijk"},
@@ -4819,7 +4808,7 @@ const STRINGSDEF string_table_NL[] = {
     {    326, "N3 frequent"},
     {    327, "N4 intens"},
     {    328, "N5 hard trainen"},
-    {    329, "Geavanceerde\n hartslaganalyse\n door Firstbeat"},
+    {    329, "Geavanceerde\nhartslaganalyse\ndoor Firstbeat"},
     {    330, "Autom.start"},
     {    331, "Druk 3 sec\n v.beëindigen"},
     {    332, "Heeft al \nslaapgegevens vandaag"},
@@ -4893,7 +4882,6 @@ const STRINGSDEF string_table_NL[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Norwegian*/
@@ -5301,7 +5289,6 @@ const STRINGSDEF string_table_NL[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Polish*/
@@ -5427,7 +5414,7 @@ const STRINGSDEF string_table_PL[] = {
     {    118, "Wersja opr.:"},
     {    119, "SN:"},
     {    120, "Model:"},
-    {    121, "2017 Prawa \nMiTAC. zastrz."},
+    {    121, "2017 Prawa\nMiTAC. zastrz."},
     {    122, "FIT"},
     {    123, "Start"},
     {    124, "Łatwy bieg"},
@@ -5635,7 +5622,7 @@ const STRINGSDEF string_table_PL[] = {
     {    326, "Średnia P3"},
     {    327, "Duża P4"},
     {    328, "B. Duża P5"},
-    {    329, "Zaawansowane tętno\n wg analizy\n Firstbeat"},
+    {    329, "Zaawansowane\ntętno wg analizy\nFirstbeat"},
     {    330, "Auto start"},
     {    331, "Przytrzym. 3s\n, aby wyjść"},
     {    332, "Dostępne \ndane ze snu"},
@@ -5709,7 +5696,6 @@ const STRINGSDEF string_table_PL[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Portuguese*/
@@ -6117,7 +6103,6 @@ const STRINGSDEF string_table_PL[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Russian*/
@@ -6243,7 +6228,7 @@ const STRINGSDEF string_table_RU[] = {
     {    118, "Версия ПО:"},
     {    119, "СН:"},
     {    120, "Мод.:"},
-    {    121, "2017 MiTAC. \nПрава защищ."},
+    {    121, "2017 MiTAC.\nПрава защищ."},
     {    122, "FIT"},
     {    123, "Старт"},
     {    124, "Пробежка"},
@@ -6451,7 +6436,7 @@ const STRINGSDEF string_table_RU[] = {
     {    326, "У3: часто"},
     {    327, "У4: интенс."},
     {    328, "У5: тяжело"},
-    {    329, "Расширенная\n аналитика ЧСС\n от Firstbeat"},
+    {    329, "Расширенная\nаналитика ЧСС\nот Firstbeat"},
     {    330, "Автозапуск"},
     {    331, "Удерж. 3 с\n для выхода"},
     {    332, "Уже есть данные\n сна на сегодня"},
@@ -6525,7 +6510,6 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Slovenian*/
@@ -6933,7 +6917,6 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Finnish*/
@@ -7341,7 +7324,6 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Swedish*/
@@ -7749,7 +7731,6 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Turkish*/
@@ -8157,7 +8138,6 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Japanese*/
@@ -8565,7 +8545,6 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8973,7 +8952,6 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Traditional Chinese */
@@ -9381,7 +9359,6 @@ const STRINGSDEF string_table_TW[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 /*Korean*/
@@ -9789,7 +9766,6 @@ const STRINGSDEF string_table_TW[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };*/
 
 /*Romania*/
@@ -9915,7 +9891,7 @@ const STRINGSDEF string_table_RO[] = {
     {    118, "Versiune SW:"},
     {    119, "SN:"},
     {    120, "Model"},
-    {    121, "2017 MiTAC \ndrept rezerv."},
+    {    121, "2017 MiTAC\ndrept rezerv."},
     {    122, "FIT"},
     {    123, "Pornire"},
     {    124, "Alerg. uşoară"},
@@ -10123,7 +10099,7 @@ const STRINGSDEF string_table_RO[] = {
     {    326, "L3 Constant"},
     {    327, "L4 Intens"},
     {    328, "L5 Intensiv"},
-    {    329, "Analize avansate \nale pulsului inimii \noferite de Firstbeat"},
+    {    329, "Analize avansate\nale pulsului ini\n-mii oferite de\nFirstbeat"},
     {    330, "Start automat"},
     {    331, "Apăs. 3 sec\n pt. a ieşi"},
     {    332, "Aveţi deja \ndate repaus azi"},
@@ -10197,7 +10173,6 @@ const STRINGSDEF string_table_RO[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
-    {    403, 0},
 };
 
 const LANGUAGELIST   language_list[] = {
@@ -10228,3 +10203,4 @@ const LANGUAGELIST   language_list[] = {
     { 24,  (STRINGSDEF **)&string_table_RO   },
     { 99,  (STRINGSDEF **)0   },
 };
+

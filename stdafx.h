@@ -369,6 +369,8 @@ extern GUI_BITMAP bmitem_clock05;
 extern GUI_BITMAP bmitem_clock06;
 extern GUI_BITMAP bmico_EPO_expired_w;
 extern GUI_BITMAP bmico_notice;
+extern GUI_BITMAP bmic_up;
+extern GUI_BITMAP bmic_down;
 
 GUI_BITMAP* icon_set[] = {
         &bmbtn_checkbox_checked,//0
@@ -472,6 +474,8 @@ GUI_BITMAP* icon_set[] = {
         &bmitem_clock06,
         &bmico_EPO_expired_w, //99
         &bmico_notice,
+        &bmic_up,
+        &bmic_down,
 
 };
 

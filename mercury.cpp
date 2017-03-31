@@ -293,8 +293,8 @@ const DataDef BLDef[]={
 		{28672,    "bl.data"}, //need 7 sectors
 };
 
-#define FontNum		 13
-const DataDef FontDef[FontNum]={//total 846 sectors
+#define FontNum		 14
+const DataDef FontDef[FontNum]={//total 847 sectors
 {415452, "xbf/Verdanaedit22_15.xbf"}, //102
 {424699, "xbf/Verdanaedit22_19.xbf"}, //104
 {433695, "xbf/Verdanaedit22_23.xbf"}, //106
@@ -304,6 +304,7 @@ const DataDef FontDef[FontNum]={//total 846 sectors
 {152413, "xbf/MSPGothic_23.xbf"},        //38
 {237053, "xbf/MSPGothic_29.xbf"},        //58
 {1665,     "xbf/Verdanaedit22_35.xbf"},     //1
+{1408,     "xbf/Verdanaedit22_36.xbf"},     //1
 {1700,     "xbf/Verdanaedit22_38.xbf"},     //1
 {2210,     "xbf/Verdanaedit22_40.xbf"},     //1
 {2746,     "xbf/Verdanaedit22_54.xbf"},     //1
@@ -329,7 +330,7 @@ const DataDef StringDef[StrNum]={//total 24 sectors
 };
 
 const DataDef IconDef[]={
-		{33266,    "icon.data"}, //need 9 sectors
+		{33506,    "icon.data"}, //need 9 sectors
 };
 
 
@@ -377,7 +378,7 @@ int main() {
 //////////////////////////////////////////////////////////////////////////////////////
 	if(1){
 			cout << "UI Icon   ......" << endl;
-			for (unsigned int i=0; i<101; i++) {//total icon numbers: 101
+			for (unsigned int i=0; i<103; i++) {//total icon numbers: 103
 					cout << ". ";
 					addIcon2DataFile(ICON_DATA_FILE, icon_set[i]);
 			}
@@ -517,8 +518,8 @@ int main() {
 	if(1){
 			cout << "Checksum  ......" << endl;
 			unsigned int i,j,ImageChecksum=0;
-			//total 887 sectors
-			unsigned long SecNum = 887; //need changed
+			//total 888 sectors
+			unsigned long SecNum = 888; //need changed
 			char buffer[4096];
 			FILE *stream;
 			stream = fopen(DATA_INTEGRATED, "rw+" );

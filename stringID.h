@@ -846,7 +846,7 @@ RO    Romania    Romania
 #define IDS_TE_VERY_HARD   393
 /*Clock*/
 #define IDS_CLOCK   394
-/*Connect app \nto update \nInstant Fix \ndata*/
+/*Connect app\nto update\nInstant Fix\ndata*/
 #define IDS_EPO_TIPS   395
 /*EPO EXP.:*/
 #define IDS_EPO_DATE   396

@@ -330,7 +330,7 @@ const DataDef StringDef[StrNum]={//total 24 sectors
 };
 
 const DataDef IconDef[]={
-		{33506,    "icon.data"}, //need 9 sectors
+		{33636,    "icon.data"}, //need 9 sectors
 };
 
 

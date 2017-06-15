@@ -860,6 +860,12 @@ RO    Romania    Romania
 #define IDS_START_RUN   400
 /*Record/Target*/
 #define IDS_COACHING_HISTORY_DETAIL   401
+/*0.6 mi*/
+#define IDS_RUN_1KM_MILE   402
+/*3.1 mi*/
+#define IDS_RUN_5KM_MILE   403
+/*6.2 mi*/
+#define IDS_RUN_10KM_MILE   404
 /*7-day data required*/
-#define IDS_ADVICE_RUN_7DAYS   402
+#define IDS_ADVICE_RUN_7DAYS   405
 #endif/*_STRINGID_H_*/

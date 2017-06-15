@@ -404,7 +404,10 @@ const STRINGSDEF string_table_EN[] = {
     {    399, "Wait for GPS"},
     {    400, "Start run"},
     {    401, "Record/Target"},
-    {    402, "7-day data required"},
+    {    402, "0.6 mi"},
+    {    403, "3.1 mi"},
+    {    404, "6.2 mi"},
+    {    405, "7-day data required"},
 };
 
 /*Czech*/
@@ -812,6 +815,9 @@ const STRINGSDEF string_table_CS[] = {
     {    400, "Rozběh"},
     {    401, "Záznam/cíl"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Danish*/
@@ -1219,6 +1225,9 @@ const STRINGSDEF string_table_CS[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*German*/
@@ -1626,6 +1635,9 @@ const STRINGSDEF string_table_DE[] = {
     {    400, "Starten"},
     {    401, "Aufn./Ziel"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Greek*/
@@ -2033,6 +2045,9 @@ const STRINGSDEF string_table_DE[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Spanish*/
@@ -2440,6 +2455,9 @@ const STRINGSDEF string_table_ES[] = {
     {    400, "Corra"},
     {    401, "Reg./Objet."},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*French*/
@@ -2847,6 +2865,9 @@ const STRINGSDEF string_table_FR[] = {
     {    400, "Com crse"},
     {    401, "Enreg/Cible"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Croatian*/
@@ -3254,6 +3275,9 @@ const STRINGSDEF string_table_FR[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Italian*/
@@ -3661,6 +3685,9 @@ const STRINGSDEF string_table_IT[] = {
     {    400, "Corri"},
     {    401, "Reg./Target"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Latvian*/
@@ -4068,6 +4095,9 @@ const STRINGSDEF string_table_IT[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Hungarian*/
@@ -4475,6 +4505,9 @@ const STRINGSDEF string_table_HU[] = {
     {    400, "Indulás"},
     {    401, "Rögz./Cél"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Dutch*/
@@ -4882,6 +4915,9 @@ const STRINGSDEF string_table_NL[] = {
     {    400, "Strt.Lpn"},
     {    401, "Record/doel"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Norwegian*/
@@ -5289,6 +5325,9 @@ const STRINGSDEF string_table_NL[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Polish*/
@@ -5696,6 +5735,9 @@ const STRINGSDEF string_table_PL[] = {
     {    400, "St. bieg"},
     {    401, "Zapis/Cel"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Portuguese*/
@@ -6103,6 +6145,9 @@ const STRINGSDEF string_table_PL[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Russian*/
@@ -6510,6 +6555,9 @@ const STRINGSDEF string_table_RU[] = {
     {    400, "Нач. бег"},
     {    401, "Запись/цель"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Slovenian*/
@@ -6917,6 +6965,9 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Finnish*/
@@ -7324,6 +7375,9 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Swedish*/
@@ -7731,6 +7785,9 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Turkish*/
@@ -8138,6 +8195,9 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Japanese*/
@@ -8545,6 +8605,9 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Simplified Chinese */
@@ -8952,6 +9015,9 @@ const STRINGSDEF string_table_RU[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Traditional Chinese */
@@ -9359,6 +9425,9 @@ const STRINGSDEF string_table_TW[] = {
     {    400, "開始跑歩"},
     {    401, "記録/目標"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 /*Korean*/
@@ -9766,6 +9835,9 @@ const STRINGSDEF string_table_TW[] = {
     {    400, 0},
     {    401, 0},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };*/
 
 /*Romania*/
@@ -10173,6 +10245,9 @@ const STRINGSDEF string_table_RO[] = {
     {    400, "Înc. al."},
     {    401, "Înr./Ţintă"},
     {    402, 0},
+    {    403, 0},
+    {    404, 0},
+    {    405, 0},
 };
 
 const LANGUAGELIST   language_list[] = {

@@ -371,6 +371,7 @@ extern GUI_BITMAP bmico_EPO_expired_w;
 extern GUI_BITMAP bmico_notice;
 extern GUI_BITMAP bmic_up;
 extern GUI_BITMAP bmic_down;
+extern GUI_BITMAP bmico_headerbar_gps_search;
 
 GUI_BITMAP* icon_set[] = {
         &bmbtn_checkbox_checked,//0
@@ -476,7 +477,7 @@ GUI_BITMAP* icon_set[] = {
         &bmico_notice,
         &bmic_up,
         &bmic_down,
-
+        &bmico_headerbar_gps_search,
 };
 
 //4KB per sector, total 7 sectors;
